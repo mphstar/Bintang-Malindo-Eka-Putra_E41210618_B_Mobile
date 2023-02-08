@@ -106,8 +106,6 @@ public class RestApiActivity extends AppCompatActivity {
 
         queue.add(jsonObjectRequest);
 
-       list.setOng
-
         list.setOnItemClickListener(new AdapterView.OnItemClickListener() {
 
             @Override

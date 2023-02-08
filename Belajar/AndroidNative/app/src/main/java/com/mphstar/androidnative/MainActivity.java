@@ -4,6 +4,7 @@ import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
 import androidx.appcompat.app.AppCompatActivity;
 
+import android.app.AlertDialog;
 import android.app.NotificationChannel;
 import android.app.NotificationManager;
 import android.content.Context;
@@ -16,6 +17,7 @@ import android.util.Log;
 import android.view.View;
 import android.view.Window;
 import android.view.WindowManager;
+import android.widget.ProgressBar;
 import android.widget.TextView;
 import android.widget.Toast;
 
@@ -120,6 +122,12 @@ public class MainActivity extends AppCompatActivity {
     }
 
     void checkLogin(String email, String password, String token) throws JSONException {
+        AlertDialog.Builder ale = new AlertDialog.Builder(MainActivity.this);
+        ProgressBar loading = new ProgressBar(MainActivity.this);
+        loading.setPadding(0, 20, 0, 20);
+        ale.setView(loading);
+        AlertDialog al = ale.create();
+        al.show();
         RequestQueue queue = Volley.newRequestQueue(this);
 
         StringRequest requestlogin = new StringRequest(
@@ -132,7 +140,7 @@ public class MainActivity extends AppCompatActivity {
                             JSONArray data = new JSONArray(response);
                             JSONObject result = data.getJSONObject(0);
                             if (result.getString("status").equals("Berhasil")) {
-
+                                al.dismiss();
                                 new SweetAlertDialog(MainActivity.this, SweetAlertDialog.SUCCESS_TYPE)
                                         .setTitleText("Berhasil")
                                         .setContentText(result.getString("message"))
@@ -160,6 +168,7 @@ public class MainActivity extends AppCompatActivity {
 
                                 Log.d("mphstar", "sukses login");
                             } else {
+                                al.dismiss();
                                 new SweetAlertDialog(MainActivity.this, SweetAlertDialog.ERROR_TYPE)
                                         .setTitleText("Berhasil")
                                         .setContentText(result.getString("message"))
@@ -182,6 +191,7 @@ public class MainActivity extends AppCompatActivity {
                 new Response.ErrorListener() {
                     @Override
                     public void onErrorResponse(VolleyError error) {
+                        al.dismiss();
                         Log.d("mphstar", error.toString());
                     }
                 }
