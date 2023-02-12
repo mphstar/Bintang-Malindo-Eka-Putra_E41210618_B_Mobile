@@ -1,4 +1,7 @@
 package com.mphstar.androidnative.belajar.scannerqr;
 
-public class CaptureAct {
+import com.journeyapps.barcodescanner.CaptureActivity;
+
+class  CaptureAct extends CaptureActivity {
+
 }

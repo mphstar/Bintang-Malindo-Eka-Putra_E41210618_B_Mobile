@@ -2,6 +2,7 @@ package com.mphstar.androidnative.belajar.pushnotif;
 import androidx.annotation.NonNull;
 import androidx.appcompat.app.AppCompatActivity;
 
+import android.app.AlertDialog;
 import android.app.NotificationChannel;
 import android.app.NotificationManager;
 import android.graphics.Color;
@@ -11,6 +12,7 @@ import android.util.Log;
 import android.view.View;
 import android.view.Window;
 import android.view.WindowManager;
+import android.widget.LinearLayout;
 import android.widget.TextView;
 
 import com.google.android.gms.tasks.OnCompleteListener;
@@ -20,8 +22,12 @@ import com.google.firebase.iid.InstanceIdResult;
 import com.google.firebase.messaging.FirebaseMessaging;
 import com.mphstar.androidnative.R;
 
+import java.util.ArrayList;
+
 public class push_notifications extends AppCompatActivity {
     TextView tokentxt;
+    ArrayList<TextView> listEmail = new ArrayList<TextView>();
+    TextView textEmail;
 
     private void changeStatusBarColor(String color){
         if (Build.VERSION.SDK_INT >= 21) {
@@ -39,6 +45,17 @@ public class push_notifications extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_push_notifications);
         changeStatusBarColor("#ffffffff");
+        textEmail = findViewById(R.id.pilih_email);
+        textEmail.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                AlertDialog.Builder build = new AlertDialog.Builder(push_notifications.this);
+                build.setTitle("Pilih Email");
+
+
+            }
+        });
+
 
         tokentxt = findViewById(R.id.tokentxt);
         FirebaseMessaging.getInstance().getToken().addOnCompleteListener(new OnCompleteListener<String>() {
