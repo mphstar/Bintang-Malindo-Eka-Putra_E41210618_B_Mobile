@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<incidents format="6" by="lint 7.4.0" type="partial_results">
+    <map id="NotificationPermission">
+        <entry
+            name="className"
+            string="com/bumptech/glide/request/target/NotificationTarget"/>
+        <location id="class"
+            file="$GRADLE_USER_HOME/caches/transforms-3/10365807c1c8f45148264253579d507f/transformed/glide-4.14.2/jars/classes.jar"/>
+    </map>
+    <map id="UnusedResources">
+        <location id="R.mipmap.ic_launcher"
+            file="${:app*debug*sourceProvider*0*resDir*0}/mipmap-anydpi-v26/ic_launcher.xml"
+            line="2"
+            column="1"
+            startOffset="39"
+            endLine="5"
+            endColumn="17"
+            endOffset="272"/>
+        <location id="R.drawable.ic_launcher_foreground"
+            file="${:app*debug*sourceProvider*0*resDir*0}/drawable-v24/ic_launcher_foreground.xml"
+            line="1"
+            column="1"
+            startOffset="0"
+            endLine="30"
+            endColumn="10"
+            endOffset="1702"/>
+        <entry
+            name="model"
+            string="attr[colorPrimaryVariant(R)],color[purple_200(U),black(U),teal_200(U),gray(U),white(U),teal_700(U),purple_700(U),purple_500(U)],drawable[img4(U),img3(U),img5(U),ic_exit(U),ic_profile(U),ic_launcher_foreground(D),ic_launcher_background(D),ic_logo(U),placeholder_image(U),ic_launcher_foreground_1(E),img2(U),field_style(U)],font[poppins_semibold(R),poppins(R),poppins_bold(R)],id[txt_alamat(U),rating_movie(U),btn_exit(U),loading_details_movie(U),search_movie_field(U),image_item(U),txt_email(U),ic_image(U),combobox_with_search(U),search_content_home(U),text_title(U),floating_adddata(U),date_release(U),text_multiselect(U),search_bar(U),list_movie(U),submit_data(U),loading_listview(U),listview_items(U),desc_item(U),image_movie_detail(U),judul(U),txt_password(U),tokentxt(U),txt_nama(U),totle_combobox(U),header_title(U),actionbar_activity(U),content_field_sheet(D),shimmer_movies(U),nodata(U),desc_movie_detail(U),txt_hobi(U),title_list(U),title_movie(U),gridview(U),swipeRefresh(U),multiselect(U),image_movie(U),title_text(U),content_details_movie(U),button_login(U),title_movie_detail(U),desc(U)],layout[field_data_diri(U),list_items_datadiri(U),items_movies(U),activity_combo_box(U),activity_rest_api(U),movie_details(U),activity_movies(U),movie_list_placeholder(U),items_listview_restapi(U),activity_main(U),activity_home(U),activity_push_notifications(U),list_items(U),activity_main_sql_lite(U)],mipmap[ic_launcher(D)],string[CHANNEL_ID(U),CHANNEL_DESC(U),CHANNEL_NAME(U),app_name(U)],style[DialogStyle(U),Theme_Design_Light_BottomSheetDialog(R),Theme_AndroidNative(U),Theme_MaterialComponents_DayNight_NoActionBar(R)],xml[data_extraction_rules(U),backup_rules(U)];e^12,44^17^14^16^15^5,45^15^16,46^d^17^16,47^15^5^17^33^25^3d^31,48^15^5^33,49^d^17^16^15^5,4a^15^5^14^16^33^1c^4b,4b^4,4c^d^17,4d^10^17^16^14^15^d^c^32^26^2d,4e^d^15^17^c^32^14^26^2d,4f^17^14^16^33^15^5,50^d^17^16,51^17^22^5,52^f^e,57^58,59^5a^8^7^5^3^6^2^1^0;;;"/>
+        <location id="R.drawable.ic_launcher_background"
+            file="${:app*debug*sourceProvider*0*resDir*0}/drawable/ic_launcher_background.xml"
+            line="2"
+            column="1"
+            startOffset="39"
+            endLine="170"
+            endColumn="10"
+            endOffset="5605"/>
+    </map>
+
+</incidents>
