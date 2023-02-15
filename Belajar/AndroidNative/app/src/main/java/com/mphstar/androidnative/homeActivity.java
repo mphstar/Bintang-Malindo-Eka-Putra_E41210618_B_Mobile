@@ -24,6 +24,7 @@ import com.mphstar.androidnative.belajar.RestApiActivity;
 import com.mphstar.androidnative.belajar.pushnotif.push_notifications;
 import com.mphstar.androidnative.belajar.scannerqr.ScannerActivity;
 import com.mphstar.androidnative.belajar.sqllite.MainSqlLiteActivity;
+import com.mphstar.androidnative.belajar.thermalprint.ThermalPrint;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -77,6 +78,7 @@ public class homeActivity extends AppCompatActivity {
         list.add(new ListItems(R.drawable.img4, "Push Notifications", "Push Notification with Firebase & PHP", push_notifications.class));
         list.add(new ListItems(R.drawable.img5, "Sqlite", "Save Data Using SQLite", MainSqlLiteActivity.class));
         list.add(new ListItems(R.drawable.img6, "Scanner", "Scanner QRCode or BarCode", ScannerActivity.class));
+        list.add(new ListItems(R.drawable.img7, "Thermal Printer", "Thermal Printer Bluetooth Android", ThermalPrint.class));
 
         ListItemAdapter adapter = new ListItemAdapter(this, list);
         gridView.setAdapter(adapter);
