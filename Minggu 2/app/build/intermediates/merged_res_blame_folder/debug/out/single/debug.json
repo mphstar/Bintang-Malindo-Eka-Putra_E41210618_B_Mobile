@@ -8,12 +8,12 @@
         "source": "/home/mphstar/.gradle/daemon/7.5/com.example.minggu2.app-main-27:/drawable/circle.xml"
     },
     {
-        "merged": "/home/mphstar/.gradle/daemon/7.5/com.example.minggu2.app-merged_res-25:/mipmap-hdpi_ic_launcher.webp.flat",
-        "source": "/home/mphstar/.gradle/daemon/7.5/com.example.minggu2.app-main-27:/mipmap-hdpi/ic_launcher.webp"
-    },
-    {
         "merged": "/home/mphstar/.gradle/daemon/7.5/com.example.minggu2.app-merged_res-25:/mipmap-hdpi_ic_launcher_round.webp.flat",
         "source": "/home/mphstar/.gradle/daemon/7.5/com.example.minggu2.app-main-27:/mipmap-hdpi/ic_launcher_round.webp"
+    },
+    {
+        "merged": "/home/mphstar/.gradle/daemon/7.5/com.example.minggu2.app-merged_res-25:/mipmap-hdpi_ic_launcher.webp.flat",
+        "source": "/home/mphstar/.gradle/daemon/7.5/com.example.minggu2.app-main-27:/mipmap-hdpi/ic_launcher.webp"
     },
     {
         "merged": "/home/mphstar/.gradle/daemon/7.5/com.example.minggu2.app-merged_res-25:/xml_backup_rules.xml.flat",

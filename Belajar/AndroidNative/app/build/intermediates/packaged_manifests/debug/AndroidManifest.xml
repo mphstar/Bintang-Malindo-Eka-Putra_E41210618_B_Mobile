@@ -80,6 +80,42 @@
             android:name="com.mphstar.androidnative.homeActivity"
             android:exported="false" />
         <activity
+            android:name="com.mphstar.androidnative.belajar.layout.LayoutActivity"
+            android:exported="false"
+            android:theme="@style/Theme.layout" />
+        <activity
+            android:name="com.mphstar.androidnative.belajar.layout.LinearActivity"
+            android:exported="true"
+            android:theme="@style/Theme.layout" />
+        <activity
+            android:name="com.mphstar.androidnative.belajar.layout.RelativeLayout"
+            android:exported="true"
+            android:theme="@style/Theme.layout" />
+        <activity
+            android:name="com.mphstar.androidnative.belajar.layout.ConstraintActivity"
+            android:exported="true"
+            android:theme="@style/Theme.layout" />
+        <activity
+            android:name="com.mphstar.androidnative.belajar.layout.FrameActivity"
+            android:exported="true"
+            android:theme="@style/Theme.layout" />
+        <activity
+            android:name="com.mphstar.androidnative.belajar.layout.TableActivity"
+            android:exported="true"
+            android:theme="@style/Theme.layout" />
+        <activity
+            android:name="com.mphstar.androidnative.belajar.layout.MaterialComponentsActivity"
+            android:exported="true"
+            android:theme="@style/Theme.layout" />
+        <activity
+            android:name="com.mphstar.androidnative.belajar.layout.ScrollviewActivity"
+            android:exported="true"
+            android:theme="@style/Theme.layout" />
+        <activity
+            android:name="com.mphstar.androidnative.belajar.layout.HorizontalScrollviewActivity"
+            android:exported="true"
+            android:theme="@style/Theme.layout" />
+        <activity
             android:name="com.mphstar.androidnative.MainActivity"
             android:exported="true" >
             <intent-filter>

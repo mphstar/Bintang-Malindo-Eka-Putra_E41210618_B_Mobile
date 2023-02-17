@@ -50,6 +50,42 @@
             android:name=".homeActivity"
             android:exported="false" />
         <activity
+            android:name=".belajar.layout.LayoutActivity"
+            android:theme="@style/Theme.layout"
+            android:exported="false" />
+        <activity
+            android:theme="@style/Theme.layout"
+            android:name=".belajar.layout.LinearActivity"
+            android:exported="true" />
+        <activity
+            android:theme="@style/Theme.layout"
+            android:name=".belajar.layout.RelativeLayout"
+            android:exported="true" />
+        <activity
+            android:theme="@style/Theme.layout"
+            android:name=".belajar.layout.ConstraintActivity"
+            android:exported="true" />
+        <activity
+            android:theme="@style/Theme.layout"
+            android:name=".belajar.layout.FrameActivity"
+            android:exported="true" />
+        <activity
+            android:theme="@style/Theme.layout"
+            android:name=".belajar.layout.TableActivity"
+            android:exported="true" />
+        <activity
+            android:theme="@style/Theme.layout"
+            android:name=".belajar.layout.MaterialComponentsActivity"
+            android:exported="true" />
+        <activity
+            android:theme="@style/Theme.layout"
+            android:name=".belajar.layout.ScrollviewActivity"
+            android:exported="true" />
+        <activity
+            android:theme="@style/Theme.layout"
+            android:name=".belajar.layout.HorizontalScrollviewActivity"
+            android:exported="true" />
+        <activity
             android:name=".MainActivity"
             android:exported="true">
             <intent-filter>

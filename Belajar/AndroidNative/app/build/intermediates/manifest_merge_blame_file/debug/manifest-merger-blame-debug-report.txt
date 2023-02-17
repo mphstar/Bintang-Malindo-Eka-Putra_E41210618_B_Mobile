@@ -87,7 +87,7 @@
 43-->[com.journeyapps:zxing-android-embedded:4.3.0] /home/mphstar/.gradle/caches/transforms-3/57c5109fb9a4fd71a51405ea6740d3a7/transformed/zxing-android-embedded-4.3.0/AndroidManifest.xml:44:9-33
 44
 45    <application
-45-->/home/mphstar/Development/mobile/Belajar/AndroidNative/app/src/main/AndroidManifest.xml:18:5-82:19
+45-->/home/mphstar/Development/mobile/Belajar/AndroidNative/app/src/main/AndroidManifest.xml:18:5-118:19
 46        android:allowBackup="true"
 46-->/home/mphstar/Development/mobile/Belajar/AndroidNative/app/src/main/AndroidManifest.xml:19:9-35
 47        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
@@ -158,252 +158,324 @@
 81            android:exported="false" />
 81-->/home/mphstar/Development/mobile/Belajar/AndroidNative/app/src/main/AndroidManifest.xml:51:13-37
 82        <activity
-82-->/home/mphstar/Development/mobile/Belajar/AndroidNative/app/src/main/AndroidManifest.xml:52:9-60:20
-83            android:name="com.mphstar.androidnative.MainActivity"
-83-->/home/mphstar/Development/mobile/Belajar/AndroidNative/app/src/main/AndroidManifest.xml:53:13-41
-84            android:exported="true" >
-84-->/home/mphstar/Development/mobile/Belajar/AndroidNative/app/src/main/AndroidManifest.xml:54:13-36
-85            <intent-filter>
-85-->/home/mphstar/Development/mobile/Belajar/AndroidNative/app/src/main/AndroidManifest.xml:55:13-59:29
-86                <action android:name="android.intent.action.MAIN" />
-86-->/home/mphstar/Development/mobile/Belajar/AndroidNative/app/src/main/AndroidManifest.xml:56:17-69
-86-->/home/mphstar/Development/mobile/Belajar/AndroidNative/app/src/main/AndroidManifest.xml:56:25-66
-87
-88                <category android:name="android.intent.category.LAUNCHER" />
-88-->/home/mphstar/Development/mobile/Belajar/AndroidNative/app/src/main/AndroidManifest.xml:58:17-77
-88-->/home/mphstar/Development/mobile/Belajar/AndroidNative/app/src/main/AndroidManifest.xml:58:27-74
-89            </intent-filter>
-90        </activity>
-91
-92        <service
-92-->/home/mphstar/Development/mobile/Belajar/AndroidNative/app/src/main/AndroidManifest.xml:62:9-68:19
-93            android:name="com.mphstar.androidnative.belajar.pushnotif.MessagingService"
-93-->/home/mphstar/Development/mobile/Belajar/AndroidNative/app/src/main/AndroidManifest.xml:63:13-63
-94            android:exported="true" >
-94-->/home/mphstar/Development/mobile/Belajar/AndroidNative/app/src/main/AndroidManifest.xml:64:13-36
-95            <intent-filter>
-95-->/home/mphstar/Development/mobile/Belajar/AndroidNative/app/src/main/AndroidManifest.xml:65:13-67:29
-96                <action android:name="com.google.firebase.MESSAGING_EVENT" />
-96-->/home/mphstar/Development/mobile/Belajar/AndroidNative/app/src/main/AndroidManifest.xml:66:17-78
-96-->/home/mphstar/Development/mobile/Belajar/AndroidNative/app/src/main/AndroidManifest.xml:66:25-75
-97            </intent-filter>
-98        </service>
-99
-100        <meta-data
-100-->/home/mphstar/Development/mobile/Belajar/AndroidNative/app/src/main/AndroidManifest.xml:70:9-72:52
-101            android:name="com.google.firebase.messaging.default_notification_icon"
-101-->/home/mphstar/Development/mobile/Belajar/AndroidNative/app/src/main/AndroidManifest.xml:71:13-83
-102            android:resource="@drawable/ic_logo" />
-102-->/home/mphstar/Development/mobile/Belajar/AndroidNative/app/src/main/AndroidManifest.xml:72:13-49
-103        <meta-data
-103-->/home/mphstar/Development/mobile/Belajar/AndroidNative/app/src/main/AndroidManifest.xml:73:9-75:52
-104            android:name="com.google.firebase.messaging.default_notification_color"
-104-->/home/mphstar/Development/mobile/Belajar/AndroidNative/app/src/main/AndroidManifest.xml:74:13-84
-105            android:resource="@color/purple_500" />
-105-->/home/mphstar/Development/mobile/Belajar/AndroidNative/app/src/main/AndroidManifest.xml:75:13-49
-106
-107        <activity
-107-->/home/mphstar/Development/mobile/Belajar/AndroidNative/app/src/main/AndroidManifest.xml:77:9-81:57
-108            android:name="com.mphstar.androidnative.belajar.scannerqr.CaptureAct"
-108-->/home/mphstar/Development/mobile/Belajar/AndroidNative/app/src/main/AndroidManifest.xml:78:13-57
-109            android:screenOrientation="portrait"
-109-->/home/mphstar/Development/mobile/Belajar/AndroidNative/app/src/main/AndroidManifest.xml:79:13-49
-110            android:stateNotNeeded="true"
-110-->/home/mphstar/Development/mobile/Belajar/AndroidNative/app/src/main/AndroidManifest.xml:80:13-42
-111            android:theme="@style/zxing_CaptureTheme" />
-111-->/home/mphstar/Development/mobile/Belajar/AndroidNative/app/src/main/AndroidManifest.xml:81:13-54
-112
-113        <provider
-113-->[com.squareup.picasso:picasso:2.8] /home/mphstar/.gradle/caches/transforms-3/7d28460b1004b638de254d39b688cbf2/transformed/picasso-2.8/AndroidManifest.xml:8:9-11:40
-114            android:name="com.squareup.picasso.PicassoProvider"
-114-->[com.squareup.picasso:picasso:2.8] /home/mphstar/.gradle/caches/transforms-3/7d28460b1004b638de254d39b688cbf2/transformed/picasso-2.8/AndroidManifest.xml:9:13-64
-115            android:authorities="com.mphstar.androidnative.com.squareup.picasso"
-115-->[com.squareup.picasso:picasso:2.8] /home/mphstar/.gradle/caches/transforms-3/7d28460b1004b638de254d39b688cbf2/transformed/picasso-2.8/AndroidManifest.xml:10:13-72
-116            android:exported="false" />
-116-->[com.squareup.picasso:picasso:2.8] /home/mphstar/.gradle/caches/transforms-3/7d28460b1004b638de254d39b688cbf2/transformed/picasso-2.8/AndroidManifest.xml:11:13-37
-117
-118        <receiver
-118-->[com.google.firebase:firebase-messaging:23.0.3] /home/mphstar/.gradle/caches/transforms-3/6b47100a520df936fd9d117d9629ed98/transformed/firebase-messaging-23.0.3/AndroidManifest.xml:31:9-38:20
-119            android:name="com.google.firebase.iid.FirebaseInstanceIdReceiver"
-119-->[com.google.firebase:firebase-messaging:23.0.3] /home/mphstar/.gradle/caches/transforms-3/6b47100a520df936fd9d117d9629ed98/transformed/firebase-messaging-23.0.3/AndroidManifest.xml:32:13-78
-120            android:exported="true"
-120-->[com.google.firebase:firebase-messaging:23.0.3] /home/mphstar/.gradle/caches/transforms-3/6b47100a520df936fd9d117d9629ed98/transformed/firebase-messaging-23.0.3/AndroidManifest.xml:33:13-36
-121            android:permission="com.google.android.c2dm.permission.SEND" >
-121-->[com.google.firebase:firebase-messaging:23.0.3] /home/mphstar/.gradle/caches/transforms-3/6b47100a520df936fd9d117d9629ed98/transformed/firebase-messaging-23.0.3/AndroidManifest.xml:34:13-73
-122            <intent-filter>
-122-->[com.google.firebase:firebase-messaging:23.0.3] /home/mphstar/.gradle/caches/transforms-3/6b47100a520df936fd9d117d9629ed98/transformed/firebase-messaging-23.0.3/AndroidManifest.xml:35:13-37:29
-123                <action android:name="com.google.android.c2dm.intent.RECEIVE" />
-123-->[com.google.firebase:firebase-messaging:23.0.3] /home/mphstar/.gradle/caches/transforms-3/6b47100a520df936fd9d117d9629ed98/transformed/firebase-messaging-23.0.3/AndroidManifest.xml:36:17-81
-123-->[com.google.firebase:firebase-messaging:23.0.3] /home/mphstar/.gradle/caches/transforms-3/6b47100a520df936fd9d117d9629ed98/transformed/firebase-messaging-23.0.3/AndroidManifest.xml:36:25-78
-124            </intent-filter>
-125        </receiver>
-126        <!--
-127             FirebaseMessagingService performs security checks at runtime,
-128             but set to not exported to explicitly avoid allowing another app to call it.
-129        -->
-130        <service
-130-->[com.google.firebase:firebase-messaging:23.0.3] /home/mphstar/.gradle/caches/transforms-3/6b47100a520df936fd9d117d9629ed98/transformed/firebase-messaging-23.0.3/AndroidManifest.xml:44:9-51:19
-131            android:name="com.google.firebase.messaging.FirebaseMessagingService"
-131-->[com.google.firebase:firebase-messaging:23.0.3] /home/mphstar/.gradle/caches/transforms-3/6b47100a520df936fd9d117d9629ed98/transformed/firebase-messaging-23.0.3/AndroidManifest.xml:45:13-82
-132            android:directBootAware="true"
-132-->[com.google.firebase:firebase-messaging:23.0.3] /home/mphstar/.gradle/caches/transforms-3/6b47100a520df936fd9d117d9629ed98/transformed/firebase-messaging-23.0.3/AndroidManifest.xml:46:13-43
-133            android:exported="false" >
-133-->[com.google.firebase:firebase-messaging:23.0.3] /home/mphstar/.gradle/caches/transforms-3/6b47100a520df936fd9d117d9629ed98/transformed/firebase-messaging-23.0.3/AndroidManifest.xml:47:13-37
-134            <intent-filter android:priority="-500" >
-134-->/home/mphstar/Development/mobile/Belajar/AndroidNative/app/src/main/AndroidManifest.xml:65:13-67:29
-135                <action android:name="com.google.firebase.MESSAGING_EVENT" />
-135-->/home/mphstar/Development/mobile/Belajar/AndroidNative/app/src/main/AndroidManifest.xml:66:17-78
-135-->/home/mphstar/Development/mobile/Belajar/AndroidNative/app/src/main/AndroidManifest.xml:66:25-75
-136            </intent-filter>
-137        </service>
-138        <service
-138-->[com.google.firebase:firebase-messaging:23.0.3] /home/mphstar/.gradle/caches/transforms-3/6b47100a520df936fd9d117d9629ed98/transformed/firebase-messaging-23.0.3/AndroidManifest.xml:52:9-58:19
-139            android:name="com.google.firebase.components.ComponentDiscoveryService"
-139-->[com.google.firebase:firebase-messaging:23.0.3] /home/mphstar/.gradle/caches/transforms-3/6b47100a520df936fd9d117d9629ed98/transformed/firebase-messaging-23.0.3/AndroidManifest.xml:53:13-84
-140            android:directBootAware="true"
-140-->[com.google.firebase:firebase-common:20.1.0] /home/mphstar/.gradle/caches/transforms-3/e26817592aba814421ec676a8cabe041/transformed/firebase-common-20.1.0/AndroidManifest.xml:35:13-43
-141            android:exported="false" >
-141-->[com.google.firebase:firebase-messaging:23.0.3] /home/mphstar/.gradle/caches/transforms-3/6b47100a520df936fd9d117d9629ed98/transformed/firebase-messaging-23.0.3/AndroidManifest.xml:54:13-37
-142            <meta-data
-142-->[com.google.firebase:firebase-messaging:23.0.3] /home/mphstar/.gradle/caches/transforms-3/6b47100a520df936fd9d117d9629ed98/transformed/firebase-messaging-23.0.3/AndroidManifest.xml:55:13-57:85
-143                android:name="com.google.firebase.components:com.google.firebase.messaging.FirebaseMessagingRegistrar"
-143-->[com.google.firebase:firebase-messaging:23.0.3] /home/mphstar/.gradle/caches/transforms-3/6b47100a520df936fd9d117d9629ed98/transformed/firebase-messaging-23.0.3/AndroidManifest.xml:56:17-119
-144                android:value="com.google.firebase.components.ComponentRegistrar" />
-144-->[com.google.firebase:firebase-messaging:23.0.3] /home/mphstar/.gradle/caches/transforms-3/6b47100a520df936fd9d117d9629ed98/transformed/firebase-messaging-23.0.3/AndroidManifest.xml:57:17-82
-145            <meta-data
-145-->[com.google.firebase:firebase-auth:19.1.0] /home/mphstar/.gradle/caches/transforms-3/36f5eed28fc449d85395b2ba314d9e8c/transformed/firebase-auth-19.1.0/AndroidManifest.xml:36:13-38:85
-146                android:name="com.google.firebase.components:com.google.firebase.auth.FirebaseAuthRegistrar"
-146-->[com.google.firebase:firebase-auth:19.1.0] /home/mphstar/.gradle/caches/transforms-3/36f5eed28fc449d85395b2ba314d9e8c/transformed/firebase-auth-19.1.0/AndroidManifest.xml:37:17-109
-147                android:value="com.google.firebase.components.ComponentRegistrar" />
-147-->[com.google.firebase:firebase-auth:19.1.0] /home/mphstar/.gradle/caches/transforms-3/36f5eed28fc449d85395b2ba314d9e8c/transformed/firebase-auth-19.1.0/AndroidManifest.xml:38:17-82
-148            <meta-data
-148-->[com.google.firebase:firebase-iid:21.1.0] /home/mphstar/.gradle/caches/transforms-3/db37090b8a78678ded939399a0ff947a/transformed/firebase-iid-21.1.0/AndroidManifest.xml:32:13-34:85
-149                android:name="com.google.firebase.components:com.google.firebase.iid.Registrar"
-149-->[com.google.firebase:firebase-iid:21.1.0] /home/mphstar/.gradle/caches/transforms-3/db37090b8a78678ded939399a0ff947a/transformed/firebase-iid-21.1.0/AndroidManifest.xml:33:17-96
-150                android:value="com.google.firebase.components.ComponentRegistrar" />
-150-->[com.google.firebase:firebase-iid:21.1.0] /home/mphstar/.gradle/caches/transforms-3/db37090b8a78678ded939399a0ff947a/transformed/firebase-iid-21.1.0/AndroidManifest.xml:34:17-82
-151            <meta-data
-151-->[com.google.firebase:firebase-datatransport:18.1.2] /home/mphstar/.gradle/caches/transforms-3/45fdf61df0a3d0c288dde31819a587e9/transformed/firebase-datatransport-18.1.2/AndroidManifest.xml:28:13-30:85
-152                android:name="com.google.firebase.components:com.google.firebase.datatransport.TransportRegistrar"
-152-->[com.google.firebase:firebase-datatransport:18.1.2] /home/mphstar/.gradle/caches/transforms-3/45fdf61df0a3d0c288dde31819a587e9/transformed/firebase-datatransport-18.1.2/AndroidManifest.xml:29:17-115
-153                android:value="com.google.firebase.components.ComponentRegistrar" />
-153-->[com.google.firebase:firebase-datatransport:18.1.2] /home/mphstar/.gradle/caches/transforms-3/45fdf61df0a3d0c288dde31819a587e9/transformed/firebase-datatransport-18.1.2/AndroidManifest.xml:30:17-82
-154            <meta-data
-154-->[com.google.firebase:firebase-installations:17.0.1] /home/mphstar/.gradle/caches/transforms-3/8a8725ccf8dde3a96a7a0cbe928b1112/transformed/firebase-installations-17.0.1/AndroidManifest.xml:18:13-20:85
-155                android:name="com.google.firebase.components:com.google.firebase.installations.FirebaseInstallationsRegistrar"
-155-->[com.google.firebase:firebase-installations:17.0.1] /home/mphstar/.gradle/caches/transforms-3/8a8725ccf8dde3a96a7a0cbe928b1112/transformed/firebase-installations-17.0.1/AndroidManifest.xml:19:17-127
-156                android:value="com.google.firebase.components.ComponentRegistrar" />
-156-->[com.google.firebase:firebase-installations:17.0.1] /home/mphstar/.gradle/caches/transforms-3/8a8725ccf8dde3a96a7a0cbe928b1112/transformed/firebase-installations-17.0.1/AndroidManifest.xml:20:17-82
-157        </service>
-158
-159        <activity
-159-->[com.google.firebase:firebase-auth:19.1.0] /home/mphstar/.gradle/caches/transforms-3/36f5eed28fc449d85395b2ba314d9e8c/transformed/firebase-auth-19.1.0/AndroidManifest.xml:24:9-31:50
-160            android:name="com.google.firebase.auth.internal.FederatedSignInActivity"
-160-->[com.google.firebase:firebase-auth:19.1.0] /home/mphstar/.gradle/caches/transforms-3/36f5eed28fc449d85395b2ba314d9e8c/transformed/firebase-auth-19.1.0/AndroidManifest.xml:25:13-85
-161            android:excludeFromRecents="true"
-161-->[com.google.firebase:firebase-auth:19.1.0] /home/mphstar/.gradle/caches/transforms-3/36f5eed28fc449d85395b2ba314d9e8c/transformed/firebase-auth-19.1.0/AndroidManifest.xml:26:13-46
-162            android:exported="true"
-162-->[com.google.firebase:firebase-auth:19.1.0] /home/mphstar/.gradle/caches/transforms-3/36f5eed28fc449d85395b2ba314d9e8c/transformed/firebase-auth-19.1.0/AndroidManifest.xml:27:13-36
-163            android:launchMode="singleTask"
-163-->[com.google.firebase:firebase-auth:19.1.0] /home/mphstar/.gradle/caches/transforms-3/36f5eed28fc449d85395b2ba314d9e8c/transformed/firebase-auth-19.1.0/AndroidManifest.xml:28:13-44
-164            android:permission="com.google.firebase.auth.api.gms.permission.LAUNCH_FEDERATED_SIGN_IN"
-164-->[com.google.firebase:firebase-auth:19.1.0] /home/mphstar/.gradle/caches/transforms-3/36f5eed28fc449d85395b2ba314d9e8c/transformed/firebase-auth-19.1.0/AndroidManifest.xml:29:13-102
-165            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
-165-->[com.google.firebase:firebase-auth:19.1.0] /home/mphstar/.gradle/caches/transforms-3/36f5eed28fc449d85395b2ba314d9e8c/transformed/firebase-auth-19.1.0/AndroidManifest.xml:30:13-72
-166        <activity
-166-->[com.journeyapps:zxing-android-embedded:4.3.0] /home/mphstar/.gradle/caches/transforms-3/57c5109fb9a4fd71a51405ea6740d3a7/transformed/zxing-android-embedded-4.3.0/AndroidManifest.xml:47:9-53:63
-167            android:name="com.journeyapps.barcodescanner.CaptureActivity"
-167-->[com.journeyapps:zxing-android-embedded:4.3.0] /home/mphstar/.gradle/caches/transforms-3/57c5109fb9a4fd71a51405ea6740d3a7/transformed/zxing-android-embedded-4.3.0/AndroidManifest.xml:48:13-74
-168            android:clearTaskOnLaunch="true"
-168-->[com.journeyapps:zxing-android-embedded:4.3.0] /home/mphstar/.gradle/caches/transforms-3/57c5109fb9a4fd71a51405ea6740d3a7/transformed/zxing-android-embedded-4.3.0/AndroidManifest.xml:49:13-45
-169            android:screenOrientation="sensorLandscape"
-169-->[com.journeyapps:zxing-android-embedded:4.3.0] /home/mphstar/.gradle/caches/transforms-3/57c5109fb9a4fd71a51405ea6740d3a7/transformed/zxing-android-embedded-4.3.0/AndroidManifest.xml:50:13-56
-170            android:stateNotNeeded="true"
-170-->[com.journeyapps:zxing-android-embedded:4.3.0] /home/mphstar/.gradle/caches/transforms-3/57c5109fb9a4fd71a51405ea6740d3a7/transformed/zxing-android-embedded-4.3.0/AndroidManifest.xml:51:13-42
-171            android:theme="@style/zxing_CaptureTheme"
-171-->[com.journeyapps:zxing-android-embedded:4.3.0] /home/mphstar/.gradle/caches/transforms-3/57c5109fb9a4fd71a51405ea6740d3a7/transformed/zxing-android-embedded-4.3.0/AndroidManifest.xml:52:13-54
-172            android:windowSoftInputMode="stateAlwaysHidden" />
-172-->[com.journeyapps:zxing-android-embedded:4.3.0] /home/mphstar/.gradle/caches/transforms-3/57c5109fb9a4fd71a51405ea6740d3a7/transformed/zxing-android-embedded-4.3.0/AndroidManifest.xml:53:13-60
-173        <activity
-173-->[com.google.android.gms:play-services-base:18.0.1] /home/mphstar/.gradle/caches/transforms-3/8641cd57dba604f55449d6051e24e0cd/transformed/play-services-base-18.0.1/AndroidManifest.xml:20:9-22:45
-174            android:name="com.google.android.gms.common.api.GoogleApiActivity"
-174-->[com.google.android.gms:play-services-base:18.0.1] /home/mphstar/.gradle/caches/transforms-3/8641cd57dba604f55449d6051e24e0cd/transformed/play-services-base-18.0.1/AndroidManifest.xml:20:19-85
-175            android:exported="false"
-175-->[com.google.android.gms:play-services-base:18.0.1] /home/mphstar/.gradle/caches/transforms-3/8641cd57dba604f55449d6051e24e0cd/transformed/play-services-base-18.0.1/AndroidManifest.xml:22:19-43
-176            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
-176-->[com.google.android.gms:play-services-base:18.0.1] /home/mphstar/.gradle/caches/transforms-3/8641cd57dba604f55449d6051e24e0cd/transformed/play-services-base-18.0.1/AndroidManifest.xml:21:19-78
-177
-178        <provider
-178-->[com.google.firebase:firebase-common:20.1.0] /home/mphstar/.gradle/caches/transforms-3/e26817592aba814421ec676a8cabe041/transformed/firebase-common-20.1.0/AndroidManifest.xml:26:9-31:39
-179            android:name="com.google.firebase.provider.FirebaseInitProvider"
-179-->[com.google.firebase:firebase-common:20.1.0] /home/mphstar/.gradle/caches/transforms-3/e26817592aba814421ec676a8cabe041/transformed/firebase-common-20.1.0/AndroidManifest.xml:27:13-77
-180            android:authorities="com.mphstar.androidnative.firebaseinitprovider"
-180-->[com.google.firebase:firebase-common:20.1.0] /home/mphstar/.gradle/caches/transforms-3/e26817592aba814421ec676a8cabe041/transformed/firebase-common-20.1.0/AndroidManifest.xml:28:13-72
-181            android:directBootAware="true"
-181-->[com.google.firebase:firebase-common:20.1.0] /home/mphstar/.gradle/caches/transforms-3/e26817592aba814421ec676a8cabe041/transformed/firebase-common-20.1.0/AndroidManifest.xml:29:13-43
-182            android:exported="false"
-182-->[com.google.firebase:firebase-common:20.1.0] /home/mphstar/.gradle/caches/transforms-3/e26817592aba814421ec676a8cabe041/transformed/firebase-common-20.1.0/AndroidManifest.xml:30:13-37
-183            android:initOrder="100" />
-183-->[com.google.firebase:firebase-common:20.1.0] /home/mphstar/.gradle/caches/transforms-3/e26817592aba814421ec676a8cabe041/transformed/firebase-common-20.1.0/AndroidManifest.xml:31:13-36
-184
-185        <meta-data
-185-->[com.google.android.gms:play-services-basement:18.0.0] /home/mphstar/.gradle/caches/transforms-3/5b64ca02145a4d2a135477066cdefd90/transformed/play-services-basement-18.0.0/AndroidManifest.xml:21:9-23:69
-186            android:name="com.google.android.gms.version"
-186-->[com.google.android.gms:play-services-basement:18.0.0] /home/mphstar/.gradle/caches/transforms-3/5b64ca02145a4d2a135477066cdefd90/transformed/play-services-basement-18.0.0/AndroidManifest.xml:22:13-58
-187            android:value="@integer/google_play_services_version" />
-187-->[com.google.android.gms:play-services-basement:18.0.0] /home/mphstar/.gradle/caches/transforms-3/5b64ca02145a4d2a135477066cdefd90/transformed/play-services-basement-18.0.0/AndroidManifest.xml:23:13-66
-188
-189        <provider
-189-->[androidx.emoji2:emoji2:1.2.0] /home/mphstar/.gradle/caches/transforms-3/f1732352759f849962e98576e62c964f/transformed/emoji2-1.2.0/AndroidManifest.xml:24:9-32:20
-190            android:name="androidx.startup.InitializationProvider"
-190-->[androidx.emoji2:emoji2:1.2.0] /home/mphstar/.gradle/caches/transforms-3/f1732352759f849962e98576e62c964f/transformed/emoji2-1.2.0/AndroidManifest.xml:25:13-67
-191            android:authorities="com.mphstar.androidnative.androidx-startup"
-191-->[androidx.emoji2:emoji2:1.2.0] /home/mphstar/.gradle/caches/transforms-3/f1732352759f849962e98576e62c964f/transformed/emoji2-1.2.0/AndroidManifest.xml:26:13-68
-192            android:exported="false" >
-192-->[androidx.emoji2:emoji2:1.2.0] /home/mphstar/.gradle/caches/transforms-3/f1732352759f849962e98576e62c964f/transformed/emoji2-1.2.0/AndroidManifest.xml:27:13-37
-193            <meta-data
-193-->[androidx.emoji2:emoji2:1.2.0] /home/mphstar/.gradle/caches/transforms-3/f1732352759f849962e98576e62c964f/transformed/emoji2-1.2.0/AndroidManifest.xml:29:13-31:52
-194                android:name="androidx.emoji2.text.EmojiCompatInitializer"
-194-->[androidx.emoji2:emoji2:1.2.0] /home/mphstar/.gradle/caches/transforms-3/f1732352759f849962e98576e62c964f/transformed/emoji2-1.2.0/AndroidManifest.xml:30:17-75
-195                android:value="androidx.startup" />
-195-->[androidx.emoji2:emoji2:1.2.0] /home/mphstar/.gradle/caches/transforms-3/f1732352759f849962e98576e62c964f/transformed/emoji2-1.2.0/AndroidManifest.xml:31:17-49
-196            <meta-data
-196-->[androidx.lifecycle:lifecycle-process:2.4.1] /home/mphstar/.gradle/caches/transforms-3/53bd544b32482eade1e35dd3cd9b43de/transformed/lifecycle-process-2.4.1/AndroidManifest.xml:31:13-33:52
-197                android:name="androidx.lifecycle.ProcessLifecycleInitializer"
-197-->[androidx.lifecycle:lifecycle-process:2.4.1] /home/mphstar/.gradle/caches/transforms-3/53bd544b32482eade1e35dd3cd9b43de/transformed/lifecycle-process-2.4.1/AndroidManifest.xml:32:17-78
-198                android:value="androidx.startup" />
-198-->[androidx.lifecycle:lifecycle-process:2.4.1] /home/mphstar/.gradle/caches/transforms-3/53bd544b32482eade1e35dd3cd9b43de/transformed/lifecycle-process-2.4.1/AndroidManifest.xml:33:17-49
-199        </provider>
-200
-201        <service
-201-->[com.google.android.datatransport:transport-backend-cct:3.1.3] /home/mphstar/.gradle/caches/transforms-3/7f243c908590506340e7d690a9879c9c/transformed/transport-backend-cct-3.1.3/AndroidManifest.xml:29:9-35:19
-202            android:name="com.google.android.datatransport.runtime.backends.TransportBackendDiscovery"
-202-->[com.google.android.datatransport:transport-backend-cct:3.1.3] /home/mphstar/.gradle/caches/transforms-3/7f243c908590506340e7d690a9879c9c/transformed/transport-backend-cct-3.1.3/AndroidManifest.xml:30:13-103
-203            android:exported="false" >
-203-->[com.google.android.datatransport:transport-backend-cct:3.1.3] /home/mphstar/.gradle/caches/transforms-3/7f243c908590506340e7d690a9879c9c/transformed/transport-backend-cct-3.1.3/AndroidManifest.xml:31:13-37
-204            <meta-data
-204-->[com.google.android.datatransport:transport-backend-cct:3.1.3] /home/mphstar/.gradle/caches/transforms-3/7f243c908590506340e7d690a9879c9c/transformed/transport-backend-cct-3.1.3/AndroidManifest.xml:32:13-34:39
-205                android:name="backend:com.google.android.datatransport.cct.CctBackendFactory"
-205-->[com.google.android.datatransport:transport-backend-cct:3.1.3] /home/mphstar/.gradle/caches/transforms-3/7f243c908590506340e7d690a9879c9c/transformed/transport-backend-cct-3.1.3/AndroidManifest.xml:33:17-94
-206                android:value="cct" />
-206-->[com.google.android.datatransport:transport-backend-cct:3.1.3] /home/mphstar/.gradle/caches/transforms-3/7f243c908590506340e7d690a9879c9c/transformed/transport-backend-cct-3.1.3/AndroidManifest.xml:34:17-36
-207        </service>
-208        <service
-208-->[com.google.android.datatransport:transport-runtime:3.1.3] /home/mphstar/.gradle/caches/transforms-3/d93241a063c0c435792d9d077643a0d1/transformed/transport-runtime-3.1.3/AndroidManifest.xml:26:9-30:19
-209            android:name="com.google.android.datatransport.runtime.scheduling.jobscheduling.JobInfoSchedulerService"
-209-->[com.google.android.datatransport:transport-runtime:3.1.3] /home/mphstar/.gradle/caches/transforms-3/d93241a063c0c435792d9d077643a0d1/transformed/transport-runtime-3.1.3/AndroidManifest.xml:27:13-117
-210            android:exported="false"
-210-->[com.google.android.datatransport:transport-runtime:3.1.3] /home/mphstar/.gradle/caches/transforms-3/d93241a063c0c435792d9d077643a0d1/transformed/transport-runtime-3.1.3/AndroidManifest.xml:28:13-37
-211            android:permission="android.permission.BIND_JOB_SERVICE" >
-211-->[com.google.android.datatransport:transport-runtime:3.1.3] /home/mphstar/.gradle/caches/transforms-3/d93241a063c0c435792d9d077643a0d1/transformed/transport-runtime-3.1.3/AndroidManifest.xml:29:13-69
-212        </service>
+82-->/home/mphstar/Development/mobile/Belajar/AndroidNative/app/src/main/AndroidManifest.xml:52:9-55:40
+83            android:name="com.mphstar.androidnative.belajar.layout.LayoutActivity"
+83-->/home/mphstar/Development/mobile/Belajar/AndroidNative/app/src/main/AndroidManifest.xml:53:13-58
+84            android:exported="false"
+84-->/home/mphstar/Development/mobile/Belajar/AndroidNative/app/src/main/AndroidManifest.xml:55:13-37
+85            android:theme="@style/Theme.layout" />
+85-->/home/mphstar/Development/mobile/Belajar/AndroidNative/app/src/main/AndroidManifest.xml:54:13-48
+86        <activity
+86-->/home/mphstar/Development/mobile/Belajar/AndroidNative/app/src/main/AndroidManifest.xml:56:9-59:39
+87            android:name="com.mphstar.androidnative.belajar.layout.LinearActivity"
+87-->/home/mphstar/Development/mobile/Belajar/AndroidNative/app/src/main/AndroidManifest.xml:58:13-58
+88            android:exported="true"
+88-->/home/mphstar/Development/mobile/Belajar/AndroidNative/app/src/main/AndroidManifest.xml:59:13-36
+89            android:theme="@style/Theme.layout" />
+89-->/home/mphstar/Development/mobile/Belajar/AndroidNative/app/src/main/AndroidManifest.xml:57:13-48
+90        <activity
+90-->/home/mphstar/Development/mobile/Belajar/AndroidNative/app/src/main/AndroidManifest.xml:60:9-63:39
+91            android:name="com.mphstar.androidnative.belajar.layout.RelativeLayout"
+91-->/home/mphstar/Development/mobile/Belajar/AndroidNative/app/src/main/AndroidManifest.xml:62:13-58
+92            android:exported="true"
+92-->/home/mphstar/Development/mobile/Belajar/AndroidNative/app/src/main/AndroidManifest.xml:63:13-36
+93            android:theme="@style/Theme.layout" />
+93-->/home/mphstar/Development/mobile/Belajar/AndroidNative/app/src/main/AndroidManifest.xml:61:13-48
+94        <activity
+94-->/home/mphstar/Development/mobile/Belajar/AndroidNative/app/src/main/AndroidManifest.xml:64:9-67:39
+95            android:name="com.mphstar.androidnative.belajar.layout.ConstraintActivity"
+95-->/home/mphstar/Development/mobile/Belajar/AndroidNative/app/src/main/AndroidManifest.xml:66:13-62
+96            android:exported="true"
+96-->/home/mphstar/Development/mobile/Belajar/AndroidNative/app/src/main/AndroidManifest.xml:67:13-36
+97            android:theme="@style/Theme.layout" />
+97-->/home/mphstar/Development/mobile/Belajar/AndroidNative/app/src/main/AndroidManifest.xml:65:13-48
+98        <activity
+98-->/home/mphstar/Development/mobile/Belajar/AndroidNative/app/src/main/AndroidManifest.xml:68:9-71:39
+99            android:name="com.mphstar.androidnative.belajar.layout.FrameActivity"
+99-->/home/mphstar/Development/mobile/Belajar/AndroidNative/app/src/main/AndroidManifest.xml:70:13-57
+100            android:exported="true"
+100-->/home/mphstar/Development/mobile/Belajar/AndroidNative/app/src/main/AndroidManifest.xml:71:13-36
+101            android:theme="@style/Theme.layout" />
+101-->/home/mphstar/Development/mobile/Belajar/AndroidNative/app/src/main/AndroidManifest.xml:69:13-48
+102        <activity
+102-->/home/mphstar/Development/mobile/Belajar/AndroidNative/app/src/main/AndroidManifest.xml:72:9-75:39
+103            android:name="com.mphstar.androidnative.belajar.layout.TableActivity"
+103-->/home/mphstar/Development/mobile/Belajar/AndroidNative/app/src/main/AndroidManifest.xml:74:13-57
+104            android:exported="true"
+104-->/home/mphstar/Development/mobile/Belajar/AndroidNative/app/src/main/AndroidManifest.xml:75:13-36
+105            android:theme="@style/Theme.layout" />
+105-->/home/mphstar/Development/mobile/Belajar/AndroidNative/app/src/main/AndroidManifest.xml:73:13-48
+106        <activity
+106-->/home/mphstar/Development/mobile/Belajar/AndroidNative/app/src/main/AndroidManifest.xml:76:9-79:39
+107            android:name="com.mphstar.androidnative.belajar.layout.MaterialComponentsActivity"
+107-->/home/mphstar/Development/mobile/Belajar/AndroidNative/app/src/main/AndroidManifest.xml:78:13-70
+108            android:exported="true"
+108-->/home/mphstar/Development/mobile/Belajar/AndroidNative/app/src/main/AndroidManifest.xml:79:13-36
+109            android:theme="@style/Theme.layout" />
+109-->/home/mphstar/Development/mobile/Belajar/AndroidNative/app/src/main/AndroidManifest.xml:77:13-48
+110        <activity
+110-->/home/mphstar/Development/mobile/Belajar/AndroidNative/app/src/main/AndroidManifest.xml:80:9-83:39
+111            android:name="com.mphstar.androidnative.belajar.layout.ScrollviewActivity"
+111-->/home/mphstar/Development/mobile/Belajar/AndroidNative/app/src/main/AndroidManifest.xml:82:13-62
+112            android:exported="true"
+112-->/home/mphstar/Development/mobile/Belajar/AndroidNative/app/src/main/AndroidManifest.xml:83:13-36
+113            android:theme="@style/Theme.layout" />
+113-->/home/mphstar/Development/mobile/Belajar/AndroidNative/app/src/main/AndroidManifest.xml:81:13-48
+114        <activity
+114-->/home/mphstar/Development/mobile/Belajar/AndroidNative/app/src/main/AndroidManifest.xml:84:9-87:39
+115            android:name="com.mphstar.androidnative.belajar.layout.HorizontalScrollviewActivity"
+115-->/home/mphstar/Development/mobile/Belajar/AndroidNative/app/src/main/AndroidManifest.xml:86:13-72
+116            android:exported="true"
+116-->/home/mphstar/Development/mobile/Belajar/AndroidNative/app/src/main/AndroidManifest.xml:87:13-36
+117            android:theme="@style/Theme.layout" />
+117-->/home/mphstar/Development/mobile/Belajar/AndroidNative/app/src/main/AndroidManifest.xml:85:13-48
+118        <activity
+118-->/home/mphstar/Development/mobile/Belajar/AndroidNative/app/src/main/AndroidManifest.xml:88:9-96:20
+119            android:name="com.mphstar.androidnative.MainActivity"
+119-->/home/mphstar/Development/mobile/Belajar/AndroidNative/app/src/main/AndroidManifest.xml:89:13-41
+120            android:exported="true" >
+120-->/home/mphstar/Development/mobile/Belajar/AndroidNative/app/src/main/AndroidManifest.xml:90:13-36
+121            <intent-filter>
+121-->/home/mphstar/Development/mobile/Belajar/AndroidNative/app/src/main/AndroidManifest.xml:91:13-95:29
+122                <action android:name="android.intent.action.MAIN" />
+122-->/home/mphstar/Development/mobile/Belajar/AndroidNative/app/src/main/AndroidManifest.xml:92:17-69
+122-->/home/mphstar/Development/mobile/Belajar/AndroidNative/app/src/main/AndroidManifest.xml:92:25-66
+123
+124                <category android:name="android.intent.category.LAUNCHER" />
+124-->/home/mphstar/Development/mobile/Belajar/AndroidNative/app/src/main/AndroidManifest.xml:94:17-77
+124-->/home/mphstar/Development/mobile/Belajar/AndroidNative/app/src/main/AndroidManifest.xml:94:27-74
+125            </intent-filter>
+126        </activity>
+127
+128        <service
+128-->/home/mphstar/Development/mobile/Belajar/AndroidNative/app/src/main/AndroidManifest.xml:98:9-104:19
+129            android:name="com.mphstar.androidnative.belajar.pushnotif.MessagingService"
+129-->/home/mphstar/Development/mobile/Belajar/AndroidNative/app/src/main/AndroidManifest.xml:99:13-63
+130            android:exported="true" >
+130-->/home/mphstar/Development/mobile/Belajar/AndroidNative/app/src/main/AndroidManifest.xml:100:13-36
+131            <intent-filter>
+131-->/home/mphstar/Development/mobile/Belajar/AndroidNative/app/src/main/AndroidManifest.xml:101:13-103:29
+132                <action android:name="com.google.firebase.MESSAGING_EVENT" />
+132-->/home/mphstar/Development/mobile/Belajar/AndroidNative/app/src/main/AndroidManifest.xml:102:17-78
+132-->/home/mphstar/Development/mobile/Belajar/AndroidNative/app/src/main/AndroidManifest.xml:102:25-75
+133            </intent-filter>
+134        </service>
+135
+136        <meta-data
+136-->/home/mphstar/Development/mobile/Belajar/AndroidNative/app/src/main/AndroidManifest.xml:106:9-108:52
+137            android:name="com.google.firebase.messaging.default_notification_icon"
+137-->/home/mphstar/Development/mobile/Belajar/AndroidNative/app/src/main/AndroidManifest.xml:107:13-83
+138            android:resource="@drawable/ic_logo" />
+138-->/home/mphstar/Development/mobile/Belajar/AndroidNative/app/src/main/AndroidManifest.xml:108:13-49
+139        <meta-data
+139-->/home/mphstar/Development/mobile/Belajar/AndroidNative/app/src/main/AndroidManifest.xml:109:9-111:52
+140            android:name="com.google.firebase.messaging.default_notification_color"
+140-->/home/mphstar/Development/mobile/Belajar/AndroidNative/app/src/main/AndroidManifest.xml:110:13-84
+141            android:resource="@color/purple_500" />
+141-->/home/mphstar/Development/mobile/Belajar/AndroidNative/app/src/main/AndroidManifest.xml:111:13-49
+142
+143        <activity
+143-->/home/mphstar/Development/mobile/Belajar/AndroidNative/app/src/main/AndroidManifest.xml:113:9-117:57
+144            android:name="com.mphstar.androidnative.belajar.scannerqr.CaptureAct"
+144-->/home/mphstar/Development/mobile/Belajar/AndroidNative/app/src/main/AndroidManifest.xml:114:13-57
+145            android:screenOrientation="portrait"
+145-->/home/mphstar/Development/mobile/Belajar/AndroidNative/app/src/main/AndroidManifest.xml:115:13-49
+146            android:stateNotNeeded="true"
+146-->/home/mphstar/Development/mobile/Belajar/AndroidNative/app/src/main/AndroidManifest.xml:116:13-42
+147            android:theme="@style/zxing_CaptureTheme" />
+147-->/home/mphstar/Development/mobile/Belajar/AndroidNative/app/src/main/AndroidManifest.xml:117:13-54
+148
+149        <provider
+149-->[com.squareup.picasso:picasso:2.8] /home/mphstar/.gradle/caches/transforms-3/7d28460b1004b638de254d39b688cbf2/transformed/picasso-2.8/AndroidManifest.xml:8:9-11:40
+150            android:name="com.squareup.picasso.PicassoProvider"
+150-->[com.squareup.picasso:picasso:2.8] /home/mphstar/.gradle/caches/transforms-3/7d28460b1004b638de254d39b688cbf2/transformed/picasso-2.8/AndroidManifest.xml:9:13-64
+151            android:authorities="com.mphstar.androidnative.com.squareup.picasso"
+151-->[com.squareup.picasso:picasso:2.8] /home/mphstar/.gradle/caches/transforms-3/7d28460b1004b638de254d39b688cbf2/transformed/picasso-2.8/AndroidManifest.xml:10:13-72
+152            android:exported="false" />
+152-->[com.squareup.picasso:picasso:2.8] /home/mphstar/.gradle/caches/transforms-3/7d28460b1004b638de254d39b688cbf2/transformed/picasso-2.8/AndroidManifest.xml:11:13-37
+153
+154        <receiver
+154-->[com.google.firebase:firebase-messaging:23.0.3] /home/mphstar/.gradle/caches/transforms-3/6b47100a520df936fd9d117d9629ed98/transformed/firebase-messaging-23.0.3/AndroidManifest.xml:31:9-38:20
+155            android:name="com.google.firebase.iid.FirebaseInstanceIdReceiver"
+155-->[com.google.firebase:firebase-messaging:23.0.3] /home/mphstar/.gradle/caches/transforms-3/6b47100a520df936fd9d117d9629ed98/transformed/firebase-messaging-23.0.3/AndroidManifest.xml:32:13-78
+156            android:exported="true"
+156-->[com.google.firebase:firebase-messaging:23.0.3] /home/mphstar/.gradle/caches/transforms-3/6b47100a520df936fd9d117d9629ed98/transformed/firebase-messaging-23.0.3/AndroidManifest.xml:33:13-36
+157            android:permission="com.google.android.c2dm.permission.SEND" >
+157-->[com.google.firebase:firebase-messaging:23.0.3] /home/mphstar/.gradle/caches/transforms-3/6b47100a520df936fd9d117d9629ed98/transformed/firebase-messaging-23.0.3/AndroidManifest.xml:34:13-73
+158            <intent-filter>
+158-->[com.google.firebase:firebase-messaging:23.0.3] /home/mphstar/.gradle/caches/transforms-3/6b47100a520df936fd9d117d9629ed98/transformed/firebase-messaging-23.0.3/AndroidManifest.xml:35:13-37:29
+159                <action android:name="com.google.android.c2dm.intent.RECEIVE" />
+159-->[com.google.firebase:firebase-messaging:23.0.3] /home/mphstar/.gradle/caches/transforms-3/6b47100a520df936fd9d117d9629ed98/transformed/firebase-messaging-23.0.3/AndroidManifest.xml:36:17-81
+159-->[com.google.firebase:firebase-messaging:23.0.3] /home/mphstar/.gradle/caches/transforms-3/6b47100a520df936fd9d117d9629ed98/transformed/firebase-messaging-23.0.3/AndroidManifest.xml:36:25-78
+160            </intent-filter>
+161        </receiver>
+162        <!--
+163             FirebaseMessagingService performs security checks at runtime,
+164             but set to not exported to explicitly avoid allowing another app to call it.
+165        -->
+166        <service
+166-->[com.google.firebase:firebase-messaging:23.0.3] /home/mphstar/.gradle/caches/transforms-3/6b47100a520df936fd9d117d9629ed98/transformed/firebase-messaging-23.0.3/AndroidManifest.xml:44:9-51:19
+167            android:name="com.google.firebase.messaging.FirebaseMessagingService"
+167-->[com.google.firebase:firebase-messaging:23.0.3] /home/mphstar/.gradle/caches/transforms-3/6b47100a520df936fd9d117d9629ed98/transformed/firebase-messaging-23.0.3/AndroidManifest.xml:45:13-82
+168            android:directBootAware="true"
+168-->[com.google.firebase:firebase-messaging:23.0.3] /home/mphstar/.gradle/caches/transforms-3/6b47100a520df936fd9d117d9629ed98/transformed/firebase-messaging-23.0.3/AndroidManifest.xml:46:13-43
+169            android:exported="false" >
+169-->[com.google.firebase:firebase-messaging:23.0.3] /home/mphstar/.gradle/caches/transforms-3/6b47100a520df936fd9d117d9629ed98/transformed/firebase-messaging-23.0.3/AndroidManifest.xml:47:13-37
+170            <intent-filter android:priority="-500" >
+170-->/home/mphstar/Development/mobile/Belajar/AndroidNative/app/src/main/AndroidManifest.xml:101:13-103:29
+171                <action android:name="com.google.firebase.MESSAGING_EVENT" />
+171-->/home/mphstar/Development/mobile/Belajar/AndroidNative/app/src/main/AndroidManifest.xml:102:17-78
+171-->/home/mphstar/Development/mobile/Belajar/AndroidNative/app/src/main/AndroidManifest.xml:102:25-75
+172            </intent-filter>
+173        </service>
+174        <service
+174-->[com.google.firebase:firebase-messaging:23.0.3] /home/mphstar/.gradle/caches/transforms-3/6b47100a520df936fd9d117d9629ed98/transformed/firebase-messaging-23.0.3/AndroidManifest.xml:52:9-58:19
+175            android:name="com.google.firebase.components.ComponentDiscoveryService"
+175-->[com.google.firebase:firebase-messaging:23.0.3] /home/mphstar/.gradle/caches/transforms-3/6b47100a520df936fd9d117d9629ed98/transformed/firebase-messaging-23.0.3/AndroidManifest.xml:53:13-84
+176            android:directBootAware="true"
+176-->[com.google.firebase:firebase-common:20.1.0] /home/mphstar/.gradle/caches/transforms-3/e26817592aba814421ec676a8cabe041/transformed/firebase-common-20.1.0/AndroidManifest.xml:35:13-43
+177            android:exported="false" >
+177-->[com.google.firebase:firebase-messaging:23.0.3] /home/mphstar/.gradle/caches/transforms-3/6b47100a520df936fd9d117d9629ed98/transformed/firebase-messaging-23.0.3/AndroidManifest.xml:54:13-37
+178            <meta-data
+178-->[com.google.firebase:firebase-messaging:23.0.3] /home/mphstar/.gradle/caches/transforms-3/6b47100a520df936fd9d117d9629ed98/transformed/firebase-messaging-23.0.3/AndroidManifest.xml:55:13-57:85
+179                android:name="com.google.firebase.components:com.google.firebase.messaging.FirebaseMessagingRegistrar"
+179-->[com.google.firebase:firebase-messaging:23.0.3] /home/mphstar/.gradle/caches/transforms-3/6b47100a520df936fd9d117d9629ed98/transformed/firebase-messaging-23.0.3/AndroidManifest.xml:56:17-119
+180                android:value="com.google.firebase.components.ComponentRegistrar" />
+180-->[com.google.firebase:firebase-messaging:23.0.3] /home/mphstar/.gradle/caches/transforms-3/6b47100a520df936fd9d117d9629ed98/transformed/firebase-messaging-23.0.3/AndroidManifest.xml:57:17-82
+181            <meta-data
+181-->[com.google.firebase:firebase-auth:19.1.0] /home/mphstar/.gradle/caches/transforms-3/36f5eed28fc449d85395b2ba314d9e8c/transformed/firebase-auth-19.1.0/AndroidManifest.xml:36:13-38:85
+182                android:name="com.google.firebase.components:com.google.firebase.auth.FirebaseAuthRegistrar"
+182-->[com.google.firebase:firebase-auth:19.1.0] /home/mphstar/.gradle/caches/transforms-3/36f5eed28fc449d85395b2ba314d9e8c/transformed/firebase-auth-19.1.0/AndroidManifest.xml:37:17-109
+183                android:value="com.google.firebase.components.ComponentRegistrar" />
+183-->[com.google.firebase:firebase-auth:19.1.0] /home/mphstar/.gradle/caches/transforms-3/36f5eed28fc449d85395b2ba314d9e8c/transformed/firebase-auth-19.1.0/AndroidManifest.xml:38:17-82
+184            <meta-data
+184-->[com.google.firebase:firebase-iid:21.1.0] /home/mphstar/.gradle/caches/transforms-3/db37090b8a78678ded939399a0ff947a/transformed/firebase-iid-21.1.0/AndroidManifest.xml:32:13-34:85
+185                android:name="com.google.firebase.components:com.google.firebase.iid.Registrar"
+185-->[com.google.firebase:firebase-iid:21.1.0] /home/mphstar/.gradle/caches/transforms-3/db37090b8a78678ded939399a0ff947a/transformed/firebase-iid-21.1.0/AndroidManifest.xml:33:17-96
+186                android:value="com.google.firebase.components.ComponentRegistrar" />
+186-->[com.google.firebase:firebase-iid:21.1.0] /home/mphstar/.gradle/caches/transforms-3/db37090b8a78678ded939399a0ff947a/transformed/firebase-iid-21.1.0/AndroidManifest.xml:34:17-82
+187            <meta-data
+187-->[com.google.firebase:firebase-datatransport:18.1.2] /home/mphstar/.gradle/caches/transforms-3/45fdf61df0a3d0c288dde31819a587e9/transformed/firebase-datatransport-18.1.2/AndroidManifest.xml:28:13-30:85
+188                android:name="com.google.firebase.components:com.google.firebase.datatransport.TransportRegistrar"
+188-->[com.google.firebase:firebase-datatransport:18.1.2] /home/mphstar/.gradle/caches/transforms-3/45fdf61df0a3d0c288dde31819a587e9/transformed/firebase-datatransport-18.1.2/AndroidManifest.xml:29:17-115
+189                android:value="com.google.firebase.components.ComponentRegistrar" />
+189-->[com.google.firebase:firebase-datatransport:18.1.2] /home/mphstar/.gradle/caches/transforms-3/45fdf61df0a3d0c288dde31819a587e9/transformed/firebase-datatransport-18.1.2/AndroidManifest.xml:30:17-82
+190            <meta-data
+190-->[com.google.firebase:firebase-installations:17.0.1] /home/mphstar/.gradle/caches/transforms-3/8a8725ccf8dde3a96a7a0cbe928b1112/transformed/firebase-installations-17.0.1/AndroidManifest.xml:18:13-20:85
+191                android:name="com.google.firebase.components:com.google.firebase.installations.FirebaseInstallationsRegistrar"
+191-->[com.google.firebase:firebase-installations:17.0.1] /home/mphstar/.gradle/caches/transforms-3/8a8725ccf8dde3a96a7a0cbe928b1112/transformed/firebase-installations-17.0.1/AndroidManifest.xml:19:17-127
+192                android:value="com.google.firebase.components.ComponentRegistrar" />
+192-->[com.google.firebase:firebase-installations:17.0.1] /home/mphstar/.gradle/caches/transforms-3/8a8725ccf8dde3a96a7a0cbe928b1112/transformed/firebase-installations-17.0.1/AndroidManifest.xml:20:17-82
+193        </service>
+194
+195        <activity
+195-->[com.google.firebase:firebase-auth:19.1.0] /home/mphstar/.gradle/caches/transforms-3/36f5eed28fc449d85395b2ba314d9e8c/transformed/firebase-auth-19.1.0/AndroidManifest.xml:24:9-31:50
+196            android:name="com.google.firebase.auth.internal.FederatedSignInActivity"
+196-->[com.google.firebase:firebase-auth:19.1.0] /home/mphstar/.gradle/caches/transforms-3/36f5eed28fc449d85395b2ba314d9e8c/transformed/firebase-auth-19.1.0/AndroidManifest.xml:25:13-85
+197            android:excludeFromRecents="true"
+197-->[com.google.firebase:firebase-auth:19.1.0] /home/mphstar/.gradle/caches/transforms-3/36f5eed28fc449d85395b2ba314d9e8c/transformed/firebase-auth-19.1.0/AndroidManifest.xml:26:13-46
+198            android:exported="true"
+198-->[com.google.firebase:firebase-auth:19.1.0] /home/mphstar/.gradle/caches/transforms-3/36f5eed28fc449d85395b2ba314d9e8c/transformed/firebase-auth-19.1.0/AndroidManifest.xml:27:13-36
+199            android:launchMode="singleTask"
+199-->[com.google.firebase:firebase-auth:19.1.0] /home/mphstar/.gradle/caches/transforms-3/36f5eed28fc449d85395b2ba314d9e8c/transformed/firebase-auth-19.1.0/AndroidManifest.xml:28:13-44
+200            android:permission="com.google.firebase.auth.api.gms.permission.LAUNCH_FEDERATED_SIGN_IN"
+200-->[com.google.firebase:firebase-auth:19.1.0] /home/mphstar/.gradle/caches/transforms-3/36f5eed28fc449d85395b2ba314d9e8c/transformed/firebase-auth-19.1.0/AndroidManifest.xml:29:13-102
+201            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+201-->[com.google.firebase:firebase-auth:19.1.0] /home/mphstar/.gradle/caches/transforms-3/36f5eed28fc449d85395b2ba314d9e8c/transformed/firebase-auth-19.1.0/AndroidManifest.xml:30:13-72
+202        <activity
+202-->[com.journeyapps:zxing-android-embedded:4.3.0] /home/mphstar/.gradle/caches/transforms-3/57c5109fb9a4fd71a51405ea6740d3a7/transformed/zxing-android-embedded-4.3.0/AndroidManifest.xml:47:9-53:63
+203            android:name="com.journeyapps.barcodescanner.CaptureActivity"
+203-->[com.journeyapps:zxing-android-embedded:4.3.0] /home/mphstar/.gradle/caches/transforms-3/57c5109fb9a4fd71a51405ea6740d3a7/transformed/zxing-android-embedded-4.3.0/AndroidManifest.xml:48:13-74
+204            android:clearTaskOnLaunch="true"
+204-->[com.journeyapps:zxing-android-embedded:4.3.0] /home/mphstar/.gradle/caches/transforms-3/57c5109fb9a4fd71a51405ea6740d3a7/transformed/zxing-android-embedded-4.3.0/AndroidManifest.xml:49:13-45
+205            android:screenOrientation="sensorLandscape"
+205-->[com.journeyapps:zxing-android-embedded:4.3.0] /home/mphstar/.gradle/caches/transforms-3/57c5109fb9a4fd71a51405ea6740d3a7/transformed/zxing-android-embedded-4.3.0/AndroidManifest.xml:50:13-56
+206            android:stateNotNeeded="true"
+206-->[com.journeyapps:zxing-android-embedded:4.3.0] /home/mphstar/.gradle/caches/transforms-3/57c5109fb9a4fd71a51405ea6740d3a7/transformed/zxing-android-embedded-4.3.0/AndroidManifest.xml:51:13-42
+207            android:theme="@style/zxing_CaptureTheme"
+207-->[com.journeyapps:zxing-android-embedded:4.3.0] /home/mphstar/.gradle/caches/transforms-3/57c5109fb9a4fd71a51405ea6740d3a7/transformed/zxing-android-embedded-4.3.0/AndroidManifest.xml:52:13-54
+208            android:windowSoftInputMode="stateAlwaysHidden" />
+208-->[com.journeyapps:zxing-android-embedded:4.3.0] /home/mphstar/.gradle/caches/transforms-3/57c5109fb9a4fd71a51405ea6740d3a7/transformed/zxing-android-embedded-4.3.0/AndroidManifest.xml:53:13-60
+209        <activity
+209-->[com.google.android.gms:play-services-base:18.0.1] /home/mphstar/.gradle/caches/transforms-3/8641cd57dba604f55449d6051e24e0cd/transformed/play-services-base-18.0.1/AndroidManifest.xml:20:9-22:45
+210            android:name="com.google.android.gms.common.api.GoogleApiActivity"
+210-->[com.google.android.gms:play-services-base:18.0.1] /home/mphstar/.gradle/caches/transforms-3/8641cd57dba604f55449d6051e24e0cd/transformed/play-services-base-18.0.1/AndroidManifest.xml:20:19-85
+211            android:exported="false"
+211-->[com.google.android.gms:play-services-base:18.0.1] /home/mphstar/.gradle/caches/transforms-3/8641cd57dba604f55449d6051e24e0cd/transformed/play-services-base-18.0.1/AndroidManifest.xml:22:19-43
+212            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+212-->[com.google.android.gms:play-services-base:18.0.1] /home/mphstar/.gradle/caches/transforms-3/8641cd57dba604f55449d6051e24e0cd/transformed/play-services-base-18.0.1/AndroidManifest.xml:21:19-78
 213
-214        <receiver
-214-->[com.google.android.datatransport:transport-runtime:3.1.3] /home/mphstar/.gradle/caches/transforms-3/d93241a063c0c435792d9d077643a0d1/transformed/transport-runtime-3.1.3/AndroidManifest.xml:32:9-34:40
-215            android:name="com.google.android.datatransport.runtime.scheduling.jobscheduling.AlarmManagerSchedulerBroadcastReceiver"
-215-->[com.google.android.datatransport:transport-runtime:3.1.3] /home/mphstar/.gradle/caches/transforms-3/d93241a063c0c435792d9d077643a0d1/transformed/transport-runtime-3.1.3/AndroidManifest.xml:33:13-132
-216            android:exported="false" />
-216-->[com.google.android.datatransport:transport-runtime:3.1.3] /home/mphstar/.gradle/caches/transforms-3/d93241a063c0c435792d9d077643a0d1/transformed/transport-runtime-3.1.3/AndroidManifest.xml:34:13-37
-217    </application>
-218
-219</manifest>
+214        <provider
+214-->[com.google.firebase:firebase-common:20.1.0] /home/mphstar/.gradle/caches/transforms-3/e26817592aba814421ec676a8cabe041/transformed/firebase-common-20.1.0/AndroidManifest.xml:26:9-31:39
+215            android:name="com.google.firebase.provider.FirebaseInitProvider"
+215-->[com.google.firebase:firebase-common:20.1.0] /home/mphstar/.gradle/caches/transforms-3/e26817592aba814421ec676a8cabe041/transformed/firebase-common-20.1.0/AndroidManifest.xml:27:13-77
+216            android:authorities="com.mphstar.androidnative.firebaseinitprovider"
+216-->[com.google.firebase:firebase-common:20.1.0] /home/mphstar/.gradle/caches/transforms-3/e26817592aba814421ec676a8cabe041/transformed/firebase-common-20.1.0/AndroidManifest.xml:28:13-72
+217            android:directBootAware="true"
+217-->[com.google.firebase:firebase-common:20.1.0] /home/mphstar/.gradle/caches/transforms-3/e26817592aba814421ec676a8cabe041/transformed/firebase-common-20.1.0/AndroidManifest.xml:29:13-43
+218            android:exported="false"
+218-->[com.google.firebase:firebase-common:20.1.0] /home/mphstar/.gradle/caches/transforms-3/e26817592aba814421ec676a8cabe041/transformed/firebase-common-20.1.0/AndroidManifest.xml:30:13-37
+219            android:initOrder="100" />
+219-->[com.google.firebase:firebase-common:20.1.0] /home/mphstar/.gradle/caches/transforms-3/e26817592aba814421ec676a8cabe041/transformed/firebase-common-20.1.0/AndroidManifest.xml:31:13-36
+220
+221        <meta-data
+221-->[com.google.android.gms:play-services-basement:18.0.0] /home/mphstar/.gradle/caches/transforms-3/5b64ca02145a4d2a135477066cdefd90/transformed/play-services-basement-18.0.0/AndroidManifest.xml:21:9-23:69
+222            android:name="com.google.android.gms.version"
+222-->[com.google.android.gms:play-services-basement:18.0.0] /home/mphstar/.gradle/caches/transforms-3/5b64ca02145a4d2a135477066cdefd90/transformed/play-services-basement-18.0.0/AndroidManifest.xml:22:13-58
+223            android:value="@integer/google_play_services_version" />
+223-->[com.google.android.gms:play-services-basement:18.0.0] /home/mphstar/.gradle/caches/transforms-3/5b64ca02145a4d2a135477066cdefd90/transformed/play-services-basement-18.0.0/AndroidManifest.xml:23:13-66
+224
+225        <provider
+225-->[androidx.emoji2:emoji2:1.2.0] /home/mphstar/.gradle/caches/transforms-3/f1732352759f849962e98576e62c964f/transformed/emoji2-1.2.0/AndroidManifest.xml:24:9-32:20
+226            android:name="androidx.startup.InitializationProvider"
+226-->[androidx.emoji2:emoji2:1.2.0] /home/mphstar/.gradle/caches/transforms-3/f1732352759f849962e98576e62c964f/transformed/emoji2-1.2.0/AndroidManifest.xml:25:13-67
+227            android:authorities="com.mphstar.androidnative.androidx-startup"
+227-->[androidx.emoji2:emoji2:1.2.0] /home/mphstar/.gradle/caches/transforms-3/f1732352759f849962e98576e62c964f/transformed/emoji2-1.2.0/AndroidManifest.xml:26:13-68
+228            android:exported="false" >
+228-->[androidx.emoji2:emoji2:1.2.0] /home/mphstar/.gradle/caches/transforms-3/f1732352759f849962e98576e62c964f/transformed/emoji2-1.2.0/AndroidManifest.xml:27:13-37
+229            <meta-data
+229-->[androidx.emoji2:emoji2:1.2.0] /home/mphstar/.gradle/caches/transforms-3/f1732352759f849962e98576e62c964f/transformed/emoji2-1.2.0/AndroidManifest.xml:29:13-31:52
+230                android:name="androidx.emoji2.text.EmojiCompatInitializer"
+230-->[androidx.emoji2:emoji2:1.2.0] /home/mphstar/.gradle/caches/transforms-3/f1732352759f849962e98576e62c964f/transformed/emoji2-1.2.0/AndroidManifest.xml:30:17-75
+231                android:value="androidx.startup" />
+231-->[androidx.emoji2:emoji2:1.2.0] /home/mphstar/.gradle/caches/transforms-3/f1732352759f849962e98576e62c964f/transformed/emoji2-1.2.0/AndroidManifest.xml:31:17-49
+232            <meta-data
+232-->[androidx.lifecycle:lifecycle-process:2.4.1] /home/mphstar/.gradle/caches/transforms-3/53bd544b32482eade1e35dd3cd9b43de/transformed/lifecycle-process-2.4.1/AndroidManifest.xml:31:13-33:52
+233                android:name="androidx.lifecycle.ProcessLifecycleInitializer"
+233-->[androidx.lifecycle:lifecycle-process:2.4.1] /home/mphstar/.gradle/caches/transforms-3/53bd544b32482eade1e35dd3cd9b43de/transformed/lifecycle-process-2.4.1/AndroidManifest.xml:32:17-78
+234                android:value="androidx.startup" />
+234-->[androidx.lifecycle:lifecycle-process:2.4.1] /home/mphstar/.gradle/caches/transforms-3/53bd544b32482eade1e35dd3cd9b43de/transformed/lifecycle-process-2.4.1/AndroidManifest.xml:33:17-49
+235        </provider>
+236
+237        <service
+237-->[com.google.android.datatransport:transport-backend-cct:3.1.3] /home/mphstar/.gradle/caches/transforms-3/7f243c908590506340e7d690a9879c9c/transformed/transport-backend-cct-3.1.3/AndroidManifest.xml:29:9-35:19
+238            android:name="com.google.android.datatransport.runtime.backends.TransportBackendDiscovery"
+238-->[com.google.android.datatransport:transport-backend-cct:3.1.3] /home/mphstar/.gradle/caches/transforms-3/7f243c908590506340e7d690a9879c9c/transformed/transport-backend-cct-3.1.3/AndroidManifest.xml:30:13-103
+239            android:exported="false" >
+239-->[com.google.android.datatransport:transport-backend-cct:3.1.3] /home/mphstar/.gradle/caches/transforms-3/7f243c908590506340e7d690a9879c9c/transformed/transport-backend-cct-3.1.3/AndroidManifest.xml:31:13-37
+240            <meta-data
+240-->[com.google.android.datatransport:transport-backend-cct:3.1.3] /home/mphstar/.gradle/caches/transforms-3/7f243c908590506340e7d690a9879c9c/transformed/transport-backend-cct-3.1.3/AndroidManifest.xml:32:13-34:39
+241                android:name="backend:com.google.android.datatransport.cct.CctBackendFactory"
+241-->[com.google.android.datatransport:transport-backend-cct:3.1.3] /home/mphstar/.gradle/caches/transforms-3/7f243c908590506340e7d690a9879c9c/transformed/transport-backend-cct-3.1.3/AndroidManifest.xml:33:17-94
+242                android:value="cct" />
+242-->[com.google.android.datatransport:transport-backend-cct:3.1.3] /home/mphstar/.gradle/caches/transforms-3/7f243c908590506340e7d690a9879c9c/transformed/transport-backend-cct-3.1.3/AndroidManifest.xml:34:17-36
+243        </service>
+244        <service
+244-->[com.google.android.datatransport:transport-runtime:3.1.3] /home/mphstar/.gradle/caches/transforms-3/d93241a063c0c435792d9d077643a0d1/transformed/transport-runtime-3.1.3/AndroidManifest.xml:26:9-30:19
+245            android:name="com.google.android.datatransport.runtime.scheduling.jobscheduling.JobInfoSchedulerService"
+245-->[com.google.android.datatransport:transport-runtime:3.1.3] /home/mphstar/.gradle/caches/transforms-3/d93241a063c0c435792d9d077643a0d1/transformed/transport-runtime-3.1.3/AndroidManifest.xml:27:13-117
+246            android:exported="false"
+246-->[com.google.android.datatransport:transport-runtime:3.1.3] /home/mphstar/.gradle/caches/transforms-3/d93241a063c0c435792d9d077643a0d1/transformed/transport-runtime-3.1.3/AndroidManifest.xml:28:13-37
+247            android:permission="android.permission.BIND_JOB_SERVICE" >
+247-->[com.google.android.datatransport:transport-runtime:3.1.3] /home/mphstar/.gradle/caches/transforms-3/d93241a063c0c435792d9d077643a0d1/transformed/transport-runtime-3.1.3/AndroidManifest.xml:29:13-69
+248        </service>
+249
+250        <receiver
+250-->[com.google.android.datatransport:transport-runtime:3.1.3] /home/mphstar/.gradle/caches/transforms-3/d93241a063c0c435792d9d077643a0d1/transformed/transport-runtime-3.1.3/AndroidManifest.xml:32:9-34:40
+251            android:name="com.google.android.datatransport.runtime.scheduling.jobscheduling.AlarmManagerSchedulerBroadcastReceiver"
+251-->[com.google.android.datatransport:transport-runtime:3.1.3] /home/mphstar/.gradle/caches/transforms-3/d93241a063c0c435792d9d077643a0d1/transformed/transport-runtime-3.1.3/AndroidManifest.xml:33:13-132
+252            android:exported="false" />
+252-->[com.google.android.datatransport:transport-runtime:3.1.3] /home/mphstar/.gradle/caches/transforms-3/d93241a063c0c435792d9d077643a0d1/transformed/transport-runtime-3.1.3/AndroidManifest.xml:34:13-37
+253    </application>
+254
+255</manifest>

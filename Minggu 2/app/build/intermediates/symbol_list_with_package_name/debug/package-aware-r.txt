@@ -2583,8 +2583,13 @@ id action_text
 id actions
 id activity_chooser_view_content
 id activity_constraint
+id activity_frame
+id activity_horizontalscrollview
 id activity_linear
+id activity_material
 id activity_relative
+id activity_scroll
+id activity_table
 id add
 id alertTitle
 id aligned

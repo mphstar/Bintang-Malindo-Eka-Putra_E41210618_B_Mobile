@@ -125,7 +125,7 @@
                 android:clickable="true"
                 android:focusable="true"
                 android:foreground="?attr/selectableItemBackground"
-
+                android:id="@+id/activity_frame"
                 android:layout_weight="0.3"
                 android:orientation="vertical"
                 android:layout_height="match_parent">
@@ -159,7 +159,7 @@
                 android:clickable="true"
                 android:focusable="true"
                 android:foreground="?attr/selectableItemBackground"
-
+                android:id="@+id/activity_table"
                 android:layout_height="match_parent">
                 <FrameLayout
                     android:layout_width="match_parent"
@@ -191,7 +191,7 @@
                 android:clickable="true"
                 android:focusable="true"
                 android:foreground="?attr/selectableItemBackground"
-
+                android:id="@+id/activity_material"
                 android:layout_height="match_parent">
                 <FrameLayout
                     android:layout_width="match_parent"
@@ -228,7 +228,7 @@
                 android:clickable="true"
                 android:focusable="true"
                 android:foreground="?attr/selectableItemBackground"
-
+                android:id="@+id/activity_scroll"
                 android:layout_weight="0.3"
                 android:orientation="vertical"
                 android:layout_height="match_parent">
@@ -262,7 +262,7 @@
                 android:clickable="true"
                 android:focusable="true"
                 android:foreground="?attr/selectableItemBackground"
-
+                android:id="@+id/activity_horizontalscrollview"
                 android:layout_height="match_parent">
                 <FrameLayout
                     android:layout_width="match_parent"

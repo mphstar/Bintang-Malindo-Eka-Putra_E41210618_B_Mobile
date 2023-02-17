@@ -2582,8 +2582,13 @@ int id action_text 0x7f080043
 int id actions 0x7f080044
 int id activity_chooser_view_content 0x7f080045
 int id activity_constraint 0x7f0801ec
+int id activity_frame 0x7f0801ee
+int id activity_horizontalscrollview 0x7f0801ef
 int id activity_linear 0x7f0801eb
+int id activity_material 0x7f0801f0
 int id activity_relative 0x7f0801ed
+int id activity_scroll 0x7f0801f1
+int id activity_table 0x7f0801f2
 int id add 0x7f080046
 int id alertTitle 0x7f080047
 int id aligned 0x7f080048

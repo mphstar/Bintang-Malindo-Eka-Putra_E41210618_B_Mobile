@@ -9,6 +9,8 @@ import android.content.Context;
 import android.content.DialogInterface;
 import android.database.Cursor;
 import android.database.sqlite.SQLiteDatabase;
+import android.graphics.Color;
+import android.os.Build;
 import android.os.Bundle;
 import android.os.Handler;
 import android.provider.BaseColumns;
@@ -16,6 +18,8 @@ import android.util.Log;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
+import android.view.Window;
+import android.view.WindowManager;
 import android.widget.AdapterView;
 import android.widget.ArrayAdapter;
 import android.widget.FrameLayout;
@@ -44,6 +48,18 @@ public class MainSqlLiteActivity extends AppCompatActivity {
     ArrayList<DataDiri> listData;
     ListView listview;
 
+    private void changeStatusBarColor(String color){
+        if (Build.VERSION.SDK_INT >= 21) {
+            Window window = getWindow();
+
+            window.clearFlags(WindowManager.LayoutParams.FLAG_TRANSLUCENT_STATUS);
+            window.addFlags(WindowManager.LayoutParams.FLAG_DRAWS_SYSTEM_BAR_BACKGROUNDS);
+            window.setStatusBarColor(Color.parseColor(color));
+            window.getDecorView().setSystemUiVisibility(View.SYSTEM_UI_FLAG_LIGHT_STATUS_BAR);
+        }
+    }
+
+
     void insertData(SQLHelper helper, String nama, String alamat, String hobi){
         SQLiteDatabase db = helper.getWritableDatabase();
         ContentValues values = new ContentValues();
@@ -52,6 +68,24 @@ public class MainSqlLiteActivity extends AppCompatActivity {
         values.put(DatabaseDataDiri.DataDiri.COLUMN_NAME_HOBI, hobi);
 
         db.insert(DatabaseDataDiri.DataDiri.TABLE_NAME, null, values);
+        db.close();
+    }
+
+    void deleteData(SQLHelper helper, String idnya){
+        SQLiteDatabase db = helper.getWritableDatabase();
+        db.delete(DatabaseDataDiri.DataDiri.TABLE_NAME, DatabaseDataDiri.DataDiri._ID + " = ?", new String[]{idnya});
+        db.close();
+    }
+
+    void updateData(SQLHelper helper, DataDiri data){
+        SQLiteDatabase db = helper.getWritableDatabase();
+        ContentValues values = new ContentValues();
+        values.put(DatabaseDataDiri.DataDiri.COLUMN_NAME_NAMA, data.getNama());
+        values.put(DatabaseDataDiri.DataDiri.COLUMN_NAME_ALAMAT, data.getAlamat());
+        values.put(DatabaseDataDiri.DataDiri.COLUMN_NAME_HOBI, data.getHobi());
+
+        db.update(DatabaseDataDiri.DataDiri.TABLE_NAME, values, DatabaseDataDiri.DataDiri._ID + " = ?", new String[]{String.valueOf(data.getIdnya())});
+        db.close();
     }
 
     void readData(SQLHelper helper){
@@ -83,6 +117,7 @@ public class MainSqlLiteActivity extends AppCompatActivity {
 
         listDataAdapter adapt = new listDataAdapter(MainSqlLiteActivity.this, listData);
         listview.setAdapter(adapt);
+        db.close();
 
     }
 
@@ -92,6 +127,7 @@ public class MainSqlLiteActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main_sql_lite);
+        changeStatusBarColor("#ffffffff");
         listview = findViewById(R.id.listview_items);
         dbhelper = new SQLHelper(this);
         readData(dbhelper);
@@ -102,7 +138,9 @@ public class MainSqlLiteActivity extends AppCompatActivity {
             public void onClick(View view) {
                 BottomSheetDialog bottomSheetDialog = new BottomSheetDialog(MainSqlLiteActivity.this, R.style.DialogStyle);
                 bottomSheetDialog.setContentView(R.layout.field_data_diri);
-                setField(bottomSheetDialog);
+                MaterialButton btndel = bottomSheetDialog.findViewById(R.id.hapus_data);
+                btndel.setVisibility(View.GONE);
+                setField(bottomSheetDialog, false);
 
                 bottomSheetDialog.show();
             }
@@ -111,21 +149,48 @@ public class MainSqlLiteActivity extends AppCompatActivity {
         listview.setOnItemClickListener(new AdapterView.OnItemClickListener() {
             @Override
             public void onItemClick(AdapterView<?> adapterView, View view, int i, long l) {
-                Toast.makeText(MainSqlLiteActivity.this, listData.get(i).getNama(), Toast.LENGTH_SHORT).show();
+                BottomSheetDialog bottomSheetDialog = new BottomSheetDialog(MainSqlLiteActivity.this, R.style.DialogStyle);
+                bottomSheetDialog.setContentView(R.layout.field_data_diri);
+                setField(bottomSheetDialog, true, i);
+
+                bottomSheetDialog.show();
+                Toast.makeText(MainSqlLiteActivity.this, String.valueOf(listData.get(i).getIdnya()), Toast.LENGTH_SHORT).show();
             }
         });
     }
 
-    void setField(BottomSheetDialog sheetDialog){
+    void setField(BottomSheetDialog sheetDialog, boolean isEdit, int... i){
         TextView nama = sheetDialog.findViewById(R.id.txt_nama);
         TextView alamat = sheetDialog.findViewById(R.id.txt_alamat);
         TextView hobi = sheetDialog.findViewById(R.id.txt_hobi);
         MaterialButton btnsub = sheetDialog.findViewById(R.id.submit_data);
+        MaterialButton btndel = sheetDialog.findViewById(R.id.hapus_data);
+
+        if (isEdit){
+            nama.setText(listData.get(i[0]).getNama());
+            alamat.setText(listData.get(i[0]).getAlamat());
+            hobi.setText(listData.get(i[0]).getHobi());
+            btnsub.setText("Update");
+        }
+
+        btndel.setOnClickListener(v->{
+            deleteData(dbhelper, String.valueOf(listData.get(i[0]).getIdnya()));
+            readData(dbhelper);
+            sheetDialog.dismiss();
+        });
 
         btnsub.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                insertData(dbhelper, nama.getText().toString(), alamat.getText().toString(), hobi.getText().toString());
+                if(isEdit){
+                    listData.get(i[0]).setNama(nama.getText().toString());
+                    listData.get(i[0]).setAlamat(alamat.getText().toString());
+                    listData.get(i[0]).setHobi(hobi.getText().toString());
+                    updateData(dbhelper, listData.get(i[0]));
+                } else {
+                    insertData(dbhelper, nama.getText().toString(), alamat.getText().toString(), hobi.getText().toString());
+
+                }
                 readData(dbhelper);
                 sheetDialog.dismiss();
             }
@@ -143,22 +208,22 @@ public class MainSqlLiteActivity extends AppCompatActivity {
 }
 
 class DataDiri {
-    int id;
+    int idnya;
     String nama, alamat, hobi;
 
     public DataDiri(int id, String nama, String alamat, String hobi) {
-        this.id = id;
+        this.idnya = id;
         this.nama = nama;
         this.alamat = alamat;
         this.hobi = hobi;
     }
 
-    public int getId() {
-        return id;
+    public int getIdnya() {
+        return idnya;
     }
 
-    public void setId(int id) {
-        this.id = id;
+    public void setIdnya(int id) {
+        this.idnya = id;
     }
 
     public String getNama() {
