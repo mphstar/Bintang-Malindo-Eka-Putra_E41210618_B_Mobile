@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".homeActivity">
+
+    <LinearLayout
+        android:layout_marginTop="20dp"
+        android:layout_marginHorizontal="24dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:id="@+id/header_title">
+
+        <com.mikhaellopez.circularimageview.CircularImageView
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:src="@drawable/ic_profile"
+            app:civ_shadow_gravity="bottom"
+            app:civ_border="false"
+            app:civ_shadow="true"
+            app:civ_shadow_radius="7dp"
+            app:civ_shadow_color="#3f51b5"/>
+
+        <RelativeLayout
+            android:gravity="center"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <LinearLayout
+                android:orientation="vertical"
+                android:layout_alignParentLeft="true"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="16dp"
+                    android:fontFamily="@font/poppins_semibold"
+                    android:text="Good Afternoon" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:textColor="#D43232"
+                    android:fontFamily="@font/poppins_bold"
+                    android:layout_height="wrap_content"
+                    android:text="Mphstar" />
+            </LinearLayout>
+
+            <ImageButton
+                android:layout_alignParentRight="true"
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:background="#00000000"
+                android:id="@+id/btn_exit"
+                android:src="@drawable/ic_exit"/>
+        </RelativeLayout>
+    </LinearLayout>
+
+    <FrameLayout
+        android:layout_below="@+id/header_title"
+        android:layout_marginHorizontal="24dp"
+        android:layout_marginTop="14dp"
+        android:layout_width="match_parent"
+        android:id="@+id/search_bar"
+        android:layout_height="wrap_content">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="45dp"
+            android:background="@drawable/field_style" />
+
+        <TextView
+            android:layout_gravity="center"
+            android:layout_marginHorizontal="24dp"
+            android:fontFamily="@font/poppins_semibold"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Hasil Belajar" />
+    </FrameLayout>
+
+    <TextView
+        android:layout_marginTop="20dp"
+        android:layout_marginHorizontal="24dp"
+        android:layout_below="@+id/search_bar"
+        android:id="@+id/judul"
+        android:fontFamily="@font/poppins_semibold"
+        android:textColor="#D43232"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Workshop Mobile" />
+
+    <GridView
+        android:layout_marginHorizontal="24dp"
+        android:layout_marginTop="20dp"
+        android:layout_below="@+id/judul"
+        android:gravity="center"
+        android:verticalSpacing="12dp"
+        android:id="@+id/gridview"
+        android:numColumns="4"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+
+    <!--    <com.google.android.material.bottomnavigation.BottomNavigationView-->
+    <!--        android:id="@+id/bottomNavigationView"-->
+    <!--        android:layout_width="match_parent"-->
+    <!--        android:layout_height="60dp"-->
+    <!--        android:layout_alignParentBottom="true"-->
+    <!--        app:layout_constraintBottom_toBottomOf="parent"-->
+    <!--        app:layout_constraintEnd_toEndOf="parent"-->
+    <!--        app:layout_constraintHorizontal_bias="0.5"-->
+    <!--        app:layout_constraintStart_toStartOf="parent"-->
+    <!--        app:menu="@menu/bottom_nav_menu"/>-->
+
+</RelativeLayout>
