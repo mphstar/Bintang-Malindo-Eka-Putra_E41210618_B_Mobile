@@ -2963,6 +2963,7 @@ int id group_divider 0x7f0900e2
 int id grouping 0x7f0900e3
 int id groups 0x7f0900e4
 int id guideline 0x7f0900e5
+int id hapus_data 0x7f09025b
 int id header_title 0x7f0900e6
 int id hideable 0x7f0900e7
 int id home 0x7f0900e8

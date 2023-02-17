@@ -67,6 +67,7 @@ id field_date
 id field_inputtext
 id floating_adddata
 id gridview
+id hapus_data
 id header_title
 id ic_image
 id imageView
