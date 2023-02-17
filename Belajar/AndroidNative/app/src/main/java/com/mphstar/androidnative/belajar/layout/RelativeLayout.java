@@ -1,4 +1,4 @@
-package com.example.minggu2;
+package com.mphstar.androidnative.belajar.layout;
 
 import android.app.DatePickerDialog;
 import android.os.Bundle;
@@ -12,6 +12,8 @@ import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
 import androidx.appcompat.app.ActionBar;
 import androidx.appcompat.app.AppCompatActivity;
+
+import com.mphstar.androidnative.R;
 
 import java.util.Calendar;
 

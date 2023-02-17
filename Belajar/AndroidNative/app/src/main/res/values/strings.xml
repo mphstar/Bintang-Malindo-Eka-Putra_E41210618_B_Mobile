@@ -3,4 +3,13 @@
     <string name="CHANNEL_ID">MphstarNotif</string>
     <string name="CHANNEL_NAME">Push Notifications</string>
     <string name="CHANNEL_DESC">Testing Push Notifications with Firebase</string>
+    <string name="appbar_home">Home</string>
+    <string name="appbar_linear">Linear Layout</string>
+    <string name="appbar_relative">Relative Layout</string>
+    <string name="appbar_constraint">Constraint Layout</string>
+    <string name="appbar_frame">Frame Layout</string>
+    <string name="appbar_tablelayout">Table Layout</string>
+    <string name="appbar_scrollview">ScrollView Layout</string>
+    <string name="appbar_horizontal_scrollview">Horizontal ScrollView Layout</string>
+    <string name="appbar_materiallayout">Material Components</string>
 </resources>

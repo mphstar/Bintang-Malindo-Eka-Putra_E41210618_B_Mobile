@@ -21,6 +21,7 @@ import android.widget.ImageButton;
 import com.mphstar.androidnative.belajar.ComboBoxActivity;
 import com.mphstar.androidnative.belajar.MoviesActivity;
 import com.mphstar.androidnative.belajar.RestApiActivity;
+import com.mphstar.androidnative.belajar.layout.LayoutActivity;
 import com.mphstar.androidnative.belajar.pushnotif.push_notifications;
 import com.mphstar.androidnative.belajar.scannerqr.ScannerActivity;
 import com.mphstar.androidnative.belajar.sqllite.MainSqlLiteActivity;
@@ -79,6 +80,7 @@ public class homeActivity extends AppCompatActivity {
         list.add(new ListItems(R.drawable.img5, "Sqlite", "Save Data Using SQLite", MainSqlLiteActivity.class));
         list.add(new ListItems(R.drawable.img6, "Scanner", "Scanner QRCode or BarCode", ScannerActivity.class));
         list.add(new ListItems(R.drawable.img7, "Thermal Printer", "Thermal Printer Bluetooth Android", ThermalPrint.class));
+        list.add(new ListItems(R.drawable.img8, "Layouting", "Layouting Android", LayoutActivity.class));
 
         ListItemAdapter adapter = new ListItemAdapter(this, list);
         gridView.setAdapter(adapter);

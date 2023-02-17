@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_marginVertical="20dp"
+    android:paddingHorizontal="20dp"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:orientation="horizontal"
+        android:paddingVertical="10dp"
+        android:layout_height="wrap_content">
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_weight="0.5"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Nama Depan" />
+            <EditText
+                android:layout_width="match_parent"
+                android:paddingHorizontal="10dp"
+                android:background="@drawable/field_style"
+                android:layout_height="40dp"
+                android:maxLines="1"
+                android:hint="" />
+
+        </LinearLayout>
+        <Space
+            android:layout_width="20dp"
+            android:layout_height="match_parent" />
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_weight="0.5"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+            <TextView
+                android:layout_width="wrap_content"
+                android:maxLines="1"
+                android:layout_height="wrap_content"
+                android:text="Nama Belakang" />
+            <EditText
+                android:layout_width="match_parent"
+                android:background="@drawable/field_style"
+                android:paddingHorizontal="10dp"
+                android:layout_height="40dp"
+                android:hint="" />
+
+        </LinearLayout>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingVertical="10dp"
+        android:orientation="vertical">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Email" />
+        <EditText
+            android:layout_width="match_parent"
+            android:paddingHorizontal="10dp"
+            android:layout_height="50dp"
+            android:background="@drawable/field_style" />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingVertical="10dp"
+        android:orientation="vertical">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Password" />
+        <EditText
+            android:layout_width="match_parent"
+            android:paddingHorizontal="10dp"
+            android:layout_height="50dp"
+            android:inputType="textPassword"
+            android:background="@drawable/field_style" />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingVertical="10dp"
+        android:orientation="vertical">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Alamat" />
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:paddingHorizontal="10dp"
+            android:background="@drawable/field_style" />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingVertical="10dp"
+        android:orientation="vertical">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="NO HP" />
+        <EditText
+            android:layout_width="match_parent"
+            android:paddingHorizontal="10dp"
+            android:layout_height="50dp"
+            android:inputType="number"
+            android:background="@drawable/field_style" />
+    </LinearLayout>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_gravity="end"
+        android:layout_height="wrap_content"
+        android:text="Register" />
+
+</LinearLayout>
