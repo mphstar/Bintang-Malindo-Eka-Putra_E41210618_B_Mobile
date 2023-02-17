@@ -16,8 +16,13 @@ drawable ic_launcher_background
 drawable ic_launcher_foreground
 drawable logo
 id activity_constraint
+id activity_frame
+id activity_horizontalscrollview
 id activity_linear
+id activity_material
 id activity_relative
+id activity_scroll
+id activity_table
 id btn_date
 id button
 id button1

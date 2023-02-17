@@ -50,5 +50,29 @@ public class MainActivity extends AppCompatActivity {
             Intent in = new Intent(this, FrameActivity.class);
             startActivity(in);
         });
+
+        LinearLayout table = findViewById(R.id.activity_table);
+        table.setOnClickListener(v -> {
+            Intent in = new Intent(this, TableActivity.class);
+            startActivity(in);
+        });
+
+        LinearLayout material = findViewById(R.id.activity_material);
+        material.setOnClickListener(v -> {
+            Intent in = new Intent(this, MaterialComponentsActivity.class);
+            startActivity(in);
+        });
+
+        LinearLayout scroll = findViewById(R.id.activity_scroll);
+        scroll.setOnClickListener(v -> {
+            Intent in = new Intent(this, ScrollviewActivity.class);
+            startActivity(in);
+        });
+
+        LinearLayout horiscroll = findViewById(R.id.activity_horizontalscrollview);
+        horiscroll.setOnClickListener(v -> {
+            Intent in = new Intent(this, HorizontalScrollviewActivity.class);
+            startActivity(in);
+        });
     }
 }
