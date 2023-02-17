@@ -1,6 +1,0 @@
-<resources>
-    <string name="app_name">AndroidNative</string>
-    <string name="CHANNEL_ID">MphstarNotif</string>
-    <string name="CHANNEL_NAME">Push Notifications</string>
-    <string name="CHANNEL_DESC">Testing Push Notifications with Firebase</string>
-</resources>
