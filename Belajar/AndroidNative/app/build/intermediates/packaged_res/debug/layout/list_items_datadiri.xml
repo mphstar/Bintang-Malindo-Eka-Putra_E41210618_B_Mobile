@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:padding="20dp"
+        android:layout_height="wrap_content">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Nama"
+            android:id="@+id/txt_nama"
+            android:textSize="16sp"
+            android:fontFamily="@font/poppins_semibold" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Alamat"
+
+            android:id="@+id/txt_alamat"
+            android:textSize="14sp"
+            android:fontFamily="@font/poppins" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Hobi"
+            android:id="@+id/txt_hobi"
+            android:textSize="14sp"
+            android:fontFamily="@font/poppins" />
+    </LinearLayout>
+
+
+
+</RelativeLayout>

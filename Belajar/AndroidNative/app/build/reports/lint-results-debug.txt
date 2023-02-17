@@ -1,0 +1,649 @@
+/home/mphstar/AndroidStudioProjects/AndroidNative/app/src/main/java/com/mphstar/androidnative/homeActivity.java:103: Warning: Implicitly using the default locale is a common source of bugs: Use toLowerCase(Locale) instead. For strings meant to be internal use Locale.ROOT, otherwise Locale.getDefault(). [DefaultLocale]
+                        if(list.get(i).getTitle().toLowerCase().contains(editable.toString().toLowerCase())){
+                                                  ~~~~~~~~~~~
+/home/mphstar/AndroidStudioProjects/AndroidNative/app/src/main/java/com/mphstar/androidnative/homeActivity.java:103: Warning: Implicitly using the default locale is a common source of bugs: Use toLowerCase(Locale) instead. For strings meant to be internal use Locale.ROOT, otherwise Locale.getDefault(). [DefaultLocale]
+                        if(list.get(i).getTitle().toLowerCase().contains(editable.toString().toLowerCase())){
+                                                                                             ~~~~~~~~~~~
+
+   Explanation for issues of type "DefaultLocale":
+   Calling String#toLowerCase() or #toUpperCase() without specifying an
+   explicit locale is a common source of bugs. The reason for that is that
+   those methods will use the current locale on the user's device, and even
+   though the code appears to work correctly when you are developing the app,
+   it will fail in some locales. For example, in the Turkish locale, the
+   uppercase replacement for i is not I.
+
+   If you want the methods to just perform ASCII replacement, for example to
+   convert an enum name, call String#toUpperCase(Locale.US) instead. If you
+   really want to use the current locale, call
+   String#toUpperCase(Locale.getDefault()) instead.
+
+   https://developer.android.com/reference/java/util/Locale.html#default_locale
+
+/home/mphstar/AndroidStudioProjects/AndroidNative/app/src/main/res/layout/activity_main.xml:53: Warning: The id "txt_email" in layout "activity_main" is missing from the following layout configurations: layout-land (present in layout) [InconsistentLayout]
+            android:id="@+id/txt_email"
+            ~~~~~~~~~~~~~~~~~~~~~~~~~~~
+/home/mphstar/AndroidStudioProjects/AndroidNative/app/src/main/res/layout-land/activity_main.xml:57: Warning: The id "btn_exit" in layout "activity_main" is missing from the following layout configurations: layout (present in layout-land) [InconsistentLayout]
+                android:id="@+id/btn_exit"
+                ~~~~~~~~~~~~~~~~~~~~~~~~~~
+/home/mphstar/AndroidStudioProjects/AndroidNative/app/src/main/res/layout/activity_main.xml:67: Warning: The id "txt_password" in layout "activity_main" is missing from the following layout configurations: layout-land (present in layout) [InconsistentLayout]
+            android:id="@+id/txt_password"
+            ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+/home/mphstar/AndroidStudioProjects/AndroidNative/app/src/main/res/layout-land/activity_main.xml:100: Warning: The id "gridview" in layout "activity_main" is missing from the following layout configurations: layout (present in layout-land) [InconsistentLayout]
+        android:id="@+id/gridview"
+        ~~~~~~~~~~~~~~~~~~~~~~~~~~
+/home/mphstar/AndroidStudioProjects/AndroidNative/app/src/main/res/layout/activity_main.xml:102: Warning: The id "button_login" in layout "activity_main" is missing from the following layout configurations: layout-land (present in layout) [InconsistentLayout]
+                android:id="@+id/button_login"
+                ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+   Explanation for issues of type "InconsistentLayout":
+   This check ensures that a layout resource which is defined in multiple
+   resource folders, specifies the same set of widgets.
+
+   This finds cases where you have accidentally forgotten to add a widget to
+   all variations of the layout, which could result in a runtime crash for
+   some resource configurations when a findViewById() fails.
+
+   There are cases where this is intentional. For example, you may have a
+   dedicated large tablet layout which adds some extra widgets that are not
+   present in the phone version of the layout. As long as the code accessing
+   the layout resource is careful to handle this properly, it is valid. In
+   that case, you can suppress this lint check for the given extra or missing
+   views, or the whole layout
+
+/home/mphstar/AndroidStudioProjects/AndroidNative/app/src/main/java/com/mphstar/androidnative/belajar/pushnotif/MessagingService.java:7: Warning: Apps that use Firebase Cloud Messaging should implement onNewToken() in order to observe token changes [MissingFirebaseInstanceTokenRefresh]
+public class MessagingService extends FirebaseMessagingService {
+             ~~~~~~~~~~~~~~~~
+
+   Explanation for issues of type "MissingFirebaseInstanceTokenRefresh":
+   Apps that use Firebase Cloud Messaging should implement the
+   FirebaseMessagingService#onNewToken() callback in order to observe token
+   changes.
+
+   https://firebase.google.com/docs/cloud-messaging/android/client#monitor-token-generation
+
+/home/mphstar/AndroidStudioProjects/AndroidNative/app/src/main/java/com/mphstar/androidnative/belajar/ComboBoxActivity.java:54: Warning: Toast created but not shown: did you forget to call show()? [ShowToast]
+                Toast.makeText(ComboBoxActivity.this, String.valueOf(i), Toast.LENGTH_SHORT);
+                ~~~~~~~~~~~~~~
+
+   Explanation for issues of type "ShowToast":
+   Toast.makeText() creates a Toast but does not show it. You must call show()
+   on the resulting object to actually make the Toast appear.
+
+/home/mphstar/AndroidStudioProjects/AndroidNative/app/build.gradle:33: Warning: A newer version of androidx.appcompat:appcompat than 1.4.1 is available: 1.6.0 [GradleDependency]
+    implementation 'androidx.appcompat:appcompat:1.4.1'
+                   ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+/home/mphstar/AndroidStudioProjects/AndroidNative/app/build.gradle:34: Warning: A newer version of com.google.android.material:material than 1.5.0 is available: 1.8.0 [GradleDependency]
+    implementation 'com.google.android.material:material:1.5.0'
+                   ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+/home/mphstar/AndroidStudioProjects/AndroidNative/app/build.gradle:35: Warning: A newer version of androidx.constraintlayout:constraintlayout than 2.1.3 is available: 2.1.4 [GradleDependency]
+    implementation 'androidx.constraintlayout:constraintlayout:2.1.3'
+                   ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+/home/mphstar/AndroidStudioProjects/AndroidNative/app/build.gradle:44: Warning: A newer version of com.google.firebase:firebase-messaging than 23.0.3 is available: 23.1.1 [GradleDependency]
+    implementation 'com.google.firebase:firebase-messaging:23.0.3'
+                   ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+/home/mphstar/AndroidStudioProjects/AndroidNative/app/build.gradle:45: Warning: A newer version of com.google.firebase:firebase-auth than 19.1.0 is available: 21.1.0 [GradleDependency]
+    implementation 'com.google.firebase:firebase-auth:19.1.0'
+                   ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+/home/mphstar/AndroidStudioProjects/AndroidNative/app/build.gradle:49: Warning: A newer version of androidx.test.ext:junit than 1.1.3 is available: 1.1.5 [GradleDependency]
+    androidTestImplementation 'androidx.test.ext:junit:1.1.3'
+                              ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+/home/mphstar/AndroidStudioProjects/AndroidNative/app/build.gradle:50: Warning: A newer version of androidx.test.espresso:espresso-core than 3.4.0 is available: 3.5.1 [GradleDependency]
+    androidTestImplementation 'androidx.test.espresso:espresso-core:3.4.0'
+                              ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+   Explanation for issues of type "GradleDependency":
+   This detector looks for usages of libraries where the version you are using
+   is not the current stable release. Using older versions is fine, and there
+   are cases where you deliberately want to stick with an older version.
+   However, you may simply not be aware that a more recent version is
+   available, and that is what this lint check helps find.
+
+/home/mphstar/AndroidStudioProjects/AndroidNative/app/src/main/res/layout/activity_main.xml:91: Warning: Avoid using "in" as units (it does not work accurately on all devices); use "dp" instead [InOrMmUsage]
+            android:layout_marginTop="0.7in"
+            ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+   Explanation for issues of type "InOrMmUsage":
+   Avoid using mm (millimeters) or in (inches) as the unit for dimensions.
+
+   While it should work in principle, unfortunately many devices do not report
+   the correct true physical density, which means that the dimension
+   calculations won't work correctly. You are better off using dp (and for
+   font sizes, sp).
+
+/home/mphstar/AndroidStudioProjects/AndroidNative/app/src/main/res/drawable/field_style.xml:5: Warning: Unexpected text found in drawable file: "/>" [ExtraText]
+        />
+        ~~
+
+   Explanation for issues of type "ExtraText":
+   Non-value resource files should only contain elements and attributes. Any
+   XML text content found in the file is likely accidental (and potentially
+   dangerous if the text resembles XML and the developer believes the text to
+   be functional).
+
+/home/mphstar/AndroidStudioProjects/AndroidNative/app/src/main/res/layout/activity_combo_box.xml:47: Warning: Use app:drawableRightCompat instead of android:drawableRight [UseCompatTextViewDrawableXml from androidx.appcompat]
+        android:drawableRight="@android:drawable/arrow_down_float"
+        ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+/home/mphstar/AndroidStudioProjects/AndroidNative/app/src/main/res/layout/activity_combo_box.xml:69: Warning: Use app:drawableRightCompat instead of android:drawableRight [UseCompatTextViewDrawableXml from androidx.appcompat]
+        android:drawableRight="@android:drawable/arrow_down_float"
+        ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+   Explanation for issues of type "UseCompatTextViewDrawableXml":
+   TextView uses android: compound drawable attributes instead of app: ones
+
+   Vendor: Android Open Source Project
+   Identifier: androidx.appcompat
+   Feedback: https://issuetracker.google.com/issues/new?component=460343
+
+/home/mphstar/AndroidStudioProjects/AndroidNative/app/src/main/AndroidManifest.xml:49: Warning: Exported service does not require permission [ExportedService]
+        <service
+         ~~~~~~~
+
+   Explanation for issues of type "ExportedService":
+   Exported services (services which either set exported=true or contain an
+   intent-filter and do not specify exported=false) should define a permission
+   that an entity must have in order to launch the service or bind to it.
+   Without this, any application can use this service.
+
+/home/mphstar/AndroidStudioProjects/AndroidNative/app/src/main/res/layout/activity_push_notifications.xml:43: Warning: Invalid layout param in a LinearLayout: layout_below [ObsoleteLayoutParam]
+            android:layout_below="@+id/actionbar_activity"
+            ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+   Explanation for issues of type "ObsoleteLayoutParam":
+   The given layout_param is not defined for the given layout, meaning it has
+   no effect. This usually happens when you change the parent layout or move
+   view code around without updating the layout params. This will cause
+   useless attribute processing at runtime, and is misleading for others
+   reading the layout so the parameter should be removed.
+
+/home/mphstar/AndroidStudioProjects/AndroidNative/app/src/main/java/com/mphstar/androidnative/belajar/ComboBoxActivity.java:35: Warning: Unnecessary; SDK_INT is always >= 24 [ObsoleteSdkInt]
+        if (Build.VERSION.SDK_INT >= 21) {
+            ~~~~~~~~~~~~~~~~~~~~~~~~~~~
+/home/mphstar/AndroidStudioProjects/AndroidNative/app/src/main/java/com/mphstar/androidnative/MainActivity.java:55: Warning: Unnecessary; SDK_INT is always >= 24 [ObsoleteSdkInt]
+        if (Build.VERSION.SDK_INT >= 21) {
+            ~~~~~~~~~~~~~~~~~~~~~~~~~~~
+/home/mphstar/AndroidStudioProjects/AndroidNative/app/src/main/java/com/mphstar/androidnative/belajar/MoviesActivity.java:69: Warning: Unnecessary; SDK_INT is always >= 24 [ObsoleteSdkInt]
+        if (Build.VERSION.SDK_INT >= 21) {
+            ~~~~~~~~~~~~~~~~~~~~~~~~~~~
+/home/mphstar/AndroidStudioProjects/AndroidNative/app/src/main/java/com/mphstar/androidnative/belajar/RestApiActivity.java:53: Warning: Unnecessary; SDK_INT is always >= 24 [ObsoleteSdkInt]
+        if (Build.VERSION.SDK_INT >= 21) {
+            ~~~~~~~~~~~~~~~~~~~~~~~~~~~
+/home/mphstar/AndroidStudioProjects/AndroidNative/app/src/main/res/drawable-v24: Warning: This folder configuration (v24) is unnecessary; minSdkVersion is 24. Merge all the resources in this folder into drawable. [ObsoleteSdkInt]
+/home/mphstar/AndroidStudioProjects/AndroidNative/app/src/main/java/com/mphstar/androidnative/homeActivity.java:36: Warning: Unnecessary; SDK_INT is always >= 24 [ObsoleteSdkInt]
+        if (Build.VERSION.SDK_INT >= 21) {
+            ~~~~~~~~~~~~~~~~~~~~~~~~~~~
+/home/mphstar/AndroidStudioProjects/AndroidNative/app/src/main/java/com/mphstar/androidnative/belajar/pushnotif/push_notifications.java:27: Warning: Unnecessary; SDK_INT is always >= 24 [ObsoleteSdkInt]
+        if (Build.VERSION.SDK_INT >= 21) {
+            ~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+   Explanation for issues of type "ObsoleteSdkInt":
+   This check flags version checks that are not necessary, because the
+   minSdkVersion (or surrounding known API level) is already at least as high
+   as the version checked for.
+
+   Similarly, it also looks for resources in -vNN folders, such as values-v14
+   where the version qualifier is less than or equal to the minSdkVersion,
+   where the contents should be merged into the best folder.
+
+/home/mphstar/AndroidStudioProjects/AndroidNative/app/src/main/res/layout/field_data_diri.xml:2: Warning: This <FrameLayout> can be replaced with a <merge> tag [MergeRootFrame]
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+^
+
+   Explanation for issues of type "MergeRootFrame":
+   If a <FrameLayout> is the root of a layout and does not provide background
+   or padding etc, it can often be replaced with a <merge> tag which is
+   slightly more efficient. Note that this depends on context, so make sure
+   you understand how the <merge> tag works before proceeding.
+
+   https://android-developers.googleblog.com/2009/03/android-layout-tricks-3-optimize-by.html
+
+/home/mphstar/AndroidStudioProjects/AndroidNative/app/src/main/res/layout/movie_list_placeholder.xml:9: Warning: Set android:baselineAligned="false" on this element for better performance [DisableBaselineAlignment]
+    <LinearLayout
+     ~~~~~~~~~~~~
+
+   Explanation for issues of type "DisableBaselineAlignment":
+   When a LinearLayout is used to distribute the space proportionally between
+   nested layouts, the baseline alignment property should be turned off to
+   make the layout computation faster.
+
+/home/mphstar/AndroidStudioProjects/AndroidNative/app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml:2: Warning: The resource R.mipmap.ic_launcher appears to be unused [UnusedResources]
+<adaptive-icon xmlns:android="http://schemas.android.com/apk/res/android">
+^
+/home/mphstar/AndroidStudioProjects/AndroidNative/app/src/main/res/drawable/ic_launcher_background.xml:2: Warning: The resource R.drawable.ic_launcher_background appears to be unused [UnusedResources]
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+^
+/home/mphstar/AndroidStudioProjects/AndroidNative/app/src/main/res/drawable-v24/ic_launcher_foreground.xml:1: Warning: The resource R.drawable.ic_launcher_foreground appears to be unused [UnusedResources]
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+^
+
+   Explanation for issues of type "UnusedResources":
+   Unused resources make applications larger and slow down builds.
+
+
+   The unused resource check can ignore tests. If you want to include
+   resources that are only referenced from tests, consider packaging them in a
+   test source set instead.
+
+   You can include test sources in the unused resource check by setting the
+   system property lint.unused-resources.include-tests =true, and to exclude
+   them (usually for performance reasons), use
+   lint.unused-resources.exclude-tests =true.
+   ,
+
+/home/mphstar/AndroidStudioProjects/AndroidNative/app/src/main/res/layout/field_data_diri.xml:9: Warning: This LinearLayout layout or its FrameLayout parent is unnecessary [UselessParent]
+    <LinearLayout
+     ~~~~~~~~~~~~
+/home/mphstar/AndroidStudioProjects/AndroidNative/app/src/main/res/layout/items_listview_restapi.xml:7: Warning: This LinearLayout layout or its RelativeLayout parent is unnecessary [UselessParent]
+    <LinearLayout
+     ~~~~~~~~~~~~
+/home/mphstar/AndroidStudioProjects/AndroidNative/app/src/main/res/layout/list_items_datadiri.xml:6: Warning: This LinearLayout layout or its RelativeLayout parent is unnecessary [UselessParent]
+    <LinearLayout
+     ~~~~~~~~~~~~
+
+   Explanation for issues of type "UselessParent":
+   A layout with children that has no siblings, is not a scrollview or a root
+   layout, and does not have a background, can be removed and have its
+   children moved directly into the parent for a flatter and more efficient
+   layout hierarchy.
+
+/home/mphstar/AndroidStudioProjects/AndroidNative/app/src/main/res/drawable/ic_exit.png: Warning: Found bitmap drawable res/drawable/ic_exit.png in densityless folder [IconLocation]
+/home/mphstar/AndroidStudioProjects/AndroidNative/app/src/main/res/drawable/ic_logo.png: Warning: Found bitmap drawable res/drawable/ic_logo.png in densityless folder [IconLocation]
+/home/mphstar/AndroidStudioProjects/AndroidNative/app/src/main/res/drawable/ic_profile.jpg: Warning: Found bitmap drawable res/drawable/ic_profile.jpg in densityless folder [IconLocation]
+/home/mphstar/AndroidStudioProjects/AndroidNative/app/src/main/res/drawable/img2.jpg: Warning: Found bitmap drawable res/drawable/img2.jpg in densityless folder [IconLocation]
+/home/mphstar/AndroidStudioProjects/AndroidNative/app/src/main/res/drawable/img3.jpg: Warning: Found bitmap drawable res/drawable/img3.jpg in densityless folder [IconLocation]
+/home/mphstar/AndroidStudioProjects/AndroidNative/app/src/main/res/drawable/img4.jpg: Warning: Found bitmap drawable res/drawable/img4.jpg in densityless folder [IconLocation]
+/home/mphstar/AndroidStudioProjects/AndroidNative/app/src/main/res/drawable/img5.jpg: Warning: Found bitmap drawable res/drawable/img5.jpg in densityless folder [IconLocation]
+/home/mphstar/AndroidStudioProjects/AndroidNative/app/src/main/res/drawable/placeholder_image.png: Warning: Found bitmap drawable res/drawable/placeholder_image.png in densityless folder [IconLocation]
+
+   Explanation for issues of type "IconLocation":
+   The res/drawable folder is intended for density-independent graphics such
+   as shapes defined in XML. For bitmaps, move it to drawable-mdpi and
+   consider providing higher and lower resolution versions in drawable-ldpi,
+   drawable-hdpi and drawable-xhdpi. If the icon really is density independent
+   (for example a solid color) you can place it in drawable-nodpi.
+
+   https://developer.android.com/guide/practices/screens_support.html
+
+/home/mphstar/AndroidStudioProjects/AndroidNative/app/src/main/res/layout/activity_home.xml:70: Warning: This text field does not specify an inputType [TextFields]
+        <EditText
+         ~~~~~~~~
+/home/mphstar/AndroidStudioProjects/AndroidNative/app/src/main/res/layout/activity_main.xml:47: Warning: This text field does not specify an inputType [TextFields]
+        <EditText
+         ~~~~~~~~
+
+   Explanation for issues of type "TextFields":
+   Providing an inputType attribute on a text field improves usability because
+   depending on the data to be input, optimized keyboards can be shown to the
+   user (such as just digits and parentheses for a phone number). 
+
+   The lint detector also looks at the id of the view, and if the id offers a
+   hint of the purpose of the field (for example, the id contains the phrase
+   phone or email), then lint will also ensure that the inputType contains the
+   corresponding type attributes.
+
+   If you really want to keep the text field generic, you can suppress this
+   warning by setting inputType="text".
+
+/home/mphstar/AndroidStudioProjects/AndroidNative/app/src/main/res/layout/items_movies.xml:33: Warning: Avoid using sizes smaller than 11sp: 10sp [SmallSp]
+        android:textSize="10sp"
+        ~~~~~~~~~~~~~~~~~~~~~~~
+/home/mphstar/AndroidStudioProjects/AndroidNative/app/src/main/res/layout/list_items.xml:31: Warning: Avoid using sizes smaller than 11sp: 10sp [SmallSp]
+        android:textSize="10sp"
+        ~~~~~~~~~~~~~~~~~~~~~~~
+
+   Explanation for issues of type "SmallSp":
+   Avoid using sizes smaller than 11sp.
+
+/home/mphstar/AndroidStudioProjects/AndroidNative/app/src/main/res/layout/activity_home.xml:70: Warning: Missing autofillHints attribute [Autofill]
+        <EditText
+         ~~~~~~~~
+/home/mphstar/AndroidStudioProjects/AndroidNative/app/src/main/res/layout/activity_main.xml:47: Warning: Missing autofillHints attribute [Autofill]
+        <EditText
+         ~~~~~~~~
+/home/mphstar/AndroidStudioProjects/AndroidNative/app/src/main/res/layout/activity_main.xml:61: Warning: Missing autofillHints attribute [Autofill]
+        <EditText
+         ~~~~~~~~
+/home/mphstar/AndroidStudioProjects/AndroidNative/app/src/main/res/layout/activity_movies.xml:33: Warning: Missing autofillHints attribute [Autofill]
+    <EditText
+     ~~~~~~~~
+/home/mphstar/AndroidStudioProjects/AndroidNative/app/src/main/res/layout/activity_push_notifications.xml:23: Warning: Missing autofillHints attribute [Autofill]
+        <EditText
+         ~~~~~~~~
+/home/mphstar/AndroidStudioProjects/AndroidNative/app/src/main/res/layout/activity_push_notifications.xml:39: Warning: Missing autofillHints attribute [Autofill]
+        <EditText
+         ~~~~~~~~
+/home/mphstar/AndroidStudioProjects/AndroidNative/app/src/main/res/layout/field_data_diri.xml:22: Warning: Missing autofillHints attribute [Autofill]
+        <EditText
+         ~~~~~~~~
+/home/mphstar/AndroidStudioProjects/AndroidNative/app/src/main/res/layout/field_data_diri.xml:38: Warning: Missing autofillHints attribute [Autofill]
+        <EditText
+         ~~~~~~~~
+/home/mphstar/AndroidStudioProjects/AndroidNative/app/src/main/res/layout/field_data_diri.xml:54: Warning: Missing autofillHints attribute [Autofill]
+        <EditText
+         ~~~~~~~~
+
+   Explanation for issues of type "Autofill":
+   Specify an autofillHints attribute when targeting SDK version 26 or higher
+   or explicitly specify that the view is not important for autofill. Your app
+   can help an autofill service classify the data correctly by providing the
+   meaning of each view that could be autofillable, such as views representing
+   usernames, passwords, credit card fields, email addresses, etc.
+
+   The hints can have any value, but it is recommended to use predefined
+   values like 'username' for a username or 'creditCardNumber' for a credit
+   card number. For a list of all predefined autofill hint constants, see the
+   AUTOFILL_HINT_ constants in the View reference at
+   https://developer.android.com/reference/android/view/View.html.
+
+   You can mark a view unimportant for autofill by specifying an
+   importantForAutofill attribute on that view or a parent view. See
+   https://developer.android.com/reference/android/view/View.html#setImportant
+   ForAutofill(int).
+
+   https://developer.android.com/guide/topics/text/autofill.html
+
+/home/mphstar/AndroidStudioProjects/AndroidNative/app/src/main/res/layout/activity_home.xml:52: Warning: Missing contentDescription attribute on image [ContentDescription]
+            <ImageButton
+             ~~~~~~~~~~~
+/home/mphstar/AndroidStudioProjects/AndroidNative/app/src/main/res/layout/activity_main.xml:21: Warning: Missing contentDescription attribute on image [ContentDescription]
+        <ImageView
+         ~~~~~~~~~
+/home/mphstar/AndroidStudioProjects/AndroidNative/app/src/main/res/layout-land/activity_main.xml:52: Warning: Missing contentDescription attribute on image [ContentDescription]
+            <ImageButton
+             ~~~~~~~~~~~
+/home/mphstar/AndroidStudioProjects/AndroidNative/app/src/main/res/layout/activity_main_sql_lite.xml:32: Warning: Missing contentDescription attribute on image [ContentDescription]
+        <com.google.android.material.floatingactionbutton.FloatingActionButton
+         ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+/home/mphstar/AndroidStudioProjects/AndroidNative/app/src/main/res/layout/movie_details.xml:18: Warning: Missing contentDescription attribute on image [ContentDescription]
+            <ImageView
+             ~~~~~~~~~
+/home/mphstar/AndroidStudioProjects/AndroidNative/app/src/main/res/layout/movie_list_placeholder.xml:19: Warning: Missing contentDescription attribute on image [ContentDescription]
+            <ImageView
+             ~~~~~~~~~
+/home/mphstar/AndroidStudioProjects/AndroidNative/app/src/main/res/layout/movie_list_placeholder.xml:48: Warning: Missing contentDescription attribute on image [ContentDescription]
+            <ImageView
+             ~~~~~~~~~
+
+   Explanation for issues of type "ContentDescription":
+   Non-textual widgets like ImageViews and ImageButtons should use the
+   contentDescription attribute to specify a textual description of the widget
+   such that screen readers and other accessibility tools can adequately
+   describe the user interface.
+
+   Note that elements in application screens that are purely decorative and do
+   not provide any content or enable a user action should not have
+   accessibility content descriptions. In this case, just suppress the lint
+   warning with a tools:ignore="ContentDescription" attribute.
+
+   Note that for text fields, you should not set both the hint and the
+   contentDescription attributes since the hint will never be shown. Just set
+   the hint.
+
+   https://developer.android.com/guide/topics/ui/accessibility/apps#special-cases
+
+/home/mphstar/AndroidStudioProjects/AndroidNative/app/src/main/res/layout/activity_main_sql_lite.xml:27: Warning: 'clickable' attribute found, please also add 'focusable' [KeyboardInaccessibleWidget]
+        android:clickable="true"
+        ~~~~~~~~~~~~~~~~~~~~~~~~
+
+   Explanation for issues of type "KeyboardInaccessibleWidget":
+   A widget that is declared to be clickable but not declared to be focusable
+   is not accessible via the keyboard. Please add the focusable attribute as
+   well.
+
+/home/mphstar/AndroidStudioProjects/AndroidNative/app/src/main/java/com/mphstar/androidnative/belajar/pushnotif/push_notifications.java:50: Warning: Do not concatenate text displayed with setText. Use resource string with placeholders. [SetTextI18n]
+                    tokentxt.setText("Token: "+token);
+                                     ~~~~~~~~~~~~~~~
+/home/mphstar/AndroidStudioProjects/AndroidNative/app/src/main/java/com/mphstar/androidnative/belajar/pushnotif/push_notifications.java:50: Warning: String literal in setText can not be translated. Use Android resources instead. [SetTextI18n]
+                    tokentxt.setText("Token: "+token);
+                                     ~~~~~~~~~
+/home/mphstar/AndroidStudioProjects/AndroidNative/app/src/main/java/com/mphstar/androidnative/belajar/pushnotif/push_notifications.java:52: Warning: String literal in setText can not be translated. Use Android resources instead. [SetTextI18n]
+                    tokentxt.setText("Token Not Generated");
+                                     ~~~~~~~~~~~~~~~~~~~~~
+
+   Explanation for issues of type "SetTextI18n":
+   When calling TextView#setText
+   * Never call Number#toString() to format numbers; it will not handle
+   fraction separators and locale-specific digits properly. Consider using
+   String#format with proper format specifications (%d or %f) instead.
+   * Do not pass a string literal (e.g. "Hello") to display text. Hardcoded
+   text can not be properly translated to other languages. Consider using
+   Android resource strings instead.
+   * Do not build messages by concatenating text chunks. Such messages can not
+   be properly translated.
+
+   https://developer.android.com/guide/topics/resources/localization.html
+
+/home/mphstar/AndroidStudioProjects/AndroidNative/app/src/main/res/layout/activity_combo_box.xml:25: Warning: Hardcoded string "Combo Box", should use @string resource [HardcodedText]
+            android:text="Combo Box" />
+            ~~~~~~~~~~~~~~~~~~~~~~~~
+/home/mphstar/AndroidStudioProjects/AndroidNative/app/src/main/res/layout/activity_combo_box.xml:37: Warning: Hardcoded string "Combo Box with Multi Select", should use @string resource [HardcodedText]
+        android:text="Combo Box with Multi Select" />
+        ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+/home/mphstar/AndroidStudioProjects/AndroidNative/app/src/main/res/layout/activity_combo_box.xml:49: Warning: Hardcoded string "Select Language", should use @string resource [HardcodedText]
+        android:hint="Select Language"
+        ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+/home/mphstar/AndroidStudioProjects/AndroidNative/app/src/main/res/layout/activity_combo_box.xml:60: Warning: Hardcoded string "Combo Box with Search", should use @string resource [HardcodedText]
+        android:text="Combo Box with Search" />
+        ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+/home/mphstar/AndroidStudioProjects/AndroidNative/app/src/main/res/layout/activity_combo_box.xml:71: Warning: Hardcoded string "Pilih Disini", should use @string resource [HardcodedText]
+        android:hint="Pilih Disini"
+        ~~~~~~~~~~~~~~~~~~~~~~~~~~~
+/home/mphstar/AndroidStudioProjects/AndroidNative/app/src/main/res/layout/activity_home.xml:42: Warning: Hardcoded string "Good Afternoon", should use @string resource [HardcodedText]
+                    android:text="Good Afternoon" />
+                    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+/home/mphstar/AndroidStudioProjects/AndroidNative/app/src/main/res/layout/activity_home.xml:49: Warning: Hardcoded string "Mphstar", should use @string resource [HardcodedText]
+                    android:text="Mphstar" />
+                    ~~~~~~~~~~~~~~~~~~~~~~
+/home/mphstar/AndroidStudioProjects/AndroidNative/app/src/main/res/layout/activity_home.xml:80: Warning: Hardcoded string "Hasil Belajar", should use @string resource [HardcodedText]
+            android:hint="Hasil Belajar" />
+            ~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+/home/mphstar/AndroidStudioProjects/AndroidNative/app/src/main/res/layout/activity_home.xml:92: Warning: Hardcoded string "Workshop Mobile", should use @string resource [HardcodedText]
+        android:text="Workshop Mobile" />
+        ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+/home/mphstar/AndroidStudioProjects/AndroidNative/app/src/main/res/layout/activity_main.xml:32: Warning: Hardcoded string "Sign In", should use @string resource [HardcodedText]
+            android:text="Sign In"
+            ~~~~~~~~~~~~~~~~~~~~~~
+/home/mphstar/AndroidStudioProjects/AndroidNative/app/src/main/res/layout-land/activity_main.xml:42: Warning: Hardcoded string "Good Afternoon", should use @string resource [HardcodedText]
+                    android:text="Good Afternoon" />
+                    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+/home/mphstar/AndroidStudioProjects/AndroidNative/app/src/main/res/layout/activity_main.xml:44: Warning: Hardcoded string "Please enter the details below to continue", should use @string resource [HardcodedText]
+            android:text="Please enter the details below to continue"
+            ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+/home/mphstar/AndroidStudioProjects/AndroidNative/app/src/main/res/layout-land/activity_main.xml:49: Warning: Hardcoded string "Mphstar", should use @string resource [HardcodedText]
+                    android:text="Mphstar" />
+                    ~~~~~~~~~~~~~~~~~~~~~~
+/home/mphstar/AndroidStudioProjects/AndroidNative/app/src/main/res/layout/activity_main.xml:52: Warning: Hardcoded string "Email", should use @string resource [HardcodedText]
+            android:hint="Email"
+            ~~~~~~~~~~~~~~~~~~~~
+/home/mphstar/AndroidStudioProjects/AndroidNative/app/src/main/res/layout/activity_main.xml:73: Warning: Hardcoded string "Password", should use @string resource [HardcodedText]
+            android:hint="Password"
+            ~~~~~~~~~~~~~~~~~~~~~~~
+/home/mphstar/AndroidStudioProjects/AndroidNative/app/src/main/res/layout/activity_main.xml:80: Warning: Hardcoded string "Forget Password?", should use @string resource [HardcodedText]
+            android:text="Forget Password?"
+            ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+/home/mphstar/AndroidStudioProjects/AndroidNative/app/src/main/res/layout-land/activity_main.xml:80: Warning: Hardcoded string "Hasil Belajar", should use @string resource [HardcodedText]
+            android:text="Hasil Belajar" />
+            ~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+/home/mphstar/AndroidStudioProjects/AndroidNative/app/src/main/res/layout-land/activity_main.xml:92: Warning: Hardcoded string "Workshop Mobile", should use @string resource [HardcodedText]
+        android:text="Workshop Mobile" />
+        ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+/home/mphstar/AndroidStudioProjects/AndroidNative/app/src/main/res/layout/activity_main.xml:97: Warning: Hardcoded string "LOGIN", should use @string resource [HardcodedText]
+                android:text="LOGIN"
+                ~~~~~~~~~~~~~~~~~~~~
+/home/mphstar/AndroidStudioProjects/AndroidNative/app/src/main/res/layout/activity_main.xml:120: Warning: Hardcoded string "Dont Have an account?", should use @string resource [HardcodedText]
+                    android:text="Dont Have an account?"/>
+                    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+/home/mphstar/AndroidStudioProjects/AndroidNative/app/src/main/res/layout/activity_main.xml:131: Warning: Hardcoded string "Register", should use @string resource [HardcodedText]
+                    android:text="Register"/>
+                    ~~~~~~~~~~~~~~~~~~~~~~~
+/home/mphstar/AndroidStudioProjects/AndroidNative/app/src/main/res/layout/activity_main_sql_lite.xml:14: Warning: Hardcoded string "SQLite", should use @string resource [HardcodedText]
+        android:text="SQLite"
+        ~~~~~~~~~~~~~~~~~~~~~
+/home/mphstar/AndroidStudioProjects/AndroidNative/app/src/main/res/layout/activity_movies.xml:27: Warning: Hardcoded string "Mphstar Movies", should use @string resource [HardcodedText]
+            android:text="Mphstar Movies" />
+            ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+/home/mphstar/AndroidStudioProjects/AndroidNative/app/src/main/res/layout/activity_movies.xml:38: Warning: Hardcoded string "Cari Movie disini", should use @string resource [HardcodedText]
+        android:hint="Cari Movie disini"
+        ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+/home/mphstar/AndroidStudioProjects/AndroidNative/app/src/main/res/layout/activity_push_notifications.xml:18: Warning: Hardcoded string "Push Notifications", should use @string resource [HardcodedText]
+            android:hint="Push Notifications"
+            ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+/home/mphstar/AndroidStudioProjects/AndroidNative/app/src/main/res/layout/activity_push_notifications.xml:27: Warning: Hardcoded string "Tulis Judul", should use @string resource [HardcodedText]
+            android:hint="Tulis Judul"
+            ~~~~~~~~~~~~~~~~~~~~~~~~~~
+/home/mphstar/AndroidStudioProjects/AndroidNative/app/src/main/res/layout/activity_push_notifications.xml:44: Warning: Hardcoded string "Tulis Pesan", should use @string resource [HardcodedText]
+            android:hint="Tulis Pesan"
+            ~~~~~~~~~~~~~~~~~~~~~~~~~~
+/home/mphstar/AndroidStudioProjects/AndroidNative/app/src/main/res/layout/activity_push_notifications.xml:59: Warning: Hardcoded string "Kirim", should use @string resource [HardcodedText]
+            android:text="Kirim"
+            ~~~~~~~~~~~~~~~~~~~~
+/home/mphstar/AndroidStudioProjects/AndroidNative/app/src/main/res/layout/activity_push_notifications.xml:75: Warning: Hardcoded string "Your Token", should use @string resource [HardcodedText]
+            android:hint="Your Token"
+            ~~~~~~~~~~~~~~~~~~~~~~~~~
+/home/mphstar/AndroidStudioProjects/AndroidNative/app/src/main/res/layout/activity_push_notifications.xml:86: Warning: Hardcoded string "Token will be displayed here", should use @string resource [HardcodedText]
+            android:hint="Token will be displayed here"
+            ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+/home/mphstar/AndroidStudioProjects/AndroidNative/app/src/main/res/layout/activity_rest_api.xml:25: Warning: Hardcoded string "ListView + Rest Api", should use @string resource [HardcodedText]
+            android:text="ListView + Rest Api" />
+            ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+/home/mphstar/AndroidStudioProjects/AndroidNative/app/src/main/res/layout/activity_rest_api.xml:42: Warning: Hardcoded string "No Data", should use @string resource [HardcodedText]
+        android:text="No Data" />
+        ~~~~~~~~~~~~~~~~~~~~~~
+/home/mphstar/AndroidStudioProjects/AndroidNative/app/src/main/res/layout/field_data_diri.xml:17: Warning: Hardcoded string "Data Diri", should use @string resource [HardcodedText]
+            android:hint="Data Diri"
+            ~~~~~~~~~~~~~~~~~~~~~~~~
+/home/mphstar/AndroidStudioProjects/AndroidNative/app/src/main/res/layout/field_data_diri.xml:26: Warning: Hardcoded string "Masukkan Nama", should use @string resource [HardcodedText]
+            android:hint="Masukkan Nama"
+            ~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+/home/mphstar/AndroidStudioProjects/AndroidNative/app/src/main/res/layout/field_data_diri.xml:42: Warning: Hardcoded string "Masukkan Alamat", should use @string resource [HardcodedText]
+            android:hint="Masukkan Alamat"
+            ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+/home/mphstar/AndroidStudioProjects/AndroidNative/app/src/main/res/layout/field_data_diri.xml:58: Warning: Hardcoded string "Masukkan Hobi", should use @string resource [HardcodedText]
+            android:hint="Masukkan Hobi"
+            ~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+/home/mphstar/AndroidStudioProjects/AndroidNative/app/src/main/res/layout/field_data_diri.xml:79: Warning: Hardcoded string "Batal", should use @string resource [HardcodedText]
+                android:text="Batal"
+                ~~~~~~~~~~~~~~~~~~~~
+/home/mphstar/AndroidStudioProjects/AndroidNative/app/src/main/res/layout/field_data_diri.xml:95: Warning: Hardcoded string "Tambah", should use @string resource [HardcodedText]
+                android:text="Tambah"
+                ~~~~~~~~~~~~~~~~~~~~~
+/home/mphstar/AndroidStudioProjects/AndroidNative/app/src/main/res/layout/items_listview_restapi.xml:34: Warning: Hardcoded string "Title", should use @string resource [HardcodedText]
+                android:text="Title" />
+                ~~~~~~~~~~~~~~~~~~~~
+/home/mphstar/AndroidStudioProjects/AndroidNative/app/src/main/res/layout/items_listview_restapi.xml:40: Warning: Hardcoded string "Description", should use @string resource [HardcodedText]
+                android:text="Description" />
+                ~~~~~~~~~~~~~~~~~~~~~~~~~~
+/home/mphstar/AndroidStudioProjects/AndroidNative/app/src/main/res/layout/items_movies.xml:23: Warning: Hardcoded string "Judul Movie", should use @string resource [HardcodedText]
+        android:text="Judul Movie"
+        ~~~~~~~~~~~~~~~~~~~~~~~~~~
+/home/mphstar/AndroidStudioProjects/AndroidNative/app/src/main/res/layout/items_movies.xml:35: Warning: Hardcoded string "12 - 11 - 2022", should use @string resource [HardcodedText]
+        android:text="12 - 11 - 2022" />
+        ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+/home/mphstar/AndroidStudioProjects/AndroidNative/app/src/main/res/layout/items_movies.xml:46: Warning: Hardcoded string "8.9", should use @string resource [HardcodedText]
+        android:text="8.9"
+        ~~~~~~~~~~~~~~~~~~
+/home/mphstar/AndroidStudioProjects/AndroidNative/app/src/main/res/layout/list_items.xml:22: Warning: Hardcoded string "Acara 10", should use @string resource [HardcodedText]
+        android:text="Acara 10"
+        ~~~~~~~~~~~~~~~~~~~~~~~
+/home/mphstar/AndroidStudioProjects/AndroidNative/app/src/main/res/layout/list_items.xml:33: Warning: Hardcoded string "Styling", should use @string resource [HardcodedText]
+        android:text="Styling" />
+        ~~~~~~~~~~~~~~~~~~~~~~
+/home/mphstar/AndroidStudioProjects/AndroidNative/app/src/main/res/layout/list_items_datadiri.xml:14: Warning: Hardcoded string "Nama", should use @string resource [HardcodedText]
+            android:text="Nama"
+            ~~~~~~~~~~~~~~~~~~~
+/home/mphstar/AndroidStudioProjects/AndroidNative/app/src/main/res/layout/list_items_datadiri.xml:22: Warning: Hardcoded string "Alamat", should use @string resource [HardcodedText]
+            android:text="Alamat"
+            ~~~~~~~~~~~~~~~~~~~~~
+/home/mphstar/AndroidStudioProjects/AndroidNative/app/src/main/res/layout/list_items_datadiri.xml:31: Warning: Hardcoded string "Hobi", should use @string resource [HardcodedText]
+            android:text="Hobi"
+            ~~~~~~~~~~~~~~~~~~~
+/home/mphstar/AndroidStudioProjects/AndroidNative/app/src/main/res/layout/movie_details.xml:32: Warning: Hardcoded string "Judulnya", should use @string resource [HardcodedText]
+                android:text="Judulnya"
+                ~~~~~~~~~~~~~~~~~~~~~~~
+/home/mphstar/AndroidStudioProjects/AndroidNative/app/src/main/res/layout/movie_details.xml:43: Warning: Hardcoded string "Deskripsi", should use @string resource [HardcodedText]
+                android:text="Deskripsi" />
+                ~~~~~~~~~~~~~~~~~~~~~~~~
+/home/mphstar/AndroidStudioProjects/AndroidNative/app/src/main/res/layout/movie_details.xml:56: Warning: Hardcoded string "Stream", should use @string resource [HardcodedText]
+                    android:text="Stream"
+                    ~~~~~~~~~~~~~~~~~~~~~
+/home/mphstar/AndroidStudioProjects/AndroidNative/app/src/main/res/layout/movie_details.xml:71: Warning: Hardcoded string "Download", should use @string resource [HardcodedText]
+                    android:text="Download"
+                    ~~~~~~~~~~~~~~~~~~~~~~~
+
+   Explanation for issues of type "HardcodedText":
+   Hardcoding text attributes directly in layout files is bad for several
+   reasons:
+
+   * When creating configuration variations (for example for landscape or
+   portrait) you have to repeat the actual text (and keep it up to date when
+   making changes)
+
+   * The application cannot be translated to other languages by just adding
+   new translations for existing string resources.
+
+   There are quickfixes to automatically extract this hardcoded string into a
+   resource lookup.
+
+/home/mphstar/AndroidStudioProjects/AndroidNative/app/src/main/res/layout/activity_combo_box.xml:47: Warning: Consider replacing android:drawableRight with android:drawableEnd="@android:drawable/arrow_down_float" to better support right-to-left layouts [RtlHardcoded]
+        android:drawableRight="@android:drawable/arrow_down_float"
+        ~~~~~~~~~~~~~~~~~~~~~
+/home/mphstar/AndroidStudioProjects/AndroidNative/app/src/main/res/layout/activity_combo_box.xml:69: Warning: Consider replacing android:drawableRight with android:drawableEnd="@android:drawable/arrow_down_float" to better support right-to-left layouts [RtlHardcoded]
+        android:drawableRight="@android:drawable/arrow_down_float"
+        ~~~~~~~~~~~~~~~~~~~~~
+/home/mphstar/AndroidStudioProjects/AndroidNative/app/src/main/res/layout/activity_home.xml:34: Warning: Consider replacing android:layout_alignParentLeft with android:layout_alignParentStart="true" to better support right-to-left layouts [RtlHardcoded]
+                android:layout_alignParentLeft="true"
+                ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+/home/mphstar/AndroidStudioProjects/AndroidNative/app/src/main/res/layout/activity_home.xml:53: Warning: Consider replacing android:layout_alignParentRight with android:layout_alignParentEnd="true" to better support right-to-left layouts [RtlHardcoded]
+                android:layout_alignParentRight="true"
+                ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+/home/mphstar/AndroidStudioProjects/AndroidNative/app/src/main/res/layout-land/activity_main.xml:34: Warning: Consider replacing android:layout_alignParentLeft with android:layout_alignParentStart="true" to better support right-to-left layouts [RtlHardcoded]
+                android:layout_alignParentLeft="true"
+                ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+/home/mphstar/AndroidStudioProjects/AndroidNative/app/src/main/res/layout-land/activity_main.xml:53: Warning: Consider replacing android:layout_alignParentRight with android:layout_alignParentEnd="true" to better support right-to-left layouts [RtlHardcoded]
+                android:layout_alignParentRight="true"
+                ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+/home/mphstar/AndroidStudioProjects/AndroidNative/app/src/main/res/layout/activity_main.xml:85: Warning: Consider replacing android:layout_marginRight with android:layout_marginEnd="14dp" to better support right-to-left layouts [RtlHardcoded]
+            android:layout_marginRight="14dp"
+            ~~~~~~~~~~~~~~~~~~~~~~~~~~
+/home/mphstar/AndroidStudioProjects/AndroidNative/app/src/main/res/layout/activity_main.xml:86: Warning: Use "end" instead of "right" to ensure correct behavior in right-to-left locales [RtlHardcoded]
+            android:layout_gravity="right"/>
+                                    ~~~~~
+/home/mphstar/AndroidStudioProjects/AndroidNative/app/src/main/res/layout/activity_main_sql_lite.xml:38: Warning: Consider replacing android:layout_alignParentRight with android:layout_alignParentEnd="true" to better support right-to-left layouts [RtlHardcoded]
+            android:layout_alignParentRight="true"
+            ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+/home/mphstar/AndroidStudioProjects/AndroidNative/app/src/main/res/layout/items_movies.xml:20: Warning: Consider replacing android:layout_marginLeft with android:layout_marginStart="8dp" to better support right-to-left layouts [RtlHardcoded]
+        android:layout_marginLeft="8dp"
+        ~~~~~~~~~~~~~~~~~~~~~~~~~
+/home/mphstar/AndroidStudioProjects/AndroidNative/app/src/main/res/layout/items_movies.xml:30: Warning: Consider replacing android:layout_marginLeft with android:layout_marginStart="8dp" to better support right-to-left layouts [RtlHardcoded]
+        android:layout_marginLeft="8dp"
+        ~~~~~~~~~~~~~~~~~~~~~~~~~
+/home/mphstar/AndroidStudioProjects/AndroidNative/app/src/main/res/layout/items_movies.xml:40: Warning: Consider replacing android:layout_marginLeft with android:layout_marginStart="8dp" to better support right-to-left layouts [RtlHardcoded]
+        android:layout_marginLeft="8dp"
+        ~~~~~~~~~~~~~~~~~~~~~~~~~
+/home/mphstar/AndroidStudioProjects/AndroidNative/app/src/main/res/layout/list_items.xml:19: Warning: Consider replacing android:layout_marginLeft with android:layout_marginStart="8dp" to better support right-to-left layouts [RtlHardcoded]
+        android:layout_marginLeft="8dp"
+        ~~~~~~~~~~~~~~~~~~~~~~~~~
+/home/mphstar/AndroidStudioProjects/AndroidNative/app/src/main/res/layout/list_items.xml:29: Warning: Consider replacing android:layout_marginLeft with android:layout_marginStart="8dp" to better support right-to-left layouts [RtlHardcoded]
+        android:layout_marginLeft="8dp"
+        ~~~~~~~~~~~~~~~~~~~~~~~~~
+
+   Explanation for issues of type "RtlHardcoded":
+   Using Gravity#LEFT and Gravity#RIGHT can lead to problems when a layout is
+   rendered in locales where text flows from right to left. Use Gravity#START
+   and Gravity#END instead. Similarly, in XML gravity and layout_gravity
+   attributes, use start rather than left.
+
+   For XML attributes such as paddingLeft and layout_marginLeft, use
+   paddingStart and layout_marginStart. NOTE: If your minSdkVersion is less
+   than 17, you should add both the older left/right attributes as well as the
+   new start/end attributes. On older platforms, where RTL is not supported
+   and the start/end attributes are unknown and therefore ignored, you need
+   the older left/right attributes. There is a separate lint check which
+   catches that type of error.
+
+   (Note: For Gravity#LEFT and Gravity#START, you can use these constants even
+   when targeting older platforms, because the start bitmask is a superset of
+   the left bitmask. Therefore, you can use gravity="start" rather than
+   gravity="left|start".)
+
+0 errors, 135 warnings

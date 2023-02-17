@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="width_tab1">85dp</dimen>
+    <dimen name="width_tab2">110dp</dimen>
+</resources>
