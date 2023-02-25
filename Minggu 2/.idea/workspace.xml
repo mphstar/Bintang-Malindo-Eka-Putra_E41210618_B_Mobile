@@ -4,7 +4,9 @@
     <shared>
       <config>
         <device id="pixel_3" />
+        <device id="_device_class_foldable" />
         <device id="_device_class_phone" />
+        <option name="nonWearDeviceLastStateName" value="Portrait" />
       </config>
     </shared>
   </component>
@@ -12,16 +14,82 @@
     <option name="autoReloadType" value="NONE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b59135bb-e732-4f14-a8aa-f9f534315d43" name="Changes" comment="">
+    <list default="true" id="b59135bb-e732-4f14-a8aa-f9f534315d43" name="Changes" comment="commit last update">
+      <change beforePath="$PROJECT_DIR$/../Belajar/AndroidNative/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Belajar/AndroidNative/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/7.5/executionHistory/executionHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/7.5/executionHistory/executionHistory.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/7.5/executionHistory/executionHistory.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/7.5/executionHistory/executionHistory.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/7.5/fileHashes/fileHashes.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/7.5/fileHashes/fileHashes.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/7.5/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/7.5/fileHashes/fileHashes.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/7.5/fileHashes/resourceHashesCache.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/7.5/fileHashes/resourceHashesCache.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/file-system.probe" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/file-system.probe" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/minggu2/MainActivity.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/minggu2/MainActivity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/apk/debug/app-debug.apk" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/apk/debug/app-debug.apk" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/dex/debug/mergeProjectDexDebug/2/classes.dex" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/dex/debug/mergeProjectDexDebug/2/classes.dex" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/incremental/packageDebug/tmp/debug/dex-renamer-state.txt" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/incremental/packageDebug/tmp/debug/dex-renamer-state.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/javac/debug/classes/com/example/minggu2/RelativeLayout$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/javac/debug/classes/com/example/minggu2/RelativeLayout$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/javac/debug/classes/com/example/minggu2/RelativeLayout.class" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/javac/debug/classes/com/example/minggu2/RelativeLayout.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/project_dex_archive/debug/out/com/example/minggu2/RelativeLayout$1.dex" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/project_dex_archive/debug/out/com/example/minggu2/RelativeLayout$1.dex" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/project_dex_archive/debug/out/com/example/minggu2/RelativeLayout.dex" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/project_dex_archive/debug/out/com/example/minggu2/RelativeLayout.dex" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/tmp/compileDebugJavaWithJavac/previous-compilation-data.bin" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/tmp/compileDebugJavaWithJavac/previous-compilation-data.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/minggu2/RelativeLayout.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/minggu2/RelativeLayout.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Minggu 3/.gradle/7.5/executionHistory/executionHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/../Minggu 3/.gradle/7.5/executionHistory/executionHistory.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Minggu 3/.gradle/7.5/executionHistory/executionHistory.lock" beforeDir="false" afterPath="$PROJECT_DIR$/../Minggu 3/.gradle/7.5/executionHistory/executionHistory.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Minggu 3/.gradle/7.5/fileHashes/fileHashes.bin" beforeDir="false" afterPath="$PROJECT_DIR$/../Minggu 3/.gradle/7.5/fileHashes/fileHashes.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Minggu 3/.gradle/7.5/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/../Minggu 3/.gradle/7.5/fileHashes/fileHashes.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Minggu 3/.gradle/7.5/fileHashes/resourceHashesCache.bin" beforeDir="false" afterPath="$PROJECT_DIR$/../Minggu 3/.gradle/7.5/fileHashes/resourceHashesCache.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Minggu 3/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/../Minggu 3/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Minggu 3/.gradle/file-system.probe" beforeDir="false" afterPath="$PROJECT_DIR$/../Minggu 3/.gradle/file-system.probe" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Minggu 3/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Minggu 3/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Minggu 3/app/build/intermediates/apk/debug/app-debug.apk" beforeDir="false" afterPath="$PROJECT_DIR$/../Minggu 3/app/build/intermediates/apk/debug/app-debug.apk" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Minggu 3/app/build/intermediates/compile_and_runtime_not_namespaced_r_class_jar/debug/R.jar" beforeDir="false" afterPath="$PROJECT_DIR$/../Minggu 3/app/build/intermediates/compile_and_runtime_not_namespaced_r_class_jar/debug/R.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Minggu 3/app/build/intermediates/dex/debug/mergeProjectDexDebug/0/classes.dex" beforeDir="false" afterPath="$PROJECT_DIR$/../Minggu 3/app/build/intermediates/dex/debug/mergeProjectDexDebug/0/classes.dex" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Minggu 3/app/build/intermediates/dex/debug/mergeProjectDexDebug/1/classes.dex" beforeDir="false" afterPath="$PROJECT_DIR$/../Minggu 3/app/build/intermediates/dex/debug/mergeProjectDexDebug/1/classes.dex" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Minggu 3/app/build/intermediates/dex_archive_input_jar_hashes/debug/out" beforeDir="false" afterPath="$PROJECT_DIR$/../Minggu 3/app/build/intermediates/dex_archive_input_jar_hashes/debug/out" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Minggu 3/app/build/intermediates/incremental/debug/mergeDebugResources/compile-file-map.properties" beforeDir="false" afterPath="$PROJECT_DIR$/../Minggu 3/app/build/intermediates/incremental/debug/mergeDebugResources/compile-file-map.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Minggu 3/app/build/intermediates/incremental/debug/mergeDebugResources/merger.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Minggu 3/app/build/intermediates/incremental/debug/mergeDebugResources/merger.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Minggu 3/app/build/intermediates/incremental/debug/packageDebugResources/compile-file-map.properties" beforeDir="false" afterPath="$PROJECT_DIR$/../Minggu 3/app/build/intermediates/incremental/debug/packageDebugResources/compile-file-map.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Minggu 3/app/build/intermediates/incremental/debug/packageDebugResources/merger.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Minggu 3/app/build/intermediates/incremental/debug/packageDebugResources/merger.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Minggu 3/app/build/intermediates/incremental/packageDebug/tmp/debug/dex-renamer-state.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../Minggu 3/app/build/intermediates/incremental/packageDebug/tmp/debug/dex-renamer-state.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Minggu 3/app/build/intermediates/incremental/packageDebug/tmp/debug/zip-cache/androidResources" beforeDir="false" afterPath="$PROJECT_DIR$/../Minggu 3/app/build/intermediates/incremental/packageDebug/tmp/debug/zip-cache/androidResources" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Minggu 3/app/build/intermediates/javac/debug/classes/com/example/minggu3/MainActivity$3.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Minggu 3/app/build/intermediates/javac/debug/classes/com/example/minggu3/MainActivity$3.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Minggu 3/app/build/intermediates/javac/debug/classes/com/example/minggu3/MainActivity$4$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Minggu 3/app/build/intermediates/javac/debug/classes/com/example/minggu3/MainActivity$4$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Minggu 3/app/build/intermediates/javac/debug/classes/com/example/minggu3/MainActivity$4$2.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Minggu 3/app/build/intermediates/javac/debug/classes/com/example/minggu3/MainActivity$4$2.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Minggu 3/app/build/intermediates/javac/debug/classes/com/example/minggu3/MainActivity$4.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Minggu 3/app/build/intermediates/javac/debug/classes/com/example/minggu3/MainActivity$4.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Minggu 3/app/build/intermediates/javac/debug/classes/com/example/minggu3/MainActivity.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Minggu 3/app/build/intermediates/javac/debug/classes/com/example/minggu3/MainActivity.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Minggu 3/app/build/intermediates/local_only_symbol_list/debug/R-def.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../Minggu 3/app/build/intermediates/local_only_symbol_list/debug/R-def.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Minggu 3/app/build/intermediates/manifest_merge_blame_file/debug/manifest-merger-blame-debug-report.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../Minggu 3/app/build/intermediates/manifest_merge_blame_file/debug/manifest-merger-blame-debug-report.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Minggu 3/app/build/intermediates/merged_manifest/debug/AndroidManifest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Minggu 3/app/build/intermediates/merged_manifest/debug/AndroidManifest.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Minggu 3/app/build/intermediates/merged_manifests/debug/AndroidManifest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Minggu 3/app/build/intermediates/merged_manifests/debug/AndroidManifest.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Minggu 3/app/build/intermediates/merged_res/debug/values_values.arsc.flat" beforeDir="false" afterPath="$PROJECT_DIR$/../Minggu 3/app/build/intermediates/merged_res/debug/values_values.arsc.flat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Minggu 3/app/build/intermediates/merged_res_blame_folder/debug/out/multi-v2/debug.json" beforeDir="false" afterPath="$PROJECT_DIR$/../Minggu 3/app/build/intermediates/merged_res_blame_folder/debug/out/multi-v2/debug.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Minggu 3/app/build/intermediates/merged_res_blame_folder/debug/out/multi-v2/values.json" beforeDir="false" afterPath="$PROJECT_DIR$/../Minggu 3/app/build/intermediates/merged_res_blame_folder/debug/out/multi-v2/values.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Minggu 3/app/build/intermediates/merged_res_blame_folder/debug/out/single/debug.json" beforeDir="false" afterPath="$PROJECT_DIR$/../Minggu 3/app/build/intermediates/merged_res_blame_folder/debug/out/single/debug.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Minggu 3/app/build/intermediates/packaged_manifests/debug/AndroidManifest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Minggu 3/app/build/intermediates/packaged_manifests/debug/AndroidManifest.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Minggu 3/app/build/intermediates/packaged_res/debug/values/values.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Minggu 3/app/build/intermediates/packaged_res/debug/values/values.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Minggu 3/app/build/intermediates/processed_res/debug/out/resources-debug.ap_" beforeDir="false" afterPath="$PROJECT_DIR$/../Minggu 3/app/build/intermediates/processed_res/debug/out/resources-debug.ap_" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Minggu 3/app/build/intermediates/project_dex_archive/debug/out/19e251a1d87c788eeba69b22de58dc346078551d0605a019266b09c3e046655a_0.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Minggu 3/app/build/intermediates/project_dex_archive/debug/out/19e251a1d87c788eeba69b22de58dc346078551d0605a019266b09c3e046655a_1.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Minggu 3/app/build/intermediates/project_dex_archive/debug/out/com/example/minggu3/MainActivity$3.dex" beforeDir="false" afterPath="$PROJECT_DIR$/../Minggu 3/app/build/intermediates/project_dex_archive/debug/out/com/example/minggu3/MainActivity$3.dex" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Minggu 3/app/build/intermediates/project_dex_archive/debug/out/com/example/minggu3/MainActivity$4$1.dex" beforeDir="false" afterPath="$PROJECT_DIR$/../Minggu 3/app/build/intermediates/project_dex_archive/debug/out/com/example/minggu3/MainActivity$4$1.dex" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Minggu 3/app/build/intermediates/project_dex_archive/debug/out/com/example/minggu3/MainActivity$4$2.dex" beforeDir="false" afterPath="$PROJECT_DIR$/../Minggu 3/app/build/intermediates/project_dex_archive/debug/out/com/example/minggu3/MainActivity$4$2.dex" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Minggu 3/app/build/intermediates/project_dex_archive/debug/out/com/example/minggu3/MainActivity$4.dex" beforeDir="false" afterPath="$PROJECT_DIR$/../Minggu 3/app/build/intermediates/project_dex_archive/debug/out/com/example/minggu3/MainActivity$4.dex" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Minggu 3/app/build/intermediates/project_dex_archive/debug/out/com/example/minggu3/MainActivity.dex" beforeDir="false" afterPath="$PROJECT_DIR$/../Minggu 3/app/build/intermediates/project_dex_archive/debug/out/com/example/minggu3/MainActivity.dex" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Minggu 3/app/build/intermediates/runtime_symbol_list/debug/R.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../Minggu 3/app/build/intermediates/runtime_symbol_list/debug/R.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Minggu 3/app/build/intermediates/stable_resource_ids_file/debug/stableIds.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../Minggu 3/app/build/intermediates/stable_resource_ids_file/debug/stableIds.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Minggu 3/app/build/intermediates/symbol_list_with_package_name/debug/package-aware-r.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../Minggu 3/app/build/intermediates/symbol_list_with_package_name/debug/package-aware-r.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Minggu 3/app/build/outputs/logs/manifest-merger-debug-report.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../Minggu 3/app/build/outputs/logs/manifest-merger-debug-report.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Minggu 3/app/build/tmp/compileDebugJavaWithJavac/previous-compilation-data.bin" beforeDir="false" afterPath="$PROJECT_DIR$/../Minggu 3/app/build/tmp/compileDebugJavaWithJavac/previous-compilation-data.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Minggu 3/app/src/main/AndroidManifest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Minggu 3/app/src/main/AndroidManifest.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Minggu 3/app/src/main/java/com/example/minggu3/MainActivity.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Minggu 3/app/src/main/java/com/example/minggu3/MainActivity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Minggu 3/app/src/main/res/values/strings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Minggu 3/app/src/main/res/values/strings.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
-  <component name="ExecutionTargetManager" SELECTED_TARGET="device_and_snapshot_combo_box_target[/home/mphstar/.android/avd/MphstarOS.avd]" />
+  <component name="ExecutionTargetManager" SELECTED_TARGET="device_and_snapshot_combo_box_target[adb-8a8190c70405-ut6HJC._adb-tls-connect._tcp]" />
   <component name="ExternalProjectsData">
     <projectState path="$PROJECT_DIR$">
       <ProjectState />
@@ -56,8 +124,9 @@
     &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.cidr.known.project.marker&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
     &quot;cidr.known.project.marker&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;/home/mphstar/Development/mobile/Minggu 2&quot;
+    &quot;last_opened_file_path&quot;: &quot;/home/mphstar/Development/mobile/Belajar/AndroidNative&quot;
   }
 }</component>
   <component name="RecentsManager">
@@ -149,5 +218,9 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="commit last update" />
+    <option name="LAST_COMMIT_MESSAGE" value="commit last update" />
   </component>
 </project>
