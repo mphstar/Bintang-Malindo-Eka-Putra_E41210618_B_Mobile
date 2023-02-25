@@ -16,7 +16,7 @@ import androidx.appcompat.app.AppCompatActivity;
 import java.util.Calendar;
 
 public class RelativeLayout extends AppCompatActivity {
-    private void RelativeLayout(){
+    private void DialogDate(){
         EditText field = findViewById(R.id.field_date);
         Button btn_date = findViewById(R.id.btn_date);
         TextView selected_date = findViewById(R.id.txt_selected);
@@ -45,7 +45,7 @@ public class RelativeLayout extends AppCompatActivity {
     protected void onCreate(@Nullable Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_relative_layout);
-        RelativeLayout();
+        DialogDate();
         ActionBar bar = getSupportActionBar();
         bar.setTitle(R.string.appbar_relative);
         bar.setDisplayHomeAsUpEnabled(true);
