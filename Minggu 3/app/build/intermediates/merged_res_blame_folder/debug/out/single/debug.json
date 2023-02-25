@@ -4,6 +4,10 @@
         "source": "/home/mphstar/.gradle/daemon/7.5/com.example.minggu3.app-main-31:/mipmap-anydpi-v26/ic_launcher.xml"
     },
     {
+        "merged": "com.example.minggu3.app-merged_res-29:/layout_activity_main.xml.flat",
+        "source": "com.example.minggu3.app-main-31:/layout/activity_main.xml"
+    },
+    {
         "merged": "/home/mphstar/.gradle/daemon/7.5/com.example.minggu3.app-merged_res-29:/mipmap-hdpi_ic_launcher_round.webp.flat",
         "source": "/home/mphstar/.gradle/daemon/7.5/com.example.minggu3.app-main-31:/mipmap-hdpi/ic_launcher_round.webp"
     },
@@ -78,10 +82,6 @@
     {
         "merged": "/home/mphstar/.gradle/daemon/7.5/com.example.minggu3.app-merged_res-29:/layout_list_items.xml.flat",
         "source": "/home/mphstar/.gradle/daemon/7.5/com.example.minggu3.app-main-31:/layout/list_items.xml"
-    },
-    {
-        "merged": "com.example.minggu3.app-merged_res-29:/menu_menu.xml.flat",
-        "source": "com.example.minggu3.app-main-31:/menu/menu.xml"
     },
     {
         "merged": "/home/mphstar/.gradle/daemon/7.5/com.example.minggu3.app-merged_res-29:/mipmap-xxhdpi_ic_launcher_round.webp.flat",
