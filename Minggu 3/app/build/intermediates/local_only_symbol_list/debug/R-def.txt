@@ -1,5 +1,6 @@
 R_DEF: Internal format may change without notice
 local
+array negara
 color black
 color purple_200
 color purple_500
@@ -11,10 +12,15 @@ drawable ic_launcher_background
 drawable ic_launcher_foreground
 id app_bar_search
 id btn_add
+id listView
+id part1
+id part2
 id reycleview_list
 id txt_nama
 id txt_nim
 id txt_nohp
+layout activity_home
+layout activity_list_view
 layout activity_main
 layout dialog_mahasiswa
 layout list_items
@@ -22,6 +28,8 @@ menu menu
 mipmap ic_launcher
 mipmap ic_launcher_round
 string app_name
+string listview_name
+string reycycleview_name
 style Theme.Minggu3
 xml backup_rules
 xml data_extraction_rules

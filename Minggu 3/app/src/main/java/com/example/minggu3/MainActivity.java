@@ -1,5 +1,7 @@
 package com.example.minggu3;
 
+import androidx.annotation.NonNull;
+import androidx.appcompat.app.ActionBar;
 import androidx.appcompat.app.AlertDialog;
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.core.view.MenuItemCompat;
@@ -29,9 +31,22 @@ public class MainActivity extends AppCompatActivity implements  onItemClickReycc
     FloatingActionButton btn_add;
 
     @Override
+    public boolean onOptionsItemSelected(@NonNull MenuItem item) {
+        switch (item.getItemId()) {
+            case android.R.id.home:
+                this.finish();
+                return true;
+        }
+        return super.onOptionsItemSelected(item);
+    }
+
+    @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
+        ActionBar bar = getSupportActionBar();
+        bar.setTitle(R.string.reycycleview_name);
+        bar.setDisplayHomeAsUpEnabled(true);
         btn_add = findViewById(R.id.btn_add);
         addData();
         rey = findViewById(R.id.reycleview_list);

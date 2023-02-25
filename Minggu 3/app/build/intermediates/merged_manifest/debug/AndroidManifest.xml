@@ -27,7 +27,13 @@
         android:testOnly="true"
         android:theme="@style/Theme.Minggu3" >
         <activity
+            android:name="com.example.minggu3.ListViewActivity"
+            android:exported="false" />
+        <activity
             android:name="com.example.minggu3.MainActivity"
+            android:exported="false" />
+        <activity
+            android:name="com.example.minggu3.HomeActivity"
             android:exported="true" >
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />

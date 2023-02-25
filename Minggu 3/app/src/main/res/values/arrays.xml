@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="negara">
+        <item>Indonesia</item>
+        <item>Malaysia</item>
+        <item>Singapura</item>
+        <item>Thailand</item>
+        <item>Myanmar</item>
+        <item>Vietnam</item>
+        <item>Laos</item>
+        <item>Kamboja</item>
+        <item>Filipina</item>
+        <item>Brunei</item>
+    </string-array>
+</resources>

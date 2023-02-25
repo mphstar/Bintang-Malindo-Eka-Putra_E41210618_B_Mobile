@@ -73,6 +73,7 @@ int animator mtrl_fab_hide_motion_spec 0x7f02001d
 int animator mtrl_fab_show_motion_spec 0x7f02001e
 int animator mtrl_fab_transformation_sheet_collapse_spec 0x7f02001f
 int animator mtrl_fab_transformation_sheet_expand_spec 0x7f020020
+int array negara 0x7f140000
 int attr SharedValue 0x7f030000
 int attr SharedValueId 0x7f030001
 int attr actionBarDivider 0x7f030002
@@ -3040,6 +3041,7 @@ int id line1 0x7f0800e8
 int id line3 0x7f0800e9
 int id linear 0x7f0800ea
 int id listMode 0x7f0800eb
+int id listView 0x7f0801f2
 int id list_item 0x7f0800ec
 int id m3_side_sheet 0x7f0800ed
 int id marquee 0x7f0800ee
@@ -3131,6 +3133,8 @@ int id parent 0x7f080143
 int id parentPanel 0x7f080144
 int id parentRelative 0x7f080145
 int id parent_matrix 0x7f080146
+int id part1 0x7f0801f3
+int id part2 0x7f0801f4
 int id password_toggle 0x7f080147
 int id path 0x7f080148
 int id pathRelative 0x7f080149
@@ -3406,6 +3410,8 @@ int layout abc_search_dropdown_item_icons_2line 0x7f0b0018
 int layout abc_search_view 0x7f0b0019
 int layout abc_select_dialog_material 0x7f0b001a
 int layout abc_tooltip 0x7f0b001b
+int layout activity_home 0x7f0b006c
+int layout activity_list_view 0x7f0b006d
 int layout activity_main 0x7f0b001c
 int layout custom_dialog 0x7f0b001d
 int layout design_bottom_navigation_item 0x7f0b001e
@@ -3538,6 +3544,7 @@ int string fab_transformation_sheet_behavior 0x7f0f002c
 int string hide_bottom_view_on_scroll_behavior 0x7f0f002d
 int string icon_content_description 0x7f0f002e
 int string item_view_role_description 0x7f0f002f
+int string listview_name 0x7f0f009b
 int string m3_sys_motion_easing_emphasized 0x7f0f0030
 int string m3_sys_motion_easing_emphasized_accelerate 0x7f0f0031
 int string m3_sys_motion_easing_emphasized_decelerate 0x7f0f0032
@@ -3638,6 +3645,7 @@ int string path_password_eye 0x7f0f0090
 int string path_password_eye_mask_strike_through 0x7f0f0091
 int string path_password_eye_mask_visible 0x7f0f0092
 int string path_password_strike_through 0x7f0f0093
+int string reycycleview_name 0x7f0f009c
 int string search_menu_title 0x7f0f0094
 int string searchbar_scrolling_view_behavior 0x7f0f0095
 int string searchview_clear_text_content_description 0x7f0f0096
