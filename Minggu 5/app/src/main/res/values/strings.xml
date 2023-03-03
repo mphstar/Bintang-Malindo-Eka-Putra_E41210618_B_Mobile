@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">Minggu 5</string>
+    <string name="open_url">Open URL</string>
+    <string name="hint_url">Masukkan Text</string>
+    <string name="open_whatsapp">OPEN WHATSAPP</string>
+    <string name="open_activity">OPEN ACTIVITY WITH PASSING DATA</string>
+    <string name="open_result">OPEN ACTIVITY WITH SET RESULT</string>
+</resources>
