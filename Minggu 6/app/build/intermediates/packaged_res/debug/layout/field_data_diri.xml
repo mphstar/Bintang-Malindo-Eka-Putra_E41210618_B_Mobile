@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:id="@+id/content_field_sheet"
+    android:layout_height="wrap_content">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginTop="20dp"
+            android:hint="Data Diri"
+            android:layout_marginHorizontal="20dp"
+            android:textSize="20sp" />
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/field_style"
+            android:hint="Masukkan Nama"
+            android:maxLines="1"
+            android:textColorHint="#8D7D7D"
+            android:textColor="#8D7D7D"
+            android:id="@+id/txt_nama"
+            android:textSize="14sp"
+            android:inputType="text"
+            android:padding="15dp"
+            android:layout_marginHorizontal="20dp"
+            android:layout_marginTop="20dp"
+            />
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/field_style"
+            android:hint="Masukkan Alamat"
+            android:maxLines="1"
+            android:id="@+id/txt_alamat"
+            android:textColorHint="#8D7D7D"
+            android:textColor="#8D7D7D"
+            android:textSize="14sp"
+            android:inputType="text"
+            android:padding="15dp"
+            android:layout_marginHorizontal="20dp"
+            android:layout_marginTop="20dp"
+            />
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/field_style"
+            android:hint="Masukkan Hobi"
+            android:maxLines="1"
+            android:id="@+id/txt_hobi"
+            android:textColorHint="#8D7D7D"
+            android:textColor="#8D7D7D"
+            android:textSize="14sp"
+            android:inputType="text"
+            android:padding="15dp"
+            android:layout_marginHorizontal="20dp"
+            android:layout_marginTop="20dp"
+            />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingHorizontal="20dp"
+            android:gravity="end"
+            android:orientation="horizontal">
+            <com.google.android.material.button.MaterialButton
+                android:layout_width="wrap_content"
+                android:text="Hapus"
+                android:textColor="@color/white"
+                android:textSize="14sp"
+                app:backgroundTint="#ffff0000"
+                android:id="@+id/hapus_data"
+                android:shadowDx="0"
+                android:shadowDy="0"
+                android:shadowRadius="0"
+                android:layout_marginTop="20dp"
+                app:cornerRadius="8dp"
+                android:layout_height="60dp" />
+            <Space
+                android:layout_width="5dp"
+                android:layout_height="wrap_content" />
+            <com.google.android.material.button.MaterialButton
+                android:layout_width="wrap_content"
+                android:text="Tambah"
+                android:textColor="@color/white"
+                android:textSize="14sp"
+                android:shadowDx="0"
+                app:backgroundTint="#4CAF50"
+                android:id="@+id/submit_data"
+                android:shadowDy="0"
+                android:shadowRadius="0"
+                android:layout_marginTop="20dp"
+                app:cornerRadius="8dp"
+                android:layout_height="60dp" />
+        </LinearLayout>
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="40dp" />
+    </LinearLayout>
+
+
+
+</FrameLayout>
