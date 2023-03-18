@@ -3287,6 +3287,7 @@ int id triangle 0x7f0801d4
 int id txt_alamat 0x7f0801fa
 int id txt_hobi 0x7f0801fb
 int id txt_nama 0x7f0801fc
+int id txt_nodata 0x7f0801fd
 int id txt_teks 0x7f0801f1
 int id unchecked 0x7f0801d5
 int id uniform 0x7f0801d6

@@ -12,12 +12,12 @@
         "source": "/home/mphstar/.gradle/daemon/7.5/com.example.minggu6.app-main-31:/mipmap-xxhdpi/ic_launcher.webp"
     },
     {
-        "merged": "/home/mphstar/.gradle/daemon/7.5/com.example.minggu6.app-merged_res-29:/mipmap-xxxhdpi_ic_launcher.webp.flat",
-        "source": "/home/mphstar/.gradle/daemon/7.5/com.example.minggu6.app-main-31:/mipmap-xxxhdpi/ic_launcher.webp"
-    },
-    {
         "merged": "/home/mphstar/.gradle/daemon/7.5/com.example.minggu6.app-merged_res-29:/layout_activity_sqlite.xml.flat",
         "source": "/home/mphstar/.gradle/daemon/7.5/com.example.minggu6.app-main-31:/layout/activity_sqlite.xml"
+    },
+    {
+        "merged": "/home/mphstar/.gradle/daemon/7.5/com.example.minggu6.app-merged_res-29:/mipmap-xxxhdpi_ic_launcher.webp.flat",
+        "source": "/home/mphstar/.gradle/daemon/7.5/com.example.minggu6.app-main-31:/mipmap-xxxhdpi/ic_launcher.webp"
     },
     {
         "merged": "/home/mphstar/.gradle/daemon/7.5/com.example.minggu6.app-merged_res-29:/mipmap-xhdpi_ic_launcher.webp.flat",
