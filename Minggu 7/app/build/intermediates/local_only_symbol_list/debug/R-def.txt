@@ -1,0 +1,30 @@
+R_DEF: Internal format may change without notice
+local
+color black
+color purple_200
+color purple_500
+color purple_700
+color teal_200
+color teal_700
+color white
+drawable ic_launcher_background
+drawable ic_launcher_foreground
+id button_SignupSignup
+id button_logoutMain
+id button_signinSignin
+id button_signupSignin
+id et_emailSignin
+id et_emailSignup
+id et_passwordSignin
+id et_passwordSignup
+id et_passwordSignup2
+id tv_namaMain
+layout activity_login
+layout activity_main
+layout activity_register
+mipmap ic_launcher
+mipmap ic_launcher_round
+string app_name
+style Theme.Minggu7
+xml backup_rules
+xml data_extraction_rules

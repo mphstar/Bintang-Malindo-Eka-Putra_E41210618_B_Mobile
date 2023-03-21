@@ -1,0 +1,35 @@
+com.example.minggu8.app-appcompat-1.6.1-0 /home/mphstar/.gradle/caches/transforms-3/0195608705a3ced8b59d8a8f025efc7a/transformed/appcompat-1.6.1/res
+com.example.minggu8.app-lifecycle-viewmodel-2.5.1-1 /home/mphstar/.gradle/caches/transforms-3/03a85e6fe476d91ae086e0bb26a7289c/transformed/lifecycle-viewmodel-2.5.1/res
+com.example.minggu8.app-play-services-maps-18.0.2-2 /home/mphstar/.gradle/caches/transforms-3/03abec83827e9a1141c558f630875955/transformed/play-services-maps-18.0.2/res
+com.example.minggu8.app-appcompat-resources-1.6.1-3 /home/mphstar/.gradle/caches/transforms-3/0af6cb0dac512ca1165db5ee64ace458/transformed/appcompat-resources-1.6.1/res
+com.example.minggu8.app-core-1.9.0-4 /home/mphstar/.gradle/caches/transforms-3/0df83a932a3d0f1358d0999b20e83c1a/transformed/core-1.9.0/res
+com.example.minggu8.app-activity-1.6.0-5 /home/mphstar/.gradle/caches/transforms-3/21df8969b11d282ddc152e627c18b472/transformed/activity-1.6.0/res
+com.example.minggu8.app-fragment-1.3.6-6 /home/mphstar/.gradle/caches/transforms-3/298e6e704b7cdee3a742fb44bb414471/transformed/fragment-1.3.6/res
+com.example.minggu8.app-coordinatorlayout-1.1.0-7 /home/mphstar/.gradle/caches/transforms-3/2ecb0f97561cabdb8fd066635db8aa9c/transformed/coordinatorlayout-1.1.0/res
+com.example.minggu8.app-material-1.8.0-8 /home/mphstar/.gradle/caches/transforms-3/42d1d2829519911423ade8dd5f2a44d7/transformed/material-1.8.0/res
+com.example.minggu8.app-emoji2-views-helper-1.2.0-9 /home/mphstar/.gradle/caches/transforms-3/446c002197ee828a6c6fcf131ffd813c/transformed/emoji2-views-helper-1.2.0/res
+com.example.minggu8.app-annotation-experimental-1.3.0-10 /home/mphstar/.gradle/caches/transforms-3/455abc3a008e91e020186a932f91186d/transformed/annotation-experimental-1.3.0/res
+com.example.minggu8.app-startup-runtime-1.1.1-11 /home/mphstar/.gradle/caches/transforms-3/47f881c2038129cfb750815e3a4f609a/transformed/startup-runtime-1.1.1/res
+com.example.minggu8.app-transition-1.2.0-12 /home/mphstar/.gradle/caches/transforms-3/5383b54cdb410f8268ae2aff073c13dc/transformed/transition-1.2.0/res
+com.example.minggu8.app-drawerlayout-1.1.1-13 /home/mphstar/.gradle/caches/transforms-3/5b1db3c1c994729ddd988113624f0dce/transformed/drawerlayout-1.1.1/res
+com.example.minggu8.app-core-ktx-1.9.0-14 /home/mphstar/.gradle/caches/transforms-3/6a15de9e05d3825d44ad9bec9663bb04/transformed/core-ktx-1.9.0/res
+com.example.minggu8.app-emoji2-1.2.0-15 /home/mphstar/.gradle/caches/transforms-3/8df68c35876628bbde34850e51cf49b7/transformed/emoji2-1.2.0/res
+com.example.minggu8.app-savedstate-1.2.0-16 /home/mphstar/.gradle/caches/transforms-3/978daf7b0ca0538eee54e77c5e1749e8/transformed/savedstate-1.2.0/res
+com.example.minggu8.app-viewpager2-1.0.0-17 /home/mphstar/.gradle/caches/transforms-3/a1f0e119fa1bf31402c2a65f048cc09d/transformed/viewpager2-1.0.0/res
+com.example.minggu8.app-lifecycle-livedata-core-2.5.1-18 /home/mphstar/.gradle/caches/transforms-3/a713d5d1f3548b9cdea442d892fa9feb/transformed/lifecycle-livedata-core-2.5.1/res
+com.example.minggu8.app-lifecycle-runtime-2.5.1-19 /home/mphstar/.gradle/caches/transforms-3/ad8b3b3fd7514e1d0c0e3078dd743a5b/transformed/lifecycle-runtime-2.5.1/res
+com.example.minggu8.app-cardview-1.0.0-20 /home/mphstar/.gradle/caches/transforms-3/adce2f0e24f4c006b381d3881844b97a/transformed/cardview-1.0.0/res
+com.example.minggu8.app-play-services-base-18.0.1-21 /home/mphstar/.gradle/caches/transforms-3/b0346d8564aa2467234f354315ee8fed/transformed/play-services-base-18.0.1/res
+com.example.minggu8.app-play-services-basement-18.0.0-22 /home/mphstar/.gradle/caches/transforms-3/baac799ecd11c87c4d8ba6d82fff1f85/transformed/play-services-basement-18.0.0/res
+com.example.minggu8.app-recyclerview-1.1.0-23 /home/mphstar/.gradle/caches/transforms-3/bc50ff467539cd72fb39962569e39481/transformed/recyclerview-1.1.0/res
+com.example.minggu8.app-constraintlayout-2.1.4-24 /home/mphstar/.gradle/caches/transforms-3/c6c622780eee7974efb2ec79479b3508/transformed/constraintlayout-2.1.4/res
+com.example.minggu8.app-lifecycle-process-2.4.1-25 /home/mphstar/.gradle/caches/transforms-3/cef88e0248f4ea208eaf533253b4ce2d/transformed/lifecycle-process-2.4.1/res
+com.example.minggu8.app-lifecycle-viewmodel-savedstate-2.5.1-26 /home/mphstar/.gradle/caches/transforms-3/d238587b748c1fb35cc85fda27267e07/transformed/lifecycle-viewmodel-savedstate-2.5.1/res
+com.example.minggu8.app-pngs-27 /home/mphstar/Development/mobile/Minggu 8/app/build/generated/res/pngs/debug
+com.example.minggu8.app-resValues-28 /home/mphstar/Development/mobile/Minggu 8/app/build/generated/res/resValues/debug
+com.example.minggu8.app-rs-29 /home/mphstar/Development/mobile/Minggu 8/app/build/generated/res/rs/debug
+com.example.minggu8.app-packageDebugResources-30 /home/mphstar/Development/mobile/Minggu 8/app/build/intermediates/incremental/debug/packageDebugResources/merged.dir
+com.example.minggu8.app-packageDebugResources-31 /home/mphstar/Development/mobile/Minggu 8/app/build/intermediates/incremental/debug/packageDebugResources/stripped.dir
+com.example.minggu8.app-merged_res-32 /home/mphstar/Development/mobile/Minggu 8/app/build/intermediates/merged_res/debug
+com.example.minggu8.app-debug-33 /home/mphstar/Development/mobile/Minggu 8/app/src/debug/res
+com.example.minggu8.app-main-34 /home/mphstar/Development/mobile/Minggu 8/app/src/main/res

@@ -25,6 +25,7 @@ id submit_data
 id txt_alamat
 id txt_hobi
 id txt_nama
+id txt_nodata
 id txt_teks
 layout activity_home
 layout activity_main

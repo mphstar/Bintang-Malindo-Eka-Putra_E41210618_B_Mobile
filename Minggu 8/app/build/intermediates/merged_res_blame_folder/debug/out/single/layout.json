@@ -1,0 +1,10 @@
+[
+    {
+        "merged": "com.example.minggu8.app-mergeDebugResources-31:/layout/activity_maps.xml",
+        "source": "com.example.minggu8.app-main-34:/layout/activity_maps.xml"
+    },
+    {
+        "merged": "/home/mphstar/.gradle/daemon/7.5/com.example.minggu8.app-mergeDebugResources-31:/layout/activity_maps.xml",
+        "source": "/home/mphstar/.gradle/daemon/7.5/com.example.minggu8.app-main-34:/layout/activity_maps.xml"
+    }
+]

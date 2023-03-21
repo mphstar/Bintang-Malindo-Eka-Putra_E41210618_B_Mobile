@@ -28,7 +28,7 @@ public class SqliteActivity extends AppCompatActivity {
     ArrayList<DataDiri> listData;
     ListView listview;
     SQLHelper dbhelper;
-
+    TextView txt_nodata;
     void insertData(SQLHelper helper, String nama, String alamat, String hobi) {
         SQLiteDatabase db = helper.getWritableDatabase();
         ContentValues values = new ContentValues();
@@ -88,6 +88,14 @@ public class SqliteActivity extends AppCompatActivity {
         listview.setAdapter(adapt);
         db.close();
 
+        if(listData.size() == 0){
+            listview.setVisibility(View.GONE);
+            txt_nodata.setVisibility(View.VISIBLE);
+        } else {
+            listview.setVisibility(View.VISIBLE);
+            txt_nodata.setVisibility(View.GONE);
+        }
+
     }
 
     @Override
@@ -109,6 +117,8 @@ public class SqliteActivity extends AppCompatActivity {
         bar.setDisplayHomeAsUpEnabled(true);
         listview = findViewById(R.id.listview_items);
         dbhelper = new SQLHelper(this);
+        txt_nodata = findViewById(R.id.txt_nodata);
+
         readData(dbhelper);
 
         btnadd = findViewById(R.id.floating_adddata);
