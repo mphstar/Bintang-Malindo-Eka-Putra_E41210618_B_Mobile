@@ -1,0 +1,30 @@
+[
+    {
+        "merged": "com.example.minggu8.app-mergeDebugResources-45:/layout/activity_light_sensor.xml",
+        "source": "com.example.minggu8.app-main-48:/layout/activity_light_sensor.xml"
+    },
+    {
+        "merged": "com.example.minggu8.app-mergeDebugResources-45:/layout/activity_all_sensor.xml",
+        "source": "com.example.minggu8.app-main-48:/layout/activity_all_sensor.xml"
+    },
+    {
+        "merged": "com.example.minggu8.app-mergeDebugResources-45:/layout/item_sensor.xml",
+        "source": "com.example.minggu8.app-main-48:/layout/item_sensor.xml"
+    },
+    {
+        "merged": "com.example.minggu8.app-mergeDebugResources-45:/layout/activity_maps.xml",
+        "source": "com.example.minggu8.app-main-48:/layout/activity_maps.xml"
+    },
+    {
+        "merged": "com.example.minggu8.app-mergeDebugResources-45:/layout/activity_proximity_sensor.xml",
+        "source": "com.example.minggu8.app-main-48:/layout/activity_proximity_sensor.xml"
+    },
+    {
+        "merged": "com.example.minggu8.app-mergeDebugResources-45:/layout/activity_home.xml",
+        "source": "com.example.minggu8.app-main-48:/layout/activity_home.xml"
+    },
+    {
+        "merged": "com.example.minggu8.app-mergeDebugResources-45:/layout/activity_main_sensor.xml",
+        "source": "com.example.minggu8.app-main-48:/layout/activity_main_sensor.xml"
+    }
+]

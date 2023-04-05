@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">Minggu 8</string>
+    <string name="title_activity_maps">Minggu 8</string>
+    <string name="maps">Maps</string>
+    <string name="sensor">Sensor</string>
+    <string name="all_sensor">All Sensor</string>
+    <string name="lightsensor">Light Sensor</string>
+    <string name="proximitysensor">Proximity Sensor</string>
+    <string name="label_brightness">Level : %1$.2f lux</string>
+    <string name="label_proximity">Objek : %1$.2f cm</string>
+    <string name="title_activity_proximity_sensor">ProximitySensor</string>
+
+</resources>
