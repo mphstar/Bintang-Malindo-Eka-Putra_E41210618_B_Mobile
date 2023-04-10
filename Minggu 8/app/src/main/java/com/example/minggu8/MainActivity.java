@@ -48,6 +48,11 @@ public class MainActivity extends AppCompatActivity implements OnMapReadyCallbac
         LatLng sydney = new LatLng(-34, 151);
         mMap.addMarker(new MarkerOptions().position(sydney).title("Marker in Sydney"));
         mMap.moveCamera(CameraUpdateFactory.newLatLng(sydney));
+        try {
+            getLocation();
+        } catch (Exception e){
+            Toast.makeText(this, e.toString(), Toast.LENGTH_SHORT).show();
+        }
     }
 
     @Override
@@ -67,9 +72,7 @@ public class MainActivity extends AppCompatActivity implements OnMapReadyCallbac
     }
 
     private void getLocation() {
-        if(!locationPermissionGranted){
-            Toast.makeText(this, "Location tidak diijinkan", Toast.LENGTH_SHORT).show();
-        }
+
         if (ActivityCompat.checkSelfPermission(MainActivity.this, Manifest.permission.ACCESS_FINE_LOCATION) != PackageManager.PERMISSION_GRANTED && ActivityCompat.checkSelfPermission(MainActivity.this, Manifest.permission.ACCESS_COARSE_LOCATION) != PackageManager.PERMISSION_GRANTED) {
             ActivityCompat.requestPermissions(this, new String[]{Manifest.permission.ACCESS_FINE_LOCATION}, REQUEST_LOCATION);
         } else {
@@ -98,6 +101,10 @@ public class MainActivity extends AppCompatActivity implements OnMapReadyCallbac
             if (grantResults.length > 0 && grantResults[0] == PackageManager.PERMISSION_GRANTED) {
                 locationPermissionGranted = true;
                 getLocation();
+            } else {
+                if(!locationPermissionGranted){
+                    Toast.makeText(this, "Location tidak diijinkan", Toast.LENGTH_SHORT).show();
+                }
             }
         } else {
             super.onRequestPermissionsResult(requestCode, permissions, grantResults);
