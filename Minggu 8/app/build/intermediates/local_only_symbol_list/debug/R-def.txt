@@ -16,6 +16,7 @@ id lightsensor
 id map
 id maps
 id option_get_place
+id option_map_type
 id proximitysensor
 id sensor
 id sensors

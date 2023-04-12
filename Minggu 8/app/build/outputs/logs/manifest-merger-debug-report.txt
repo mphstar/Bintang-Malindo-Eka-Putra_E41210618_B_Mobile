@@ -18,12 +18,13 @@ MERGED from [androidx.constraintlayout:constraintlayout:2.1.4] /home/mphstar/.gr
 MERGED from [androidx.appcompat:appcompat-resources:1.6.1] /home/mphstar/.gradle/caches/transforms-3/31c46e6fe698145375650ef4171771b1/transformed/jetified-appcompat-resources-1.6.1/AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.appcompat:appcompat:1.6.1] /home/mphstar/.gradle/caches/transforms-3/0195608705a3ced8b59d8a8f025efc7a/transformed/appcompat-1.6.1/AndroidManifest.xml:17:1-22:12
 MERGED from [com.google.android.gms:play-services-maps:18.1.0] /home/mphstar/.gradle/caches/transforms-3/685cc63e1dbd0c0011c9b8d5e170f679/transformed/jetified-play-services-maps-18.1.0/AndroidManifest.xml:17:1-44:12
+MERGED from [com.google.android.gms:play-services-location:21.0.1] /home/mphstar/.gradle/caches/transforms-3/11226938e5bc9013bcf7a1a789866bac/transformed/jetified-play-services-location-21.0.1/AndroidManifest.xml:2:1-9:12
 MERGED from [com.jjoe64:graphview:4.2.2] /home/mphstar/.gradle/caches/transforms-3/1ddc49c8432e9d12791434fd9aa419e2/transformed/jetified-graphview-4.2.2/AndroidManifest.xml:2:1-14:12
 MERGED from [androidx.navigation:navigation-fragment:2.5.3] /home/mphstar/.gradle/caches/transforms-3/d97fd9a2e79f5ca5d1e61ec41e0e685b/transformed/navigation-fragment-2.5.3/AndroidManifest.xml:17:1-24:12
 MERGED from [androidx.viewpager2:viewpager2:1.0.0] /home/mphstar/.gradle/caches/transforms-3/d45dc1952fe142d7a97ea1a634e7640d/transformed/jetified-viewpager2-1.0.0/AndroidManifest.xml:17:1-24:12
-MERGED from [com.google.android.gms:play-services-base:18.0.1] /home/mphstar/.gradle/caches/transforms-3/ff5708ec3d69f224dbc9b18b24d95345/transformed/jetified-play-services-base-18.0.1/AndroidManifest.xml:16:1-24:12
-MERGED from [com.google.android.gms:play-services-tasks:18.0.1] /home/mphstar/.gradle/caches/transforms-3/521dfa00d44a610c1a6da3011d0da06d/transformed/jetified-play-services-tasks-18.0.1/AndroidManifest.xml:2:1-6:12
-MERGED from [com.google.android.gms:play-services-basement:18.0.0] /home/mphstar/.gradle/caches/transforms-3/f86af461cbe627f99378a84b384840a6/transformed/jetified-play-services-basement-18.0.0/AndroidManifest.xml:16:1-26:12
+MERGED from [com.google.android.gms:play-services-base:18.1.0] /home/mphstar/.gradle/caches/transforms-3/1906063af795addf7600266a2f603e98/transformed/jetified-play-services-base-18.1.0/AndroidManifest.xml:16:1-24:12
+MERGED from [com.google.android.gms:play-services-tasks:18.0.2] /home/mphstar/.gradle/caches/transforms-3/0d9ce60441ac77a07676a2217c139358/transformed/jetified-play-services-tasks-18.0.2/AndroidManifest.xml:2:1-6:12
+MERGED from [com.google.android.gms:play-services-basement:18.1.0] /home/mphstar/.gradle/caches/transforms-3/2c982323f359e5ce5a5e6dec0991d00d/transformed/jetified-play-services-basement-18.1.0/AndroidManifest.xml:16:1-26:12
 MERGED from [androidx.legacy:legacy-support-v4:1.0.0] /home/mphstar/.gradle/caches/transforms-3/8aa9ed794739a5f15a002684edbf1b1d/transformed/legacy-support-v4-1.0.0/AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.fragment:fragment-ktx:1.5.4] /home/mphstar/.gradle/caches/transforms-3/80948e2fa77d401108346f2ac54e7242/transformed/jetified-fragment-ktx-1.5.4/AndroidManifest.xml:17:1-24:12
 MERGED from [androidx.fragment:fragment:1.5.4] /home/mphstar/.gradle/caches/transforms-3/def1ae51ae38e716e0268b407a96225c/transformed/fragment-1.5.4/AndroidManifest.xml:17:1-24:12
@@ -113,14 +114,16 @@ MERGED from [androidx.constraintlayout:constraintlayout:2.1.4] /home/mphstar/.gr
 MERGED from [androidx.constraintlayout:constraintlayout:2.1.4] /home/mphstar/.gradle/caches/transforms-3/c6c622780eee7974efb2ec79479b3508/transformed/constraintlayout-2.1.4/AndroidManifest.xml:9:5-20
 MERGED from [com.google.android.gms:play-services-maps:18.1.0] /home/mphstar/.gradle/caches/transforms-3/685cc63e1dbd0c0011c9b8d5e170f679/transformed/jetified-play-services-maps-18.1.0/AndroidManifest.xml:36:5-42:19
 MERGED from [com.google.android.gms:play-services-maps:18.1.0] /home/mphstar/.gradle/caches/transforms-3/685cc63e1dbd0c0011c9b8d5e170f679/transformed/jetified-play-services-maps-18.1.0/AndroidManifest.xml:36:5-42:19
+MERGED from [com.google.android.gms:play-services-location:21.0.1] /home/mphstar/.gradle/caches/transforms-3/11226938e5bc9013bcf7a1a789866bac/transformed/jetified-play-services-location-21.0.1/AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.gms:play-services-location:21.0.1] /home/mphstar/.gradle/caches/transforms-3/11226938e5bc9013bcf7a1a789866bac/transformed/jetified-play-services-location-21.0.1/AndroidManifest.xml:7:5-20
 MERGED from [com.jjoe64:graphview:4.2.2] /home/mphstar/.gradle/caches/transforms-3/1ddc49c8432e9d12791434fd9aa419e2/transformed/jetified-graphview-4.2.2/AndroidManifest.xml:11:5-12:19
 MERGED from [com.jjoe64:graphview:4.2.2] /home/mphstar/.gradle/caches/transforms-3/1ddc49c8432e9d12791434fd9aa419e2/transformed/jetified-graphview-4.2.2/AndroidManifest.xml:11:5-12:19
-MERGED from [com.google.android.gms:play-services-base:18.0.1] /home/mphstar/.gradle/caches/transforms-3/ff5708ec3d69f224dbc9b18b24d95345/transformed/jetified-play-services-base-18.0.1/AndroidManifest.xml:19:5-23:19
-MERGED from [com.google.android.gms:play-services-base:18.0.1] /home/mphstar/.gradle/caches/transforms-3/ff5708ec3d69f224dbc9b18b24d95345/transformed/jetified-play-services-base-18.0.1/AndroidManifest.xml:19:5-23:19
-MERGED from [com.google.android.gms:play-services-tasks:18.0.1] /home/mphstar/.gradle/caches/transforms-3/521dfa00d44a610c1a6da3011d0da06d/transformed/jetified-play-services-tasks-18.0.1/AndroidManifest.xml:5:5-20
-MERGED from [com.google.android.gms:play-services-tasks:18.0.1] /home/mphstar/.gradle/caches/transforms-3/521dfa00d44a610c1a6da3011d0da06d/transformed/jetified-play-services-tasks-18.0.1/AndroidManifest.xml:5:5-20
-MERGED from [com.google.android.gms:play-services-basement:18.0.0] /home/mphstar/.gradle/caches/transforms-3/f86af461cbe627f99378a84b384840a6/transformed/jetified-play-services-basement-18.0.0/AndroidManifest.xml:20:5-24:19
-MERGED from [com.google.android.gms:play-services-basement:18.0.0] /home/mphstar/.gradle/caches/transforms-3/f86af461cbe627f99378a84b384840a6/transformed/jetified-play-services-basement-18.0.0/AndroidManifest.xml:20:5-24:19
+MERGED from [com.google.android.gms:play-services-base:18.1.0] /home/mphstar/.gradle/caches/transforms-3/1906063af795addf7600266a2f603e98/transformed/jetified-play-services-base-18.1.0/AndroidManifest.xml:19:5-23:19
+MERGED from [com.google.android.gms:play-services-base:18.1.0] /home/mphstar/.gradle/caches/transforms-3/1906063af795addf7600266a2f603e98/transformed/jetified-play-services-base-18.1.0/AndroidManifest.xml:19:5-23:19
+MERGED from [com.google.android.gms:play-services-tasks:18.0.2] /home/mphstar/.gradle/caches/transforms-3/0d9ce60441ac77a07676a2217c139358/transformed/jetified-play-services-tasks-18.0.2/AndroidManifest.xml:5:5-20
+MERGED from [com.google.android.gms:play-services-tasks:18.0.2] /home/mphstar/.gradle/caches/transforms-3/0d9ce60441ac77a07676a2217c139358/transformed/jetified-play-services-tasks-18.0.2/AndroidManifest.xml:5:5-20
+MERGED from [com.google.android.gms:play-services-basement:18.1.0] /home/mphstar/.gradle/caches/transforms-3/2c982323f359e5ce5a5e6dec0991d00d/transformed/jetified-play-services-basement-18.1.0/AndroidManifest.xml:20:5-24:19
+MERGED from [com.google.android.gms:play-services-basement:18.1.0] /home/mphstar/.gradle/caches/transforms-3/2c982323f359e5ce5a5e6dec0991d00d/transformed/jetified-play-services-basement-18.1.0/AndroidManifest.xml:20:5-24:19
 MERGED from [androidx.emoji2:emoji2:1.2.0] /home/mphstar/.gradle/caches/transforms-3/7026ecd99a387df9bf741b1fca5ed288/transformed/jetified-emoji2-1.2.0/AndroidManifest.xml:23:5-33:19
 MERGED from [androidx.emoji2:emoji2:1.2.0] /home/mphstar/.gradle/caches/transforms-3/7026ecd99a387df9bf741b1fca5ed288/transformed/jetified-emoji2-1.2.0/AndroidManifest.xml:23:5-33:19
 MERGED from [androidx.window:window:1.0.0] /home/mphstar/.gradle/caches/transforms-3/d852d1b51ae5b2f5912a7aa4f734e233/transformed/jetified-window-1.0.0/AndroidManifest.xml:24:5-31:19
@@ -217,18 +220,20 @@ MERGED from [androidx.appcompat:appcompat:1.6.1] /home/mphstar/.gradle/caches/tr
 MERGED from [androidx.appcompat:appcompat:1.6.1] /home/mphstar/.gradle/caches/transforms-3/0195608705a3ced8b59d8a8f025efc7a/transformed/appcompat-1.6.1/AndroidManifest.xml:20:5-44
 MERGED from [com.google.android.gms:play-services-maps:18.1.0] /home/mphstar/.gradle/caches/transforms-3/685cc63e1dbd0c0011c9b8d5e170f679/transformed/jetified-play-services-maps-18.1.0/AndroidManifest.xml:20:5-44
 MERGED from [com.google.android.gms:play-services-maps:18.1.0] /home/mphstar/.gradle/caches/transforms-3/685cc63e1dbd0c0011c9b8d5e170f679/transformed/jetified-play-services-maps-18.1.0/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-location:21.0.1] /home/mphstar/.gradle/caches/transforms-3/11226938e5bc9013bcf7a1a789866bac/transformed/jetified-play-services-location-21.0.1/AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-location:21.0.1] /home/mphstar/.gradle/caches/transforms-3/11226938e5bc9013bcf7a1a789866bac/transformed/jetified-play-services-location-21.0.1/AndroidManifest.xml:5:5-44
 MERGED from [com.jjoe64:graphview:4.2.2] /home/mphstar/.gradle/caches/transforms-3/1ddc49c8432e9d12791434fd9aa419e2/transformed/jetified-graphview-4.2.2/AndroidManifest.xml:7:5-9:41
 MERGED from [com.jjoe64:graphview:4.2.2] /home/mphstar/.gradle/caches/transforms-3/1ddc49c8432e9d12791434fd9aa419e2/transformed/jetified-graphview-4.2.2/AndroidManifest.xml:7:5-9:41
 MERGED from [androidx.navigation:navigation-fragment:2.5.3] /home/mphstar/.gradle/caches/transforms-3/d97fd9a2e79f5ca5d1e61ec41e0e685b/transformed/navigation-fragment-2.5.3/AndroidManifest.xml:20:5-22:41
 MERGED from [androidx.navigation:navigation-fragment:2.5.3] /home/mphstar/.gradle/caches/transforms-3/d97fd9a2e79f5ca5d1e61ec41e0e685b/transformed/navigation-fragment-2.5.3/AndroidManifest.xml:20:5-22:41
 MERGED from [androidx.viewpager2:viewpager2:1.0.0] /home/mphstar/.gradle/caches/transforms-3/d45dc1952fe142d7a97ea1a634e7640d/transformed/jetified-viewpager2-1.0.0/AndroidManifest.xml:20:5-22:41
 MERGED from [androidx.viewpager2:viewpager2:1.0.0] /home/mphstar/.gradle/caches/transforms-3/d45dc1952fe142d7a97ea1a634e7640d/transformed/jetified-viewpager2-1.0.0/AndroidManifest.xml:20:5-22:41
-MERGED from [com.google.android.gms:play-services-base:18.0.1] /home/mphstar/.gradle/caches/transforms-3/ff5708ec3d69f224dbc9b18b24d95345/transformed/jetified-play-services-base-18.0.1/AndroidManifest.xml:18:5-43
-MERGED from [com.google.android.gms:play-services-base:18.0.1] /home/mphstar/.gradle/caches/transforms-3/ff5708ec3d69f224dbc9b18b24d95345/transformed/jetified-play-services-base-18.0.1/AndroidManifest.xml:18:5-43
-MERGED from [com.google.android.gms:play-services-tasks:18.0.1] /home/mphstar/.gradle/caches/transforms-3/521dfa00d44a610c1a6da3011d0da06d/transformed/jetified-play-services-tasks-18.0.1/AndroidManifest.xml:4:5-43
-MERGED from [com.google.android.gms:play-services-tasks:18.0.1] /home/mphstar/.gradle/caches/transforms-3/521dfa00d44a610c1a6da3011d0da06d/transformed/jetified-play-services-tasks-18.0.1/AndroidManifest.xml:4:5-43
-MERGED from [com.google.android.gms:play-services-basement:18.0.0] /home/mphstar/.gradle/caches/transforms-3/f86af461cbe627f99378a84b384840a6/transformed/jetified-play-services-basement-18.0.0/AndroidManifest.xml:18:5-43
-MERGED from [com.google.android.gms:play-services-basement:18.0.0] /home/mphstar/.gradle/caches/transforms-3/f86af461cbe627f99378a84b384840a6/transformed/jetified-play-services-basement-18.0.0/AndroidManifest.xml:18:5-43
+MERGED from [com.google.android.gms:play-services-base:18.1.0] /home/mphstar/.gradle/caches/transforms-3/1906063af795addf7600266a2f603e98/transformed/jetified-play-services-base-18.1.0/AndroidManifest.xml:18:5-43
+MERGED from [com.google.android.gms:play-services-base:18.1.0] /home/mphstar/.gradle/caches/transforms-3/1906063af795addf7600266a2f603e98/transformed/jetified-play-services-base-18.1.0/AndroidManifest.xml:18:5-43
+MERGED from [com.google.android.gms:play-services-tasks:18.0.2] /home/mphstar/.gradle/caches/transforms-3/0d9ce60441ac77a07676a2217c139358/transformed/jetified-play-services-tasks-18.0.2/AndroidManifest.xml:4:5-43
+MERGED from [com.google.android.gms:play-services-tasks:18.0.2] /home/mphstar/.gradle/caches/transforms-3/0d9ce60441ac77a07676a2217c139358/transformed/jetified-play-services-tasks-18.0.2/AndroidManifest.xml:4:5-43
+MERGED from [com.google.android.gms:play-services-basement:18.1.0] /home/mphstar/.gradle/caches/transforms-3/2c982323f359e5ce5a5e6dec0991d00d/transformed/jetified-play-services-basement-18.1.0/AndroidManifest.xml:18:5-43
+MERGED from [com.google.android.gms:play-services-basement:18.1.0] /home/mphstar/.gradle/caches/transforms-3/2c982323f359e5ce5a5e6dec0991d00d/transformed/jetified-play-services-basement-18.1.0/AndroidManifest.xml:18:5-43
 MERGED from [androidx.legacy:legacy-support-v4:1.0.0] /home/mphstar/.gradle/caches/transforms-3/8aa9ed794739a5f15a002684edbf1b1d/transformed/legacy-support-v4-1.0.0/AndroidManifest.xml:20:5-44
 MERGED from [androidx.legacy:legacy-support-v4:1.0.0] /home/mphstar/.gradle/caches/transforms-3/8aa9ed794739a5f15a002684edbf1b1d/transformed/legacy-support-v4-1.0.0/AndroidManifest.xml:20:5-44
 MERGED from [androidx.fragment:fragment-ktx:1.5.4] /home/mphstar/.gradle/caches/transforms-3/80948e2fa77d401108346f2ac54e7242/transformed/jetified-fragment-ktx-1.5.4/AndroidManifest.xml:20:5-22:41
@@ -366,19 +371,19 @@ ADDED from [com.google.android.gms:play-services-maps:18.1.0] /home/mphstar/.gra
 	android:name
 		ADDED from [com.google.android.gms:play-services-maps:18.1.0] /home/mphstar/.gradle/caches/transforms-3/685cc63e1dbd0c0011c9b8d5e170f679/transformed/jetified-play-services-maps-18.1.0/AndroidManifest.xml:40:13-50
 activity#com.google.android.gms.common.api.GoogleApiActivity
-ADDED from [com.google.android.gms:play-services-base:18.0.1] /home/mphstar/.gradle/caches/transforms-3/ff5708ec3d69f224dbc9b18b24d95345/transformed/jetified-play-services-base-18.0.1/AndroidManifest.xml:20:9-22:45
+ADDED from [com.google.android.gms:play-services-base:18.1.0] /home/mphstar/.gradle/caches/transforms-3/1906063af795addf7600266a2f603e98/transformed/jetified-play-services-base-18.1.0/AndroidManifest.xml:20:9-22:45
 	android:exported
-		ADDED from [com.google.android.gms:play-services-base:18.0.1] /home/mphstar/.gradle/caches/transforms-3/ff5708ec3d69f224dbc9b18b24d95345/transformed/jetified-play-services-base-18.0.1/AndroidManifest.xml:22:19-43
+		ADDED from [com.google.android.gms:play-services-base:18.1.0] /home/mphstar/.gradle/caches/transforms-3/1906063af795addf7600266a2f603e98/transformed/jetified-play-services-base-18.1.0/AndroidManifest.xml:22:19-43
 	android:theme
-		ADDED from [com.google.android.gms:play-services-base:18.0.1] /home/mphstar/.gradle/caches/transforms-3/ff5708ec3d69f224dbc9b18b24d95345/transformed/jetified-play-services-base-18.0.1/AndroidManifest.xml:21:19-78
+		ADDED from [com.google.android.gms:play-services-base:18.1.0] /home/mphstar/.gradle/caches/transforms-3/1906063af795addf7600266a2f603e98/transformed/jetified-play-services-base-18.1.0/AndroidManifest.xml:21:19-78
 	android:name
-		ADDED from [com.google.android.gms:play-services-base:18.0.1] /home/mphstar/.gradle/caches/transforms-3/ff5708ec3d69f224dbc9b18b24d95345/transformed/jetified-play-services-base-18.0.1/AndroidManifest.xml:20:19-85
+		ADDED from [com.google.android.gms:play-services-base:18.1.0] /home/mphstar/.gradle/caches/transforms-3/1906063af795addf7600266a2f603e98/transformed/jetified-play-services-base-18.1.0/AndroidManifest.xml:20:19-85
 meta-data#com.google.android.gms.version
-ADDED from [com.google.android.gms:play-services-basement:18.0.0] /home/mphstar/.gradle/caches/transforms-3/f86af461cbe627f99378a84b384840a6/transformed/jetified-play-services-basement-18.0.0/AndroidManifest.xml:21:9-23:69
+ADDED from [com.google.android.gms:play-services-basement:18.1.0] /home/mphstar/.gradle/caches/transforms-3/2c982323f359e5ce5a5e6dec0991d00d/transformed/jetified-play-services-basement-18.1.0/AndroidManifest.xml:21:9-23:69
 	android:value
-		ADDED from [com.google.android.gms:play-services-basement:18.0.0] /home/mphstar/.gradle/caches/transforms-3/f86af461cbe627f99378a84b384840a6/transformed/jetified-play-services-basement-18.0.0/AndroidManifest.xml:23:13-66
+		ADDED from [com.google.android.gms:play-services-basement:18.1.0] /home/mphstar/.gradle/caches/transforms-3/2c982323f359e5ce5a5e6dec0991d00d/transformed/jetified-play-services-basement-18.1.0/AndroidManifest.xml:23:13-66
 	android:name
-		ADDED from [com.google.android.gms:play-services-basement:18.0.0] /home/mphstar/.gradle/caches/transforms-3/f86af461cbe627f99378a84b384840a6/transformed/jetified-play-services-basement-18.0.0/AndroidManifest.xml:22:13-58
+		ADDED from [com.google.android.gms:play-services-basement:18.1.0] /home/mphstar/.gradle/caches/transforms-3/2c982323f359e5ce5a5e6dec0991d00d/transformed/jetified-play-services-basement-18.1.0/AndroidManifest.xml:22:13-58
 provider#androidx.startup.InitializationProvider
 ADDED from [androidx.emoji2:emoji2:1.2.0] /home/mphstar/.gradle/caches/transforms-3/7026ecd99a387df9bf741b1fca5ed288/transformed/jetified-emoji2-1.2.0/AndroidManifest.xml:24:9-32:20
 MERGED from [androidx.lifecycle:lifecycle-process:2.4.1] /home/mphstar/.gradle/caches/transforms-3/ab73620f5638f138ce8f45ef70787a6a/transformed/jetified-lifecycle-process-2.4.1/AndroidManifest.xml:26:9-34:20
