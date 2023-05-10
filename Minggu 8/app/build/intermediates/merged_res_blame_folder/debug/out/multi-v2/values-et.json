@@ -40,24 +40,24 @@
                     }
                 },
                 {
-                    "source": "/home/mphstar/.gradle/caches/transforms-3/f86af461cbe627f99378a84b384840a6/transformed/jetified-play-services-basement-18.0.0/res/values-et/values.xml",
+                    "source": "/home/mphstar/.gradle/caches/transforms-3/0df83a932a3d0f1358d0999b20e83c1a/transformed/core-1.9.0/res/values-et/values-et.xml",
                     "from": {
-                        "startLines": "4",
-                        "startColumns": "0",
-                        "startOffsets": "195",
-                        "endColumns": "135",
-                        "endOffsets": "330"
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endColumns": "100",
+                        "endOffsets": "151"
                     },
                     "to": {
-                        "startLines": "49",
+                        "startLines": "116",
                         "startColumns": "4",
-                        "startOffsets": "4757",
-                        "endColumns": "139",
-                        "endOffsets": "4892"
+                        "startOffsets": "10471",
+                        "endColumns": "100",
+                        "endOffsets": "10567"
                     }
                 },
                 {
-                    "source": "/home/mphstar/.gradle/caches/transforms-3/ff5708ec3d69f224dbc9b18b24d95345/transformed/jetified-play-services-base-18.0.1/res/values-et/values.xml",
+                    "source": "/home/mphstar/.gradle/caches/transforms-3/1906063af795addf7600266a2f603e98/transformed/jetified-play-services-base-18.1.0/res/values-et/values.xml",
                     "from": {
                         "startLines": "4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20",
                         "startColumns": "0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0",
@@ -74,20 +74,20 @@
                     }
                 },
                 {
-                    "source": "/home/mphstar/.gradle/caches/transforms-3/0df83a932a3d0f1358d0999b20e83c1a/transformed/core-1.9.0/res/values-et/values-et.xml",
+                    "source": "/home/mphstar/.gradle/caches/transforms-3/2c982323f359e5ce5a5e6dec0991d00d/transformed/jetified-play-services-basement-18.1.0/res/values-et/values.xml",
                     "from": {
-                        "startLines": "2",
-                        "startColumns": "4",
-                        "startOffsets": "55",
-                        "endColumns": "100",
-                        "endOffsets": "151"
+                        "startLines": "4",
+                        "startColumns": "0",
+                        "startOffsets": "195",
+                        "endColumns": "135",
+                        "endOffsets": "330"
                     },
                     "to": {
-                        "startLines": "116",
+                        "startLines": "49",
                         "startColumns": "4",
-                        "startOffsets": "10471",
-                        "endColumns": "100",
-                        "endOffsets": "10567"
+                        "startOffsets": "4757",
+                        "endColumns": "139",
+                        "endOffsets": "4892"
                     }
                 },
                 {

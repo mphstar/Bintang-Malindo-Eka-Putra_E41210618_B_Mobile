@@ -151,20 +151,20 @@
 90-->[com.google.android.gms:play-services-maps:18.1.0] /home/mphstar/.gradle/caches/transforms-3/685cc63e1dbd0c0011c9b8d5e170f679/transformed/jetified-play-services-maps-18.1.0/AndroidManifest.xml:41:13-37
 91
 92        <activity
-92-->[com.google.android.gms:play-services-base:18.0.1] /home/mphstar/.gradle/caches/transforms-3/ff5708ec3d69f224dbc9b18b24d95345/transformed/jetified-play-services-base-18.0.1/AndroidManifest.xml:20:9-22:45
+92-->[com.google.android.gms:play-services-base:18.1.0] /home/mphstar/.gradle/caches/transforms-3/1906063af795addf7600266a2f603e98/transformed/jetified-play-services-base-18.1.0/AndroidManifest.xml:20:9-22:45
 93            android:name="com.google.android.gms.common.api.GoogleApiActivity"
-93-->[com.google.android.gms:play-services-base:18.0.1] /home/mphstar/.gradle/caches/transforms-3/ff5708ec3d69f224dbc9b18b24d95345/transformed/jetified-play-services-base-18.0.1/AndroidManifest.xml:20:19-85
+93-->[com.google.android.gms:play-services-base:18.1.0] /home/mphstar/.gradle/caches/transforms-3/1906063af795addf7600266a2f603e98/transformed/jetified-play-services-base-18.1.0/AndroidManifest.xml:20:19-85
 94            android:exported="false"
-94-->[com.google.android.gms:play-services-base:18.0.1] /home/mphstar/.gradle/caches/transforms-3/ff5708ec3d69f224dbc9b18b24d95345/transformed/jetified-play-services-base-18.0.1/AndroidManifest.xml:22:19-43
+94-->[com.google.android.gms:play-services-base:18.1.0] /home/mphstar/.gradle/caches/transforms-3/1906063af795addf7600266a2f603e98/transformed/jetified-play-services-base-18.1.0/AndroidManifest.xml:22:19-43
 95            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
-95-->[com.google.android.gms:play-services-base:18.0.1] /home/mphstar/.gradle/caches/transforms-3/ff5708ec3d69f224dbc9b18b24d95345/transformed/jetified-play-services-base-18.0.1/AndroidManifest.xml:21:19-78
+95-->[com.google.android.gms:play-services-base:18.1.0] /home/mphstar/.gradle/caches/transforms-3/1906063af795addf7600266a2f603e98/transformed/jetified-play-services-base-18.1.0/AndroidManifest.xml:21:19-78
 96
 97        <meta-data
-97-->[com.google.android.gms:play-services-basement:18.0.0] /home/mphstar/.gradle/caches/transforms-3/f86af461cbe627f99378a84b384840a6/transformed/jetified-play-services-basement-18.0.0/AndroidManifest.xml:21:9-23:69
+97-->[com.google.android.gms:play-services-basement:18.1.0] /home/mphstar/.gradle/caches/transforms-3/2c982323f359e5ce5a5e6dec0991d00d/transformed/jetified-play-services-basement-18.1.0/AndroidManifest.xml:21:9-23:69
 98            android:name="com.google.android.gms.version"
-98-->[com.google.android.gms:play-services-basement:18.0.0] /home/mphstar/.gradle/caches/transforms-3/f86af461cbe627f99378a84b384840a6/transformed/jetified-play-services-basement-18.0.0/AndroidManifest.xml:22:13-58
+98-->[com.google.android.gms:play-services-basement:18.1.0] /home/mphstar/.gradle/caches/transforms-3/2c982323f359e5ce5a5e6dec0991d00d/transformed/jetified-play-services-basement-18.1.0/AndroidManifest.xml:22:13-58
 99            android:value="@integer/google_play_services_version" />
-99-->[com.google.android.gms:play-services-basement:18.0.0] /home/mphstar/.gradle/caches/transforms-3/f86af461cbe627f99378a84b384840a6/transformed/jetified-play-services-basement-18.0.0/AndroidManifest.xml:23:13-66
+99-->[com.google.android.gms:play-services-basement:18.1.0] /home/mphstar/.gradle/caches/transforms-3/2c982323f359e5ce5a5e6dec0991d00d/transformed/jetified-play-services-basement-18.1.0/AndroidManifest.xml:23:13-66
 100
 101        <provider
 101-->[androidx.emoji2:emoji2:1.2.0] /home/mphstar/.gradle/caches/transforms-3/7026ecd99a387df9bf741b1fca5ed288/transformed/jetified-emoji2-1.2.0/AndroidManifest.xml:24:9-32:20
