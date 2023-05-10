@@ -23,7 +23,24 @@
                     }
                 },
                 {
-                    "source": "/home/mphstar/.gradle/caches/transforms-3/ff5708ec3d69f224dbc9b18b24d95345/transformed/jetified-play-services-base-18.0.1/res/values-fr-rCA/values.xml",
+                    "source": "/home/mphstar/.gradle/caches/transforms-3/d00f418ee3643168c86517692b78db65/transformed/navigation-ui-2.5.3/res/values-fr-rCA/values-fr-rCA.xml",
+                    "from": {
+                        "startLines": "2,3",
+                        "startColumns": "4,4",
+                        "startOffsets": "55,168",
+                        "endColumns": "112,125",
+                        "endOffsets": "163,289"
+                    },
+                    "to": {
+                        "startLines": "112,113",
+                        "startColumns": "4,4",
+                        "startOffsets": "10528,10641",
+                        "endColumns": "112,125",
+                        "endOffsets": "10636,10762"
+                    }
+                },
+                {
+                    "source": "/home/mphstar/.gradle/caches/transforms-3/1906063af795addf7600266a2f603e98/transformed/jetified-play-services-base-18.1.0/res/values-fr-rCA/values.xml",
                     "from": {
                         "startLines": "4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20",
                         "startColumns": "0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0",
@@ -40,7 +57,7 @@
                     }
                 },
                 {
-                    "source": "/home/mphstar/.gradle/caches/transforms-3/f86af461cbe627f99378a84b384840a6/transformed/jetified-play-services-basement-18.0.0/res/values-fr-rCA/values.xml",
+                    "source": "/home/mphstar/.gradle/caches/transforms-3/2c982323f359e5ce5a5e6dec0991d00d/transformed/jetified-play-services-basement-18.1.0/res/values-fr-rCA/values.xml",
                     "from": {
                         "startLines": "4",
                         "startColumns": "0",
@@ -54,23 +71,6 @@
                         "startOffsets": "4948",
                         "endColumns": "160",
                         "endOffsets": "5104"
-                    }
-                },
-                {
-                    "source": "/home/mphstar/.gradle/caches/transforms-3/d00f418ee3643168c86517692b78db65/transformed/navigation-ui-2.5.3/res/values-fr-rCA/values-fr-rCA.xml",
-                    "from": {
-                        "startLines": "2,3",
-                        "startColumns": "4,4",
-                        "startOffsets": "55,168",
-                        "endColumns": "112,125",
-                        "endOffsets": "163,289"
-                    },
-                    "to": {
-                        "startLines": "112,113",
-                        "startColumns": "4,4",
-                        "startOffsets": "10528,10641",
-                        "endColumns": "112,125",
-                        "endOffsets": "10636,10762"
                     }
                 },
                 {

@@ -5,4 +5,8 @@
         android:id="@+id/option_get_place"
         android:title="Get Location"
         app:showAsAction="never"/>
+    <item
+        android:id="@+id/option_map_type"
+        android:title="Map Types"
+        app:showAsAction="never"/>
 </menu>

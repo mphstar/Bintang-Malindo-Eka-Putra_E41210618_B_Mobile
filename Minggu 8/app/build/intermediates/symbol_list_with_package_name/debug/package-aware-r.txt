@@ -3261,6 +3261,7 @@ id off
 id on
 id onInterceptTouchReturnSwipe
 id option_get_place
+id option_map_type
 id outline
 id outward
 id overshoot

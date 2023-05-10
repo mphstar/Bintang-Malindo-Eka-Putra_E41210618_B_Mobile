@@ -4,7 +4,7 @@
             "outputFile": "com.example.minggu8.app-mergeDebugResources-44:/values-sk/values-sk.xml",
             "map": [
                 {
-                    "source": "/home/mphstar/.gradle/caches/transforms-3/ff5708ec3d69f224dbc9b18b24d95345/transformed/jetified-play-services-base-18.0.1/res/values-sk/values.xml",
+                    "source": "/home/mphstar/.gradle/caches/transforms-3/1906063af795addf7600266a2f603e98/transformed/jetified-play-services-base-18.1.0/res/values-sk/values.xml",
                     "from": {
                         "startLines": "4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20",
                         "startColumns": "0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0",
@@ -57,6 +57,23 @@
                     }
                 },
                 {
+                    "source": "/home/mphstar/.gradle/caches/transforms-3/2c982323f359e5ce5a5e6dec0991d00d/transformed/jetified-play-services-basement-18.1.0/res/values-sk/values.xml",
+                    "from": {
+                        "startLines": "4",
+                        "startColumns": "0",
+                        "startOffsets": "195",
+                        "endColumns": "134",
+                        "endOffsets": "329"
+                    },
+                    "to": {
+                        "startLines": "51",
+                        "startColumns": "4",
+                        "startOffsets": "4843",
+                        "endColumns": "138",
+                        "endOffsets": "4977"
+                    }
+                },
+                {
                     "source": "/home/mphstar/.gradle/caches/transforms-3/d00f418ee3643168c86517692b78db65/transformed/navigation-ui-2.5.3/res/values-sk/values-sk.xml",
                     "from": {
                         "startLines": "2,3",
@@ -71,23 +88,6 @@
                         "startOffsets": "10202,10308",
                         "endColumns": "105,126",
                         "endOffsets": "10303,10430"
-                    }
-                },
-                {
-                    "source": "/home/mphstar/.gradle/caches/transforms-3/f86af461cbe627f99378a84b384840a6/transformed/jetified-play-services-basement-18.0.0/res/values-sk/values.xml",
-                    "from": {
-                        "startLines": "4",
-                        "startColumns": "0",
-                        "startOffsets": "195",
-                        "endColumns": "134",
-                        "endOffsets": "329"
-                    },
-                    "to": {
-                        "startLines": "51",
-                        "startColumns": "4",
-                        "startOffsets": "4843",
-                        "endColumns": "138",
-                        "endOffsets": "4977"
                     }
                 },
                 {
